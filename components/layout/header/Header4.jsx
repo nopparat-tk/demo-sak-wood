@@ -116,7 +116,7 @@ export default function Header4({
                            <div className="main-menu-two__logo">
                               <Link href="/">
                                  <img
-                                    src="assets/images/resources/logo-1.png"
+                                    src="assets/images/resources/logo-1.svg"
                                     alt=""
                                  />
                               </Link>
