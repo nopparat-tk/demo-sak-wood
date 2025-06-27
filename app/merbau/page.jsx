@@ -206,7 +206,7 @@ export default function projectdetails() {
                            <div className="col-xl-6 col-lg-6">
                               <div className="project-details__img-box-img">
                                  <img
-                                    src="assets/images/backgrounds/merbau-3.png"
+                                    src="assets/images/backgrounds/merbau-3-1.png"
                                     alt=""
                                  />
                               </div>
