@@ -3863,6 +3863,11 @@ a.video-popup {
       display: none;
    }
 
+   .about-three__left {
+      max-width: 100%;
+      margin: 0 15px;
+   }
+
    .services-one__content-box {
       padding: 41px 25px 24px;
    }

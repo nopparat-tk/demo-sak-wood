@@ -5,10 +5,10 @@ export default function Footer4() {
       <>
          <footer className="site-footer">
             <div className="site-footer__shape-1 float-bob-x">
-               <img src="assets/images/shapes/site-footer-shape-1.png" alt="" />
+               <img src="assets/images/shapes/site-footer-shape-3.png" alt="" />
             </div>
             <div className="site-footer__shape-2 float-bob-y">
-               <img src="assets/images/shapes/site-footer-shape-2.png" alt="" />
+               <img src="assets/images/shapes/site-footer-shape-4.png" alt="" />
             </div>
 
             <div className="site-footer__marquee">
@@ -241,18 +241,18 @@ export default function Footer4() {
                   <div className="site-footer__bottom-inner">
                      <p className="site-footer__bottom-text">
                         © 2025 Copyright{" "}
-                        <Link href="#">South Asia Kraft Wood</Link> | All rights
+                        <Link href="/">South Asia Kraft Wood</Link> | All rights
                         reserved
                      </p>
                      <ul className="list-unstyled site-footer__bottom-menu">
                         <li>
-                           <Link href="about">Privacy & Policy</Link>
+                           <Link href="#">Privacy & Policy</Link>
                         </li>
                         {/* <li>
                            <Link href="about">Terms of use</Link>
                         </li> */}
                         <li>
-                           <Link href="about">Cookie Policy</Link>
+                           <Link href="#">Cookie Policy</Link>
                         </li>
                      </ul>
                   </div>

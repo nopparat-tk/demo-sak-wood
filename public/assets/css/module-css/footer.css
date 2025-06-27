@@ -14,8 +14,8 @@
 .site-footer__shape-1 {
    position: absolute;
    left: 0;
-   bottom: 80px;
-   opacity: 0.06;
+   bottom: 96px;
+   opacity: 0.03;
    z-index: -1;
 }
 
@@ -27,7 +27,7 @@
    position: absolute;
    right: 0;
    bottom: 86px;
-   opacity: 0.06;
+   opacity: 0.03;
    z-index: -1;
 }
 
@@ -379,7 +379,7 @@
    position: relative;
    float: left;
    margin-left: 60px;
-   color: rgba(var(--tecture-white-rgb), 0.05);
+   color: rgba(var(--tecture-white-rgb), 0.07);
    font-size: 100px;
    line-height: 1em;
    font-family: var(--thm-font-2);
