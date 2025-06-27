@@ -6,8 +6,8 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { figtree, barlowSemiCondensed } from "@/lib/font";
 export const metadata = {
-   title: "Tecture",
-   description: "Architecture & Interior react next Js template",
+   title: "SAK Wood",
+   description: "Curated selection of meticulously graded premium hardwoods",
 };
 
 export default function RootLayout({ children }) {
