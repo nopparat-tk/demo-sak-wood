@@ -4195,260 +4195,261 @@ a.video-popup {
    }
 
    .services-three__showcase {
-    padding: 0 0 30px 29px;
+      padding: 0 0 30px 29px;
 
-   .services-four__icon-box {
-      padding: 0 15px 50px;
-      padding-right: 0;
-      margin-right: 20px;
-   }
+      .services-four__icon-box {
+         padding: 0 15px 50px;
+         padding-right: 0;
+         margin-right: 20px;
+      }
 
-   .services-four__content {
-      padding: 41px 15px 0;
-   }
+      .services-four__content {
+         padding: 41px 15px 0;
+      }
 
-   .services-four__title {
-      font-size: 20px;
-      line-height: 30px;
-   }
+      .services-four__title {
+         font-size: 20px;
+         line-height: 30px;
+      }
 
-   .sidebar {
-      margin-top: 20px;
-   }
+      .sidebar {
+         margin-top: 20px;
+      }
 
-   .blog-details__meta-and-share {
-      padding-right: 0;
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .blog-details__meta-and-share {
+         padding-right: 0;
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .blog-details__share {
-      margin-top: 20px;
-   }
+      .blog-details__share {
+         margin-top: 20px;
+      }
 
-   .blog-details__tag-box {
-      gap: 10px;
-      padding: 25px 15px 25px;
-      flex-direction: column;
-   }
+      .blog-details__tag-box {
+         gap: 10px;
+         padding: 25px 15px 25px;
+         flex-direction: column;
+      }
 
-   .blog-details__tag-list a {
-      padding: 9px 15px 8px;
-   }
+      .blog-details__tag-list a {
+         padding: 9px 15px 8px;
+      }
 
-   .blog-details__client-info {
-      gap: 20px;
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .blog-details__client-info {
+         gap: 20px;
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .blog-details__pagenation {
-      flex-direction: column;
-   }
+      .blog-details__pagenation {
+         flex-direction: column;
+      }
 
-   .blog-details__pagenation li + li {
-      margin-top: 20px;
-   }
+      .blog-details__pagenation li + li {
+         margin-top: 20px;
+      }
 
-   .comment-one__single {
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .comment-one__single {
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .comment-one__content {
-      margin-left: 0;
-      margin-top: 20px;
-   }
+      .comment-one__content {
+         margin-left: 0;
+         margin-top: 20px;
+      }
 
-   .comment-one__single-2 {
-      margin-left: 0;
-   }
+      .comment-one__single-2 {
+         margin-left: 0;
+      }
 
-   .sidebar__post {
-      padding: 49px 16px 76px;
-   }
+      .sidebar__post {
+         padding: 49px 16px 76px;
+      }
 
-   .sidebar__post-list li {
-      padding: 16px 15px 16px;
-   }
+      .sidebar__post-list li {
+         padding: 16px 15px 16px;
+      }
 
-   .sidebar__all-category {
-      padding: 49px 15px 76px;
-   }
+      .sidebar__all-category {
+         padding: 49px 15px 76px;
+      }
 
-   .have-any-query {
-      padding: 58px 15px 67px;
-   }
+      .have-any-query {
+         padding: 58px 15px 67px;
+      }
 
-   .sidebar__tags {
-      padding: 40px 15px 40px;
-   }
+      .sidebar__tags {
+         padding: 40px 15px 40px;
+      }
 
-   .contact-page__information {
-      padding: 64px 15px 72px;
-   }
+      .contact-page__information {
+         padding: 64px 15px 72px;
+      }
 
-   .contact-page__information-title {
-      font-size: 35px;
-   }
+      .contact-page__information-title {
+         font-size: 35px;
+      }
 
-   .contact-page__information-list li {
-      gap: 15px;
-      padding: 21px 10px 20px;
-      flex-direction: column;
-      text-align: center;
-   }
+      .contact-page__information-list li {
+         gap: 15px;
+         padding: 21px 10px 20px;
+         flex-direction: column;
+         text-align: center;
+      }
 
-   .contact-page__left {
-      margin-left: 15px;
-      margin-right: 15px;
-   }
+      .contact-page__left {
+         margin-left: 15px;
+         margin-right: 15px;
+      }
 
-   .contact-page__right {
-      margin-left: 15px;
-      margin-right: 15px;
-      margin-top: 50px;
-   }
+      .contact-page__right {
+         margin-left: 15px;
+         margin-right: 15px;
+         margin-top: 50px;
+      }
 
-   .united-kingdom__inner {
-      flex-direction: column;
-      gap: 15px;
-   }
+      .united-kingdom__inner {
+         flex-direction: column;
+         gap: 15px;
+      }
 
-   .project-details__faq-box {
-      margin-top: 30px;
-   }
+      .project-details__faq-box {
+         margin-top: 30px;
+      }
 
-   .project-details__faq-box .faq-one-accrodion .accrodion-title {
-      padding: 22px 15px 23px;
-      padding-left: 30px;
-   }
+      .project-details__faq-box .faq-one-accrodion .accrodion-title {
+         padding: 22px 15px 23px;
+         padding-left: 30px;
+      }
 
-   .project-details__faq-box-count {
-      left: 5px;
-   }
+      .project-details__faq-box-count {
+         left: 5px;
+      }
 
-   .project-details__faq-box .faq-one-accrodion .accrodion-content {
-      padding-right: 15px;
-   }
+      .project-details__faq-box .faq-one-accrodion .accrodion-content {
+         padding-right: 15px;
+      }
 
-   .project-details__faq-box .faq-one-accrodion .accrodion-title h4 {
-      font-size: 18px;
-      line-height: 28px;
-   }
+      .project-details__faq-box .faq-one-accrodion .accrodion-title h4 {
+         font-size: 18px;
+         line-height: 28px;
+      }
 
-   .service-details__right {
-      margin-top: 60px;
-   }
+      .service-details__right {
+         margin-top: 60px;
+      }
 
-   .service-details__contact-box {
-      padding: 68px 20px 71px;
-   }
+      .service-details__contact-box {
+         padding: 68px 20px 71px;
+      }
 
-   .service-details__title-1 {
-      font-size: 30px;
-      line-height: 40px;
-   }
+      .service-details__title-1 {
+         font-size: 30px;
+         line-height: 40px;
+      }
 
-   .service-details__img-and-point-box {
-      gap: 30px;
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .service-details__img-and-point-box {
+         gap: 30px;
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .service-details__title-2 {
-      font-size: 30px;
-      line-height: 40px;
-   }
+      .service-details__title-2 {
+         font-size: 30px;
+         line-height: 40px;
+      }
 
-   .team-details__left {
-      margin-right: 0;
-   }
+      .team-details__left {
+         margin-right: 0;
+      }
 
-   .team-details__right {
-      margin-left: 0;
-      margin-top: 40px;
-   }
+      .team-details__right {
+         margin-left: 0;
+         margin-top: 40px;
+      }
 
-   .team-details__progress-title {
-      font-size: 16px;
-   }
+      .team-details__progress-title {
+         font-size: 16px;
+      }
 
-   .team-details__address-box {
-      margin-left: 0;
-      padding: 39px 10px 43px;
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .team-details__address-box {
+         margin-left: 0;
+         padding: 39px 10px 43px;
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .team-details__client-info {
-      gap: 10px;
-      flex-direction: column;
-      align-items: baseline;
-   }
+      .team-details__client-info {
+         gap: 10px;
+         flex-direction: column;
+         align-items: baseline;
+      }
 
-   .team-details__social {
-      margin-top: 20px;
-   }
+      .team-details__social {
+         margin-top: 20px;
+      }
 
-   .coming-soon-page {
-      height: auto !important;
-      padding: 110px 0 120px;
-   }
+      .coming-soon-page {
+         height: auto !important;
+         padding: 110px 0 120px;
+      }
 
-   .coming-soon-page__content .big-title {
-      font-size: 35px;
-      line-height: 45px;
-   }
+      .coming-soon-page__content .big-title {
+         font-size: 35px;
+         line-height: 45px;
+      }
 
-   .coming-soon-page .timer-box .countdown-timer li {
-      float: none;
-   }
+      .coming-soon-page .timer-box .countdown-timer li {
+         float: none;
+      }
 
-   .coming-soon-page .timer-box .countdown-timer li + li {
-      margin-top: 20px;
-   }
+      .coming-soon-page .timer-box .countdown-timer li + li {
+         margin-top: 20px;
+      }
 
-   .coming-soon-page__content {
-      top: 0%;
-      transform: translateY(0%);
-   }
+      .coming-soon-page__content {
+         top: 0%;
+         transform: translateY(0%);
+      }
 
-   .coming-soon-page__content .inner .text p br {
-      display: none;
-   }
+      .coming-soon-page__content .inner .text p br {
+         display: none;
+      }
 
-   .coming-soon-page__subscribe-box form {
-      flex-direction: column;
-   }
+      .coming-soon-page__subscribe-box form {
+         flex-direction: column;
+      }
 
-   .about-one__content {
-      padding: 0px 0px 0px;
-      padding-right: 0;
-   }
+      .about-one__content {
+         padding: 0px 0px 0px;
+         padding-right: 0;
+      }
 
-   .blog-two-single .content-box {
-      padding: 50px 30px 50px;
-   }
+      .blog-two-single .content-box {
+         padding: 50px 30px 50px;
+      }
 
-   .blog-two-single .content-box .meta-box {
-      display: block;
-   }
+      .blog-two-single .content-box .meta-box {
+         display: block;
+      }
 
-   .blog-two-single .content-box .meta-box .meta-info {
-      display: block;
-      margin-left: 0px;
-      margin-top: 20px;
-   }
+      .blog-two-single .content-box .meta-box .meta-info {
+         display: block;
+         margin-left: 0px;
+         margin-top: 20px;
+      }
 
-   .blog-two-single .content-box .title-box h3 {
-      font-size: 20px;
-      line-height: 30px;
-   }
+      .blog-two-single .content-box .title-box h3 {
+         font-size: 20px;
+         line-height: 30px;
+      }
 
-   .blog-two-single .content-box .meta-box .meta-info li + li {
-      margin-left: 0px;
-      margin-top: 10px;
+      .blog-two-single .content-box .meta-box .meta-info li + li {
+         margin-left: 0px;
+         margin-top: 10px;
+      }
    }
 }
 

@@ -65,7 +65,7 @@ export default function Services() {
                         <div className="single-service-style4">
                            <div className="img-box">
                               <img
-                                 src="assets/images/services/services-4-1.jpg"
+                                 src="assets/images/resources/showcase-1.png"
                                  alt="Image"
                               />
                               <div className="overlay-icon">
@@ -76,11 +76,13 @@ export default function Services() {
                            </div>
                            <div className="content-box">
                               <h3>
-                                 <Link href="services">Commercial Design</Link>
+                                 <Link href="services">
+                                    British Embassy Bangkok{" "}
+                                 </Link>
                               </h3>
                               <p>
-                                 The best projects and products in the
-                                 commercial...
+                                 South Asia Kraft Wood is honored to bring you
+                                 the same premium Thai teak...
                               </p>
                            </div>
                         </div>
@@ -93,7 +95,7 @@ export default function Services() {
                         <div className="single-service-style4">
                            <div className="img-box">
                               <img
-                                 src="assets/images/services/services-4-2.jpg"
+                                 src="assets/images/resources/showcase-2.png"
                                  alt="Image"
                               />
                               <div className="overlay-icon">
@@ -105,12 +107,12 @@ export default function Services() {
                            <div className="content-box">
                               <h3>
                                  <Link href="services">
-                                    Evolve Space Designs
+                                    Mrigadayavan Palace
                                  </Link>
                               </h3>
                               <p>
-                                 TA corporate business entity is an oit
-                                 organization...
+                                 known as the "Palace of Love and Hope," stands
+                                 as an enduring symbol of teak’s...
                               </p>
                            </div>
                         </div>
@@ -123,7 +125,7 @@ export default function Services() {
                         <div className="single-service-style4">
                            <div className="img-box">
                               <img
-                                 src="assets/images/services/services-4-3.jpg"
+                                 src="assets/images/resources/showcase-3.png"
                                  alt="Image"
                               />
                               <div className="overlay-icon">
@@ -135,12 +137,12 @@ export default function Services() {
                            <div className="content-box">
                               <h3>
                                  <Link href="services">
-                                    Ee Modify Whole System
+                                    Symbol of Strength and Prosperity
                                  </Link>
                               </h3>
                               <p>
-                                 Our associate consultants specialize of
-                                 business...
+                                 For centuries, Thai teak has been the wood of
+                                 choice for kings, aristocrats, and...
                               </p>
                            </div>
                         </div>
@@ -153,7 +155,7 @@ export default function Services() {
                         <div className="single-service-style4">
                            <div className="img-box">
                               <img
-                                 src="assets/images/services/services-4-1.jpg"
+                                 src="assets/images/resources/showcase-4.png"
                                  alt="Image"
                               />
                               <div className="overlay-icon">
@@ -164,11 +166,13 @@ export default function Services() {
                            </div>
                            <div className="content-box">
                               <h3>
-                                 <Link href="services">Commercial Design</Link>
+                                 <Link href="services">
+                                    Legend of a Live Material
+                                 </Link>
                               </h3>
                               <p>
-                                 The best projects and products in the
-                                 commercial...
+                                 In Thai folklore, teak is spoken of as a,
+                                 “living wood,” believed to possess a...
                               </p>
                            </div>
                         </div>
@@ -181,7 +185,7 @@ export default function Services() {
                         <div className="single-service-style4">
                            <div className="img-box">
                               <img
-                                 src="assets/images/services/services-4-2.jpg"
+                                 src="assets/images/resources/showcase-5.png"
                                  alt="Image"
                               />
                               <div className="overlay-icon">
@@ -193,42 +197,12 @@ export default function Services() {
                            <div className="content-box">
                               <h3>
                                  <Link href="services">
-                                    Evolve Space Designs
+                                    Architecture that Inspires
                                  </Link>
                               </h3>
                               <p>
-                                 TA corporate business entity is an oit
-                                 organization...
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                     {/*End Single Service Style4*/}
-                  </SwiperSlide>
-                  <SwiperSlide>
-                     {/*Start Single Service Style4*/}
-                     <div className="item">
-                        <div className="single-service-style4">
-                           <div className="img-box">
-                              <img
-                                 src="assets/images/services/services-4-3.jpg"
-                                 alt="Image"
-                              />
-                              <div className="overlay-icon">
-                                 <Link href="services">
-                                    <i className="fa fa-link"></i>
-                                 </Link>
-                              </div>
-                           </div>
-                           <div className="content-box">
-                              <h3>
-                                 <Link href="services">
-                                    Ee Modify Whole System
-                                 </Link>
-                              </h3>
-                              <p>
-                                 Our associate consultants specialize of
-                                 business...
+                                 Throughout history, Thailand’s temples and
+                                 spiritual centers have showcased...
                               </p>
                            </div>
                         </div>
@@ -240,7 +214,7 @@ export default function Services() {
 
             <div
                className="main-slider-nav"
-               style={{ top: "65%", padding: "0 60px" }}
+               style={{ top: "62%", padding: "0 60px" }}
             >
                <div className="swiper-arrow-prev">
                   <span className="icon-left-arrow"></span>
