@@ -1,6 +1,107 @@
+"use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import { useState } from "react";
 export default function Home() {
+   const [name, setName] = useState("");
+   const [email, setEmail] = useState("");
+   const [phone, setPhone] = useState("");
+   const [subject, setSubject] = useState("");
+   const [massege, setMassege] = useState("");
+   const [submitting, setSubmitting] = useState(false);
+   const [success, setSuccess] = useState(false);
+   const [error, setError] = useState(null);
+
+   const [nameError, setNameError] = useState(null);
+   const [emailError, setEmailError] = useState(null);
+   const [phoneError, setPhoneError] = useState(null);
+   const [subjectError, setSubjectError] = useState(null);
+   const [massegeError, setMassegeError] = useState(null);
+
+   const handleSubmit = async (event) => {
+      event.preventDefault();
+      setSubmitting(true);
+      setError(null); // Clear any previous errors
+
+      // Check for empty fields
+      let hasError = false;
+      if (!name) {
+         setNameError("Name is required.");
+         hasError = true;
+      } else {
+         setNameError(null);
+      }
+      if (!email) {
+         setEmailError("Email is required.");
+         hasError = true;
+      } else {
+         setEmailError(null);
+      }
+      if (!phone) {
+         setPhoneError("Phone No. is required.");
+         hasError = true;
+      } else if (phone.length < 10) {
+         setPhoneError("Phone number must be at least 10 digits.");
+         hasError = true;
+      } else {
+         setPhoneError(null);
+      }
+      if (!subject) {
+         setSubjectError("Subject is required.");
+         hasError = true;
+      } else {
+         setSubjectError(null);
+      }
+      if (!massege) {
+         setMassegeError("Message is required.");
+         hasError = true;
+      } else {
+         setMassegeError(null);
+      }
+
+      if (hasError) {
+         setSubmitting(false);
+         return;
+      }
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("email", email);
+      formData.append("phone", phone);
+      formData.append("subject", subject);
+      formData.append("massege", massege);
+
+      try {
+         const response = await fetch(
+            "https://script.google.com/a/macros/sakww.com/s/AKfycbzTUxapb2f-JQVOCtep5C1R8N90OPvjjrtxzt5kLiHBlrbqmghaR5c3ir1LezhLJA-C/exec",
+            {
+               method: "POST",
+               body: formData, // Send FormData directly
+            }
+         );
+
+         if (!response.ok) {
+            const errorData = await response.text(); // Get error message from server
+            throw new Error(
+               `HTTP error! status: ${response.status}, message: ${errorData}`
+            );
+         }
+
+         setSuccess(true);
+         // Clear the form after successful submission
+         setName("");
+         setEmail("");
+         setPhone("");
+         setSubject("");
+         setMassege("");
+      } catch (error) {
+         console.error("Submission failed! Please try again.", error);
+         setError(error.message); // Set the error message
+         setSuccess(false); // Make sure success is false in case of error
+      } finally {
+         setSubmitting(false);
+      }
+   };
    return (
       <>
          <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Contact">
@@ -24,7 +125,7 @@ export default function Home() {
                                  </p> */}
                               </div>
                               <div className="btn-box">
-                                 <Link href="tal:79118880388">
+                                 <Link href="tel:+79118880388">
                                     Call to Us
                                     <span className="icon-up-right-arrow"></span>
                                  </Link>
@@ -122,7 +223,9 @@ export default function Home() {
                                  <ul className="contact-page__information-list list-unstyled">
                                     <li>
                                        <div className="icon">
-                                          <span className="fas fa-phone-alt"></span>
+                                          <Link href="tel:+79118880388">
+                                             <span className="fas fa-phone-alt"></span>
+                                          </Link>
                                        </div>
                                        <div className="content">
                                           <h3>Call to Us</h3>
@@ -183,62 +286,135 @@ export default function Home() {
                                  id="contact-form"
                                  className="contact-page__form"
                                  method="POST"
+                                 onSubmit={handleSubmit}
                               >
                                  <div className="row">
                                     <div className="col-lg-6">
                                        <div className="contact-page__input-box">
                                           <input
                                              type="text"
-                                             name="name"
+                                             // name="name"
+                                             value={name}
+                                             onChange={(e) =>
+                                                setName(e.target.value)
+                                             }
                                              placeholder="Your name"
                                              required=""
                                           />
+                                          {nameError && (
+                                             <p className="error-message">
+                                                {nameError}
+                                             </p>
+                                          )}
                                        </div>
                                     </div>
                                     <div className="col-lg-6">
                                        <div className="contact-page__input-box">
                                           <input
                                              type="email"
-                                             name="email"
+                                             // name="email"
+                                             value={email}
+                                             onChange={(e) =>
+                                                setEmail(e.target.value)
+                                             }
                                              placeholder="Your Email"
                                              required=""
                                           />
-                                       </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                       <div className="contact-page__input-box">
-                                          <input
-                                             type="number"
-                                             placeholder="Phone No."
-                                             name="number"
-                                          />
+                                          {emailError && (
+                                             <p className="error-message">
+                                                {emailError}
+                                             </p>
+                                          )}
                                        </div>
                                     </div>
                                     <div className="col-lg-6">
                                        <div className="contact-page__input-box">
                                           <input
                                              type="text"
-                                             placeholder="Company"
-                                             name="company"
+                                             // name="Phone"
+                                             value={phone}
+                                             onChange={(e) => {
+                                                const value = e.target.value
+                                                   .replace(/[^0-9,+]/g, "")
+                                                   .slice(0, 15);
+                                                setPhone(value);
+                                                if (
+                                                   value.length > 0 &&
+                                                   value.length < 10
+                                                ) {
+                                                   setPhoneError(
+                                                      "Phone number must be at least 10 digits."
+                                                   );
+                                                } else {
+                                                   setPhoneError(null);
+                                                }
+                                             }}
+                                             placeholder="Your Phone No."
                                           />
+                                          {phoneError && (
+                                             <p className="error-message">
+                                                {phoneError}
+                                             </p>
+                                          )}
+                                       </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                       <div className="contact-page__input-box">
+                                          <input
+                                             type="text"
+                                             // name="Subject"
+                                             value={subject}
+                                             onChange={(e) =>
+                                                setSubject(e.target.value)
+                                             }
+                                             placeholder="Subject"
+                                          />
+                                          {subjectError && (
+                                             <p className="error-message">
+                                                {subjectError}
+                                             </p>
+                                          )}
                                        </div>
                                     </div>
                                     <div className="col-xl-12">
                                        <div className="contact-page__input-box text-message-box">
                                           <textarea
                                              name="message"
+                                             value={massege}
+                                             onChange={(e) =>
+                                                setMassege(e.target.value)
+                                             }
                                              placeholder="Messege"
+                                             required=""
                                           ></textarea>
+                                          {massegeError && (
+                                             <p className="error-message">
+                                                {massegeError}
+                                             </p>
+                                          )}
                                        </div>
                                        <div className="contact-page__btn-box">
                                           <button
                                              type="submit"
                                              className="thm-btn contact-page__btn"
-                                             data-loading-text="Please wait..."
+                                             // data-loading-text="Please wait..."
+                                             disabled={submitting}
                                           >
-                                             Submit
+                                             {submitting
+                                                ? "Sending..."
+                                                : "Submit"}
                                              <span className="icon-up-right-arrow"></span>
                                           </button>
+                                          {success && (
+                                             <p className="success-message">
+                                                Message sent successfully!
+                                             </p>
+                                          )}
+                                          {error && (
+                                             <p className="error-message">
+                                                {error}
+                                             </p>
+                                          )}
                                        </div>
                                     </div>
                                  </div>

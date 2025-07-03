@@ -1,9 +1,14 @@
 import Layout from "@/components/layout/Layout";
-import About from "@/components/sections/home5/About";
-import Banner from "@/components/sections/home5/Banner";
-import Services from "@/components/sections/home5/Services";
-import Work from "@/components/sections/home5/Work";
-import Project from "@/components/sections/home5/Project";
+import About from "@/components/sections/home6/About";
+import Banner from "@/components/sections/home6/Banner";
+import Services from "@/components/sections/home6/Services";
+import Work from "@/components/sections/home6/Work";
+import Project from "@/components/sections/home6/Showcase";
+import Teak from "@/components/sections/home6/Teak";
+import Balau from "@/components/sections/home6/Balau";
+import Merbau from "@/components/sections/home6/Merbau";
+import Whychoose from "@/components/sections/home6/Whychoose";
+import Contact from "@/components/sections/home6/Contact";
 export default function Home() {
    return (
       <>
@@ -11,8 +16,13 @@ export default function Home() {
             <Banner />
             <About />
             <Services />
-            <Work />
-            <Project />
+            <Teak />
+            <Balau />
+            <Merbau />
+            {/* <Work />
+            <Project /> */}
+            <Whychoose />
+            <Contact />
          </Layout>
       </>
    );

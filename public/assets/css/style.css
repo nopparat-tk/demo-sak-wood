@@ -1422,6 +1422,11 @@ a.video-popup {
    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
 }
 
+.error-message {
+   color: #829995;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
 /*--------------------------------------------------------------
 # Mobile Nav
 --------------------------------------------------------------*/
@@ -3863,11 +3868,6 @@ a.video-popup {
       display: none;
    }
 
-   .about-three__left {
-      max-width: 100%;
-      margin: 0 15px;
-   }
-
    .services-one__content-box {
       padding: 41px 25px 24px;
    }
@@ -4121,12 +4121,32 @@ a.video-popup {
    .about-three__right {
       margin-right: 0;
       margin-left: 0;
-      margin-top: 60px;
+      margin-top: 0px;
+   }
+
+   .about-three__left {
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 30px;
+   }
+
+   .about-three__img {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
    }
 
    .about-three__experience-box {
       position: relative;
       right: 0;
+      top: 0;
+      margin-top: 30px;
+   }
+
+   .about-three__experience-box-left {
+      position: relative;
+      left: 0;
       top: 0;
       margin-top: 30px;
    }
@@ -4173,6 +4193,9 @@ a.video-popup {
       font-size: 30px;
       line-height: 40px;
    }
+
+   .services-three__showcase {
+    padding: 0 0 30px 29px;
 
    .services-four__icon-box {
       padding: 0 15px 50px;

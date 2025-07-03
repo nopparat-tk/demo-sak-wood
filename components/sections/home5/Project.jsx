@@ -57,8 +57,7 @@ export default function Project() {
             <div className="projects-three__wrapper">
                <div className="section-title text-center sec-title-animation animation-style1">
                   <h2 className="section-title__title title-animation">
-                     Crafted Destinations <br />
-                     with Our Hardwoods.
+                     Explore our curated showcase
                   </h2>
                </div>
                <Swiper

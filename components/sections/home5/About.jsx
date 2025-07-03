@@ -112,11 +112,11 @@ export default function About() {
                               alt=""
                            />
                            <div className="about-three__experience-box">
-                              <img
+                              {/* <img
                                  src="assets/images/resources/welcome-2.png"
                                  alt=""
                               />
-                              {/* <h3 className="about-three__experience-title">
+                              <h3 className="about-three__experience-title">
                                  Funfacts in Great
                                  <br /> Numbers
                               </h3>
@@ -130,6 +130,24 @@ export default function About() {
                                     <h3>25</h3>
                                  </div>
                               </div> */}
+                              <div className="welcome-style1__img">
+                                 <div className="img1">
+                                    <img
+                                       src="assets/images/backgrounds/teak-video-2.png"
+                                       alt="Image"
+                                    />
+                                    <div className="video-btn">
+                                       <a
+                                          className="video-popup"
+                                          title="Video Gallery"
+                                          onClick={() => setOpen(true)}
+                                       >
+                                          <span className="fa fa-play"></span>
+                                          <i className="ripple"></i>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -138,6 +156,13 @@ export default function About() {
             </div>
          </section>
          {/*About Three End */}
+         <ModalVideo
+            channel="custom"
+            url="assets/images/video/sawmill-cutting-processing-and-sawing-timber.mp4"
+            autoplay
+            isOpen={isOpen}
+            onClose={() => setOpen(false)}
+         />
       </>
    );
 }

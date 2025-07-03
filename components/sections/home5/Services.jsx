@@ -89,13 +89,21 @@ export default function Services() {
                               alt=""
                            />
                         </div>
-                        <p className="services-three__text">
+                        {/* <p className="services-three__text">
                            Enhance any project with the beautiful grain patterns
                            and warm, rich tones of our tropical hardwoods. From
                            the golden hues to the deep reds, their inherent
                            distinction and sophistication will elevate your
                            design, creating a lasting impression of natural
                            elegance.
+                        </p> */}
+                        <p className="services-three__text">
+                           Enhance any project with the beautiful grain patterns
+                           and warm, rich tones of our tropical hardwoods. From
+                           the golden hues to the deep reds, their inherent
+                           distinction and sophistication will elevate your
+                           design, creating a lasting impression of natural
+                           elegance and unparalleled warmth.
                         </p>
                         {/* <div className="services-three__arrow">
                            <Link href="evolve-space-designs">
