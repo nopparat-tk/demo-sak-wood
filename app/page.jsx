@@ -20,7 +20,7 @@ export default function Home() {
             <About />
             <HeroProducts />
             <Features />
-            {/* <Whychoose /> */}
+            <Whychoose />
             <Services />
             {/* <Teak /> */}
             {/* <Balau /> */}
@@ -28,6 +28,7 @@ export default function Home() {
             <Showcase />
             {/* <Work />
             <Project /> */}
+
             <Contact />
          </Layout>
       </>
