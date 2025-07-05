@@ -9,19 +9,23 @@ import Balau from "@/components/sections/home6/Balau";
 import Merbau from "@/components/sections/home6/Merbau";
 import Whychoose from "@/components/sections/home6/Whychoose";
 import Contact from "@/components/sections/home6/Contact";
+import HeroProducts from "@/components/sections/home6/HeroProducts";
+import Showcase from "@/components/sections/home6/Showcase";
 export default function Home() {
    return (
       <>
          <Layout headerStyle={4} footerStyle={4}>
             <Banner />
             <About />
+            <HeroProducts />
+            <Whychoose />
             <Services />
-            <Teak />
-            <Balau />
+            {/* <Teak /> */}
+            {/* <Balau /> */}
             <Merbau />
+            <Showcase />
             {/* <Work />
             <Project /> */}
-            <Whychoose />
             <Contact />
          </Layout>
       </>

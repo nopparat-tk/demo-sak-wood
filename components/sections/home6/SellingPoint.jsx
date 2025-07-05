@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-export default function Features() {
+export default function SellingPoint() {
    return (
       <>
          {/*Feature Two Start */}
@@ -20,14 +20,11 @@ export default function Features() {
                      data-wow-delay="100ms"
                   >
                      <div className="feature-two__single">
-                        <div className="services-three__img">
-                           <img
-                              src="assets/images/resources/feature-4.png"
-                              alt=""
-                           />
+                        <div className="feature-two__icon">
+                           <span className="icon-staircase"></span>
                         </div>
                         <h3 className="feature-two__title">
-                           <Link href="interior-design">INTERRIOR DESIGN</Link>
+                           <Link href="interior-design">TEAK USP 1</Link>
                         </h3>
                         <p className="feature-two__text">
                            Mrittik Architects is a full-service design firm
@@ -51,7 +48,7 @@ export default function Features() {
                            <span className="icon-plant"></span>
                         </div>
                         <h3 className="feature-two__title">
-                           <Link href="urban-design">URBAN DESIGN</Link>
+                           <Link href="urban-design">TEAK USP 2</Link>
                         </h3>
                         <p className="feature-two__text">
                            Mrittik Architects is a full-service design firm
@@ -75,7 +72,7 @@ export default function Features() {
                            <span className="icon-vacuum-cleaner"></span>
                         </div>
                         <h3 className="feature-two__title">
-                           <Link href="landscape-design">LANDSCAPE DESIGN</Link>
+                           <Link href="landscape-design">TEAK USP 3</Link>
                         </h3>
                         <p className="feature-two__text">
                            Mrittik Architects is a full-service design firm

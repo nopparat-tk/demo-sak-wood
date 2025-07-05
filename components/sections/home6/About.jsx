@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 
 export default function About() {
    const [isOpen, setOpen] = useState(false);
@@ -108,25 +108,7 @@ export default function About() {
                               src="assets/images/resources/welcome-3.png"
                               alt=""
                            />
-                           <div className="about-three__experience-box">
-                              {/* <img
-                                 src="assets/images/resources/welcome-2.png"
-                                 alt=""
-                              />
-                              <h3 className="about-three__experience-title">
-                                 Funfacts in Great
-                                 <br /> Numbers
-                              </h3>
-                              <div className="about-three__experience">
-                                 <div className="about-three__experience-count-shape"></div>
-                                 <p className="about-three__experience-sub-title">
-                                    Years Of <br />
-                                    Experience
-                                 </p>
-                                 <div className="about-three__experience-count count-box">
-                                    <h3>25</h3>
-                                 </div>
-                              </div> */}
+                           {/* <div className="about-three__experience-box">
                               <div className="welcome-style1__img">
                                  <div className="img1">
                                     <img
@@ -145,7 +127,7 @@ export default function About() {
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>
@@ -153,13 +135,13 @@ export default function About() {
             </div>
          </section>
          {/*About Three End */}
-         <ModalVideo
+         {/* <ModalVideo
             channel="custom"
             url="assets/images/video/sawmill-cutting-processing-and-sawing-timber.mp4"
             autoplay
             isOpen={isOpen}
             onClose={() => setOpen(false)}
-         />
+         /> */}
       </>
    );
 }

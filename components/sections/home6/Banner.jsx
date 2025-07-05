@@ -1,7 +1,10 @@
 "use client";
 import Link from "next/link";
+import ModalVideo from "react-modal-video";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useState } from "react";
+
 const swiperOptions = {
    modules: [Autoplay, Pagination, Navigation],
    slidesPerView: 1,
@@ -31,6 +34,8 @@ const swiperOptions = {
 };
 
 export default function Banner() {
+   const [isOpen, setOpen] = useState(false);
+
    return (
       <>
          {/* Main Sllider Four Start */}
@@ -40,18 +45,65 @@ export default function Banner() {
                className="main-slider-four__carousel owl-carousel owl-theme"
             >
                <SwiperSlide>
-                  {/* Single Main Sllider Four Start */}
                   <div className="item">
                      <div
                         className="main-slider__bg"
                         style={{
                            backgroundImage:
-                              // " url(assets/images/backgrounds/slider-1-1.jpg)",
+                              " url(assets/images/backgrounds/slider-1-1.png)",
+                        }}
+                     ></div>
+                     {/* /.slider-one__bg */}
+                     <div className="container">
+                        <div className="main-slider__content">
+                           <div className="main-slider__video-link">
+                              <a
+                                 onClick={() => setOpen(true)}
+                                 className="video-popup"
+                              >
+                                 <div className="main-slider__video-icon">
+                                    <span className="fa fa-play"></span>
+                                    <i className="ripple"></i>
+                                 </div>
+                              </a>
+                           </div>
+                           <h2 className="main-slider__title">
+                              Heritag Meets Vision
+                           </h2>
+                           <div
+                              className="text main-slider__text"
+                              style={{ paddingBottom: "10px" }}
+                           >
+                              <p>
+                                 Discover hardwoods that have weathered
+                                 centuries in remote Asian forests; we bring
+                                 these extraordinary materials to visionary
+                                 designers creating transcendent spaces.
+                              </p>
+                           </div>
+                           {/* <div className="main-slider__btn-box">
+                              <Link
+                                 href="about"
+                                 className="thm-btn main-slider__btn"
+                              >
+                                 More Details{" "}
+                                 <span className="icon-up-right-arrow"></span>{" "}
+                              </Link>
+                           </div> */}
+                        </div>
+                     </div>
+                  </div>
+               </SwiperSlide>
+               {/* <SwiperSlide>
+                  <div className="item">
+                     <div
+                        className="main-slider__bg"
+                        style={{
+                           backgroundImage:
                               " url(assets/images/backgrounds/slider-1-1.png)",
                         }}
                      ></div>
 
-                     {/* /.slider-one__bg */}
                      <div className="container">
                         <div className="main-slider-four__content">
                            <div className="title">
@@ -70,17 +122,10 @@ export default function Banner() {
                                  transcend the ordinary.
                               </p>
                            </div>
-                           {/* <div className="btn-box">
-                              <Link href="about" className="thm-btn">
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                         </div>
                      </div>
                   </div>
-                  {/* Single Main Sllider Four End */}
-               </SwiperSlide>
+               </SwiperSlide> */}
                <SwiperSlide>
                   {/* Single Main Sllider Four Start */}
                   <div className="item">
@@ -256,6 +301,13 @@ export default function Banner() {
             </div>
          </section>
          {/*Main Sllider Start */}
+         <ModalVideo
+            channel="custom"
+            url="assets/images/video/sakw-introduction.mp4"
+            autoplay
+            isOpen={isOpen}
+            onClose={() => setOpen(false)}
+         />
       </>
    );
 }

@@ -12,14 +12,14 @@ export default function Menu() {
                <Link href="/">Home </Link>
             </li>
             <li>
-               <Link href="teak">Teak</Link>
+               <Link href="teak">Thai Teak Products</Link>
             </li>
             <li>
-               <Link href="yellow-balau">Yellow Balau</Link>
+               <Link href="yellow-balau">Hardwoods Products</Link>
             </li>
-            <li>
+            {/* <li>
                <Link href="merbau">Merbau</Link>
-            </li>
+            </li> */}
             {/* <li>
                <Link href="Mersawa">Mersawa</Link>
             </li>

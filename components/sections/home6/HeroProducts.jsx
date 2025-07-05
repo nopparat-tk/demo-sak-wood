@@ -1,78 +1,59 @@
 "use client";
 import Link from "next/link";
-export default function teak() {
+import ProductsHilight from "./ProductsHilight";
+export default function HeroProduct() {
    return (
       <>
          {/*About Three Start */}
-         <section className="about-three">
-            <div className="about-three__shape1">
-               <img
-                  className="float-bob-x"
-                  src="assets/images/shapes/site-footer-two-shape-1.png"
-                  alt="Shape"
-               />
-            </div>
-            <div className="about-three__shape2">
-               <img
-                  className="float-bob-x"
-                  src="assets/images/shapes/site-footer-two-shape-2.png"
-                  alt="Shape"
-               />
-            </div>
-            <div className="about-three__shape3">
-               <img
-                  className="float-bob-x"
-                  src="assets/images/shapes/about-v1-shape1.png"
-                  alt="Shape"
-               />
-            </div>
-            {/* <div
-               className="section-shape-1"
-               style={{
-                  backgroundImage:
-                     " url(assets/images/shapes/section-shape-1.png)",
-               }}
-            ></div> */}
+         <section
+            className="welcome-style1"
+            style={{ backgroundColor: "#072b31" }}
+         >
             <div className="container">
-               <div className="project-details__content">
+               <div
+                  className="project-details__content"
+                  style={{ paddingBottom: "60px" }}
+               >
                   <div className="row flex-row-reverse">
                      <div className="col-xl-6">
                         <div className="about-three__left">
                            <div className="section-title text-left sec-title-animation animation-style2">
                               <h2 className="section-title__title title-animation">
-                                 Essence of Hardwoods
+                                 Teak Hero Product
                               </h2>
                            </div>
                            <p className="about-three__text">
-                              Merbau is an exceptionally prized hardwood,
-                              celebrated for its formidable strength, enduring
-                              durability, and captivating aesthetic allure. Its
-                              unique properties ensure superior performance and
-                              lasting visual appeal in diverse applications,
-                              transforming spaces into showcases of luxury.
+                              Discover the unparalleled allure of Teak, a
+                              hardwood with profound cultural significance,
+                              rooted in Northern Thai heritage. Sourced
+                              sustainably, our Teak embodies over a century of
+                              proven resilience, historically gracing temples
+                              and ships. It's a testament to enduring beauty and
+                              strength, perfectly suited for modern masterpieces
+                              and traditional grandeur alike.
                            </p>
                            <ul className="about-three__points-list list-unstyled">
                               <li>
                                  <div className="content">
-                                    <h3>Unrivaled Natural Protection</h3>
+                                    <h3>Enduring Resilience</h3>
                                     <p>
-                                       Merbau decking, meticulously crafted and
-                                       rich in natural oils, offers impressive
-                                       durability and superior resistance to
-                                       wear, weather, and pests, ideal for
-                                       demanding outdoor areas.
+                                       Sourced from sustainable Northern Thai
+                                       plantations, our Teak embodies over a
+                                       century of proven resilience,
+                                       historically gracing temples and ships
+                                       that endure for generations.
                                     </p>
                                  </div>
                               </li>
                               <li>
                                  <div className="content">
-                                    <h3>Elegant & Multifunctional</h3>
+                                    <h3>Crafting Timeless Masterpieces</h3>
                                     <p>
-                                       Merbau's stunning hues deepen with age,
-                                       while its dense composition provides
-                                       superior dimensional stability,
-                                       insulation, and enhanced fire resistance
-                                       for cladding and structural designs.
+                                       More than just wood, Teak is a testament
+                                       to enduring beauty and strength,
+                                       perfectly suited for both traditional
+                                       grandeur and sophisticated modern
+                                       masterpieces.
                                     </p>
                                  </div>
                               </li>
@@ -97,12 +78,12 @@ export default function teak() {
                         >
                            <div className="about-three__img">
                               <img
-                                 src="assets/images/backgrounds/merbau-3.png"
+                                 src="assets/images/resources/welcome-1.png"
                                  alt=""
                               />
                               <div className="about-three__experience-box-left">
                                  <img
-                                    src="assets/images/backgrounds/merbau-2.png"
+                                    src="assets/images/backgrounds/teak-1.png"
                                     alt=""
                                  />
                               </div>
@@ -111,6 +92,7 @@ export default function teak() {
                      </div>
                   </div>
                </div>
+               <ProductsHilight />
             </div>
          </section>
          {/*About Three End */}

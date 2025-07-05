@@ -3057,6 +3057,12 @@ a.video-popup {
    width: 51%;
 }
 
+.main-slider__text {
+   position: relative;
+   width: 50%;
+   margin: 0 auto;
+}
+
 .locale-selector {
    background: none;
    border: none;
