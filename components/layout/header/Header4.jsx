@@ -113,10 +113,14 @@ export default function Header4({
                   <div className="main-menu-two__wrapper">
                      <div className="main-menu-two__wrapper-inner">
                         <div className="main-menu-two__left">
-                           <div className="main-menu-two__logo">
+                           <div
+                              className="main-menu-two__logo"
+                              style={{ padding: "16px 0" }}
+                           >
                               <Link href="/">
                                  <img
                                     src="assets/images/resources/logo-1.svg"
+                                    style={{ width: "168px" }}
                                     alt=""
                                  />
                               </Link>

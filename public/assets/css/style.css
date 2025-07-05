@@ -1894,6 +1894,8 @@ a.video-popup {
 .main-menu-two .main-menu__list > li > a,
 .stricky-header.main-menu-two .main-menu__list > li > a {
    color: var(--tecture-white);
+   font-size: 17px;
+   letter-spacing: 0.05rem;
 }
 
 .main-menu-two .main-menu__list > li.current > a,
@@ -1905,8 +1907,8 @@ a.video-popup {
 
 .main-menu-two .main-menu__list > li,
 .stricky-header.main-menu-two .main-menu__list > li {
-   padding-top: 47px;
-   padding-bottom: 47px;
+   padding-top: 27px;
+   padding-bottom: 27px;
 }
 
 .main-menu-two .main-menu__list > li.dropdown > a:after {

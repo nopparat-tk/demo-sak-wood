@@ -61,11 +61,21 @@ export default function ProductsHilight() {
                      Teak Highlight Products
                   </h2>
                </div>
-               <div className="container">
+               <div
+                  className="testimonial-one__top wow fadeInLeft"
+                  data-wow-delay="100ms"
+               >
                   <div className="row">
                      <div className="col-xl-6">
                         <div className="item">
-                           <div className="testimonial-two__single">
+                           <div
+                              className="testimonial-two__single"
+                              style={{
+                                 marginTop: "0px",
+                                 padding: "47px",
+                                 textAlign: "left",
+                              }}
+                           >
                               <div
                                  className="testimonial-two__single-shape-1"
                                  style={{
@@ -73,19 +83,19 @@ export default function ProductsHilight() {
                                        " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
                                  }}
                               ></div>
-                              <div className="testimonial-two__img">
+                              {/* <div className="testimonial-two__img">
                                  <img
                                     src="assets/images/testimonial/testimonial-2-1.jpg"
                                     alt=""
                                  />
-                              </div>
+                              </div> */}
                               <div className="testimonial-two__shape-1">
                                  <img
                                     src="assets/images/shapes/testimonial-two-shape-1.png"
                                     alt=""
                                  />
                               </div>
-                              <ul className="testimonial-two__ratting list-unstyled">
+                              {/* <ul className="testimonial-two__ratting list-unstyled">
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
@@ -101,28 +111,64 @@ export default function ProductsHilight() {
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
-                              </ul>
-                              <h3 className="testimonial-two__name">
-                                 <Link href="testimonials">
-                                    Michael Angenla
-                                 </Link>
+                              </ul> */}
+                              <div className="feature-two__icon">
+                                 <img
+                                    src="assets/images/products/parquet.svg"
+                                    alt=""
+                                 ></img>
+                              </div>
+                              <h3
+                                 className="testimonial-two__name"
+                                 style={{ marginTop: "18px", fontSize: "24px" }}
+                              >
+                                 <Link href="testimonials">Teak Parquet</Link>
                               </h3>
+
                               <p className="testimonial-two__sub-title">
-                                 Project Manager
+                                 A Legacy of Tangible Beauty
                               </p>
-                              <p className="testimonial-two__text">
-                                 Divide carefully fruitsome sixth form beginning
-                                 replenis together midst lesser to airs there
-                                 brought forth him she us one seas can was void
-                                 can be awrare were nots multiply image female
-                                 best project.
+                              <p
+                                 className="testimonial-two__text"
+                                 style={{
+                                    fontSize: "17px",
+                                    lineHeight: "26px",
+                                 }}
+                              >
+                                 Our parquet is the foundation of a luxurious
+                                 interior. Its value lies in its substantial
+                                 thickness—a mark of heirloom quality proven by
+                                 time, as seen in historic landmarks like the
+                                 magnificent Mrigadayavan Palace, built from the
+                                 same teak over a century ago.
                               </p>
+                              <h3 className="testimonial-two__name">
+                                 16 200 - 22 800 руб / м2
+                              </h3>
+                              <div
+                                 className="btn-box"
+                                 style={{
+                                    marginTop: "20px",
+                                 }}
+                              >
+                                 <Link href="about" className="thm-btn">
+                                    Get a consultation{" "}
+                                    <span className="icon-up-right-arrow"></span>
+                                 </Link>
+                              </div>
                            </div>
                         </div>
                      </div>
                      <div className="col-xl-6">
                         <div className="item">
-                           <div className="testimonial-two__single">
+                           <div
+                              className="testimonial-two__single"
+                              style={{
+                                 marginTop: "0px",
+                                 padding: "47px",
+                                 textAlign: "left",
+                              }}
+                           >
                               <div
                                  className="testimonial-two__single-shape-1"
                                  style={{
@@ -130,19 +176,19 @@ export default function ProductsHilight() {
                                        " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
                                  }}
                               ></div>
-                              <div className="testimonial-two__img">
+                              {/* <div className="testimonial-two__img">
                                  <img
                                     src="assets/images/testimonial/testimonial-2-1.jpg"
                                     alt=""
                                  />
-                              </div>
+                              </div> */}
                               <div className="testimonial-two__shape-1">
                                  <img
                                     src="assets/images/shapes/testimonial-two-shape-1.png"
                                     alt=""
                                  />
                               </div>
-                              <ul className="testimonial-two__ratting list-unstyled">
+                              {/* <ul className="testimonial-two__ratting list-unstyled">
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
@@ -158,30 +204,68 @@ export default function ProductsHilight() {
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
-                              </ul>
-                              <h3 className="testimonial-two__name">
-                                 <Link href="testimonials">
-                                    Michael Angenla
-                                 </Link>
+                              </ul> */}
+                              <div className="feature-two__icon">
+                                 <img
+                                    src="assets/images/products/parquet.svg"
+                                    alt=""
+                                 ></img>
+                              </div>
+                              <h3
+                                 className="testimonial-two__name"
+                                 style={{ marginTop: "18px", fontSize: "24px" }}
+                              >
+                                 <Link href="testimonials">Teak Parquet</Link>
                               </h3>
+
                               <p className="testimonial-two__sub-title">
-                                 Project Manager
+                                 A Legacy of Tangible Beauty
                               </p>
-                              <p className="testimonial-two__text">
-                                 Divide carefully fruitsome sixth form beginning
-                                 replenis together midst lesser to airs there
-                                 brought forth him she us one seas can was void
-                                 can be awrare were nots multiply image female
-                                 best project.
+                              <p
+                                 className="testimonial-two__text"
+                                 style={{
+                                    fontSize: "17px",
+                                    lineHeight: "26px",
+                                 }}
+                              >
+                                 Our parquet is the foundation of a luxurious
+                                 interior. Its value lies in its substantial
+                                 thickness—a mark of heirloom quality proven by
+                                 time, as seen in historic landmarks like the
+                                 magnificent Mrigadayavan Palace, built from the
+                                 same teak over a century ago.
                               </p>
+                              <h3 className="testimonial-two__name">
+                                 16 200 - 22 800 руб / м2
+                              </h3>
+                              <div
+                                 className="btn-box"
+                                 style={{
+                                    marginTop: "20px",
+                                 }}
+                              >
+                                 <Link href="about" className="thm-btn">
+                                    Get a consultation{" "}
+                                    <span className="icon-up-right-arrow"></span>
+                                 </Link>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div className="row" style={{ paddingTop: "30px" }}>
+               </div>
+               <div className="testimonial-one__top">
+                  <div className="row">
                      <div className="col-xl-6">
                         <div className="item">
-                           <div className="testimonial-two__single">
+                           <div
+                              className="testimonial-two__single"
+                              style={{
+                                 marginTop: "0px",
+                                 padding: "47px",
+                                 textAlign: "left",
+                              }}
+                           >
                               <div
                                  className="testimonial-two__single-shape-1"
                                  style={{
@@ -189,19 +273,19 @@ export default function ProductsHilight() {
                                        " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
                                  }}
                               ></div>
-                              <div className="testimonial-two__img">
+                              {/* <div className="testimonial-two__img">
                                  <img
                                     src="assets/images/testimonial/testimonial-2-1.jpg"
                                     alt=""
                                  />
-                              </div>
+                              </div> */}
                               <div className="testimonial-two__shape-1">
                                  <img
                                     src="assets/images/shapes/testimonial-two-shape-1.png"
                                     alt=""
                                  />
                               </div>
-                              <ul className="testimonial-two__ratting list-unstyled">
+                              {/* <ul className="testimonial-two__ratting list-unstyled">
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
@@ -217,28 +301,64 @@ export default function ProductsHilight() {
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
-                              </ul>
-                              <h3 className="testimonial-two__name">
-                                 <Link href="testimonials">
-                                    Michael Angenla
-                                 </Link>
+                              </ul> */}
+                              <div className="feature-two__icon">
+                                 <img
+                                    src="assets/images/products/parquet.svg"
+                                    alt=""
+                                 ></img>
+                              </div>
+                              <h3
+                                 className="testimonial-two__name"
+                                 style={{ marginTop: "18px", fontSize: "24px" }}
+                              >
+                                 <Link href="testimonials">Teak Parquet</Link>
                               </h3>
+
                               <p className="testimonial-two__sub-title">
-                                 Project Manager
+                                 A Legacy of Tangible Beauty
                               </p>
-                              <p className="testimonial-two__text">
-                                 Divide carefully fruitsome sixth form beginning
-                                 replenis together midst lesser to airs there
-                                 brought forth him she us one seas can was void
-                                 can be awrare were nots multiply image female
-                                 best project.
+                              <p
+                                 className="testimonial-two__text"
+                                 style={{
+                                    fontSize: "17px",
+                                    lineHeight: "26px",
+                                 }}
+                              >
+                                 Our parquet is the foundation of a luxurious
+                                 interior. Its value lies in its substantial
+                                 thickness—a mark of heirloom quality proven by
+                                 time, as seen in historic landmarks like the
+                                 magnificent Mrigadayavan Palace, built from the
+                                 same teak over a century ago.
                               </p>
+                              <h3 className="testimonial-two__name">
+                                 16 200 - 22 800 руб / м2
+                              </h3>
+                              <div
+                                 className="btn-box"
+                                 style={{
+                                    marginTop: "20px",
+                                 }}
+                              >
+                                 <Link href="about" className="thm-btn">
+                                    Get a consultation{" "}
+                                    <span className="icon-up-right-arrow"></span>
+                                 </Link>
+                              </div>
                            </div>
                         </div>
                      </div>
                      <div className="col-xl-6">
                         <div className="item">
-                           <div className="testimonial-two__single">
+                           <div
+                              className="testimonial-two__single"
+                              style={{
+                                 marginTop: "0px",
+                                 padding: "47px",
+                                 textAlign: "left",
+                              }}
+                           >
                               <div
                                  className="testimonial-two__single-shape-1"
                                  style={{
@@ -246,19 +366,19 @@ export default function ProductsHilight() {
                                        " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
                                  }}
                               ></div>
-                              <div className="testimonial-two__img">
+                              {/* <div className="testimonial-two__img">
                                  <img
                                     src="assets/images/testimonial/testimonial-2-1.jpg"
                                     alt=""
                                  />
-                              </div>
+                              </div> */}
                               <div className="testimonial-two__shape-1">
                                  <img
                                     src="assets/images/shapes/testimonial-two-shape-1.png"
                                     alt=""
                                  />
                               </div>
-                              <ul className="testimonial-two__ratting list-unstyled">
+                              {/* <ul className="testimonial-two__ratting list-unstyled">
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
@@ -274,22 +394,51 @@ export default function ProductsHilight() {
                                  <li>
                                     <span className="icon-pointed-star"></span>
                                  </li>
-                              </ul>
-                              <h3 className="testimonial-two__name">
-                                 <Link href="testimonials">
-                                    Michael Angenla
-                                 </Link>
+                              </ul> */}
+                              <div className="feature-two__icon">
+                                 <img
+                                    src="assets/images/products/parquet.svg"
+                                    alt=""
+                                 ></img>
+                              </div>
+                              <h3
+                                 className="testimonial-two__name"
+                                 style={{ marginTop: "18px", fontSize: "24px" }}
+                              >
+                                 <Link href="testimonials">Teak Parquet</Link>
                               </h3>
+
                               <p className="testimonial-two__sub-title">
-                                 Project Manager
+                                 A Legacy of Tangible Beauty
                               </p>
-                              <p className="testimonial-two__text">
-                                 Divide carefully fruitsome sixth form beginning
-                                 replenis together midst lesser to airs there
-                                 brought forth him she us one seas can was void
-                                 can be awrare were nots multiply image female
-                                 best project.
+                              <p
+                                 className="testimonial-two__text"
+                                 style={{
+                                    fontSize: "17px",
+                                    lineHeight: "26px",
+                                 }}
+                              >
+                                 Our parquet is the foundation of a luxurious
+                                 interior. Its value lies in its substantial
+                                 thickness—a mark of heirloom quality proven by
+                                 time, as seen in historic landmarks like the
+                                 magnificent Mrigadayavan Palace, built from the
+                                 same teak over a century ago.
                               </p>
+                              <h3 className="testimonial-two__name">
+                                 16 200 - 22 800 руб / м2
+                              </h3>
+                              <div
+                                 className="btn-box"
+                                 style={{
+                                    marginTop: "20px",
+                                 }}
+                              >
+                                 <Link href="about" className="thm-btn">
+                                    Get a consultation{" "}
+                                    <span className="icon-up-right-arrow"></span>
+                                 </Link>
+                              </div>
                            </div>
                         </div>
                      </div>
