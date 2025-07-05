@@ -85,7 +85,7 @@ export default function Whychoose() {
          {/*Start slogan-one*/}
          <section className="slogan-one">
             <div
-               className="slogan-one__bg jarallax"
+               className="whychoose__bg jarallax"
                style={{
                   backgroundImage:
                      " url(assets/images/backgrounds/whychoose-cover.png)",

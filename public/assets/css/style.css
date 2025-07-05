@@ -3018,6 +3018,31 @@ a.video-popup {
    background-color: var(--tecture-black);
 }
 
+.whychoose__bg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center center;
+   mix-blend-mode: luminosity;
+   z-index: -1;
+}
+
+.whychoose__bg::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   opacity: 0.9;
+   background-color: #3f2021;
+}
+
 .slogan-one__content {
    position: relative;
    display: block;

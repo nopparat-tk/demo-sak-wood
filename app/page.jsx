@@ -11,6 +11,7 @@ import Whychoose from "@/components/sections/home6/Whychoose";
 import Contact from "@/components/sections/home6/Contact";
 import HeroProducts from "@/components/sections/home6/HeroProducts";
 import Showcase from "@/components/sections/home6/Showcase";
+import Features from "@/components/sections/home6/Features";
 export default function Home() {
    return (
       <>
@@ -18,7 +19,8 @@ export default function Home() {
             <Banner />
             <About />
             <HeroProducts />
-            <Whychoose />
+            <Features />
+            {/* <Whychoose /> */}
             <Services />
             {/* <Teak /> */}
             {/* <Balau /> */}
