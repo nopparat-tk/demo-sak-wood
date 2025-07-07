@@ -35,10 +35,7 @@ export default function Services() {
                   <img src="assets/images/resources/feature-3.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link
-                    href="interior-design"
-                    style={{ textTransform: "uppercase" }}
-                  >
+                  <Link href="/" style={{ textTransform: "uppercase" }}>
                     Built for strength
                   </Link>
                 </h3>
@@ -64,10 +61,7 @@ export default function Services() {
                   <img src="assets/images/resources/feature-5.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link
-                    href="urban-design"
-                    style={{ textTransform: "uppercase" }}
-                  >
+                  <Link href="#" style={{ textTransform: "uppercase" }}>
                     Naturally Appealing
                   </Link>
                 </h3>
@@ -93,10 +87,7 @@ export default function Services() {
                   <img src="assets/images/resources/feature-4.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link
-                    href="landscape-design"
-                    style={{ textTransform: "uppercase" }}
-                  >
+                  <Link href="#" style={{ textTransform: "uppercase" }}>
                     Rooted in Integrity
                   </Link>
                 </h3>
