@@ -1,12 +1,17 @@
+"use client";
 import Link from "next/link";
-export default function Features() {
+export default function Services() {
   return (
     <>
-      {/*Feature One Start */}
-      <section
-        className="feature-two"
-        style={{ backgroundColor: "rgba(63, 32, 33, 0.8)" }}
-      >
+      {/*Services Three Start */}
+      <section className="services-three">
+        <div
+          className="services-three__bg"
+          style={{
+            backgroundImage:
+              " url(assets/images/shapes/site-footer-shape-1.jpg)",
+          }}
+        ></div>
         <div
           className="section-shape-1"
           style={{
@@ -14,6 +19,11 @@ export default function Features() {
           }}
         ></div>
         <div className="container">
+          <div className="section-title text-center sec-title-animation animation-style1">
+            <h2 className="section-title__title title-animation">
+              Our Premium <br /> Tropical Hardwoods
+            </h2>
+          </div>
           <div className="row">
             {/*Feature Two Single Start */}
             <div
@@ -21,15 +31,20 @@ export default function Features() {
               data-wow-delay="100ms"
             >
               <div className="feature-two__single">
-                <div className="feature-two__icon">
-                  <span className="icon-staircase"></span>
+                <div className="services-three__img">
+                  <img src="assets/images/resources/feature-3.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="interior-design">Reliable & Transparent</Link>
+                  <Link
+                    href="interior-design"
+                    style={{ textTransform: "uppercase" }}
+                  >
+                    Built for strength
+                  </Link>
                 </h3>
                 <p className="feature-two__text">
-                  Honest pricing, no hidden expenses, and dependable customer
-                  service.
+                  Exceptional strength and durability—designed for tough jobs
+                  and built to last generations.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -45,15 +60,20 @@ export default function Features() {
               data-wow-delay="200ms"
             >
               <div className="feature-two__single">
-                <div className="feature-two__icon">
-                  <span className="icon-plant"></span>
+                <div className="services-three__img">
+                  <img src="assets/images/resources/feature-5.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="urban-design">Factory Direct Advantage</Link>
+                  <Link
+                    href="urban-design"
+                    style={{ textTransform: "uppercase" }}
+                  >
+                    Naturally Appealing
+                  </Link>
                 </h3>
                 <p className="feature-two__text">
-                  Factory-direct sourcing offers superior quality at competitive
-                  pricing.
+                  Luxurious interiors, exterior and architectural ideas benefit
+                  from rich colors and distinctive grain patterns.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -69,15 +89,20 @@ export default function Features() {
               data-wow-delay="300ms"
             >
               <div className="feature-two__single last-child">
-                <div className="feature-two__icon">
-                  <span className="icon-vacuum-cleaner"></span>
+                <div className="services-three__img">
+                  <img src="assets/images/resources/feature-4.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="landscape-design">Expert Support</Link>
+                  <Link
+                    href="landscape-design"
+                    style={{ textTransform: "uppercase" }}
+                  >
+                    Rooted in Integrity
+                  </Link>
                 </h3>
                 <p className="feature-two__text">
-                  Dedicated professionals will guide your project from idea to
-                  end.
+                  Responsibly sourced, each piece reflects a legacy of regional
+                  workmanship and long-term value.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -90,7 +115,7 @@ export default function Features() {
           </div>
         </div>
       </section>
-      {/*Feature One End */}
+      {/*Services Three End */}
     </>
   );
 }

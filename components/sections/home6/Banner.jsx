@@ -68,17 +68,14 @@ export default function Banner() {
                               </a>
                            </div>
                            <h2 className="main-slider__title">
-                              Heritag Meets Vision
+                              Your Source for True <br /> Tropical Wood 
                            </h2>
                            <div
                               className="text main-slider__text"
                               style={{ paddingBottom: "10px" }}
                            >
                               <p>
-                                 Discover hardwoods that have weathered
-                                 centuries in remote Asian forests; we bring
-                                 these extraordinary materials to visionary
-                                 designers creating transcendent spaces.
+                                 Selected Premium Thai Teak & Fine Asian Hardwoods by Specialist
                               </p>
                            </div>
                            {/* <div className="main-slider__btn-box">

@@ -484,12 +484,13 @@
 .about-three__experience-box-left {
    position: absolute;
    left: -50px;
-   top: 30px;
+   /* top: 30px; */
+   bottom: 36px;
    background-color: var(--tecture-white);
-   max-width: 320px;
+   max-width: 240px;
    width: 100%;
    border: 5px solid var(--tecture-base);
-   padding: 32px 35px 34px;
+   padding: 16px 18px;
    z-index: 2;
 }
 

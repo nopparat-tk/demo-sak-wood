@@ -926,9 +926,10 @@
 .service-details__points-shape {
    position: relative;
    display: inline-block;
-   width: 14px;
-   height: 14px;
+   width: 12px;
+   height: 12px;
    background-color: var(--tecture-base);
+   border-radius: 50%;
 }
 
 .service-details__points-list li p {
