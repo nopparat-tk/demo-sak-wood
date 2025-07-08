@@ -25,7 +25,10 @@ export default function Home() {
         {/* <Teak /> */}
         {/* <Balau /> */}
         <Hardwoods />
-        <Showcase />
+        <section id="showcase">
+          <Showcase />
+        </section>
+
         {/* <Work />
             <Project /> */}
 
