@@ -187,8 +187,8 @@ export default function teak() {
                       Specifications
                     </h3>
                     <p className="service-details__text-3">
-                      Scientific Name: Intsia spp. <br />
-                      Diameter: 120 - 150 cm.
+                      Scientific Name: Shorea spp. <br />
+                      Diameter: 100 - 200 cm.
                       <br />
                       Average Dried Weight: 815 kg/m3 <br />
                       Origin: Malaysia <br />

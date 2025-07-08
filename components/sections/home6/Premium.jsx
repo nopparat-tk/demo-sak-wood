@@ -35,9 +35,10 @@ export default function Services() {
                   <img src="assets/images/resources/feature-3.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="/" style={{ textTransform: "uppercase" }}>
+                  {/* <Link href="/" style={{ textTransform: "uppercase" }}>
                     Built for strength
-                  </Link>
+                  </Link> */}
+                  Built for strength
                 </h3>
                 <p className="feature-two__text">
                   Exceptional strength and durability—designed for tough jobs
@@ -61,9 +62,10 @@ export default function Services() {
                   <img src="assets/images/resources/feature-5.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="#" style={{ textTransform: "uppercase" }}>
+                  {/* <Link href="#" style={{ textTransform: "uppercase" }}>
                     Naturally Appealing
-                  </Link>
+                  </Link> */}
+                  Naturally Appealing
                 </h3>
                 <p className="feature-two__text">
                   Luxurious interiors, exterior and architectural ideas benefit
@@ -87,9 +89,10 @@ export default function Services() {
                   <img src="assets/images/resources/feature-4.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="#" style={{ textTransform: "uppercase" }}>
+                  {/* <Link href="#" style={{ textTransform: "uppercase" }}>
                     Rooted in Integrity
-                  </Link>
+                  </Link> */}
+                  Rooted in Integrity
                 </h3>
                 <p className="feature-two__text">
                   Responsibly sourced, each piece reflects a legacy of regional
