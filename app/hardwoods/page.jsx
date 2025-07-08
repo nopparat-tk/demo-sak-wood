@@ -89,17 +89,17 @@ export default function teak() {
                 <div className="about-two__left">
                   <div className="section-title text-left sec-title-animation animation-style2">
                     <h2 className="section-title__title title-animation">
-                      Yellow Balau
+                      Tropical Hardwoods
                     </h2>
                   </div>
                   <p
                     className="about-two__text"
                     style={{ marginBottom: "17px" }}
                   >
-                    Our Northern Thai Teak is more than simply wood, it
-                    represents nature's perfection and centuries of skill.
-                    Discover the distinct characteristics that make it the
-                    world's most desirable timber.
+                    When strength meets style, Yellow Balau and Merbau take the
+                    lead. These tropical hardwoods are designed for use under
+                    harsh conditions while adding rich, natural beauty to any
+                    project, indoors or outdoors.
                   </p>
                   <div className="faq-page__left">
                     <div
@@ -117,20 +117,18 @@ export default function teak() {
                           onClick={() => handleToggle(1)}
                         >
                           <div className="accrodion-title">
-                            <h4>Strength from Slow Growth</h4>
+                            <h4>Remarkable Strength & Stability</h4>
                             <div className="project-details__faq-box-count"></div>
                           </div>
                           <div className="accrodion-content">
                             <div className="inner">
                               <p>
-                                In Northern Thailand, the cooler, drier seasons
-                                and higher elevations cause teak trees to
-                                develop slowly. This natural process tightens
-                                the wood grain, making it extremely solid and
-                                sturdy. Slower development also means fewer
-                                natural faults, such as knots, which results in
-                                lumber that is more durable and strong over
-                                time.
+                                Yellow Balau offers impressive density and
+                                resilience, made to perform under the most
+                                demanding conditions. Merbau, with its superior
+                                dimensional stability, resists warping and wear
+                                making both species ideal for structural
+                                applications and daily use.
                               </p>
                             </div>
                             {/* /.inner */}
@@ -143,20 +141,18 @@ export default function teak() {
                           onClick={() => handleToggle(2)}
                         >
                           <div className="accrodion-title">
-                            <h4>Perfect Growing Environment</h4>
+                            <h4>Naturally Durable for Generations</h4>
                             <div className="project-details__faq-box-count"></div>
                           </div>
                           <div className="accrodion-content">
                             <div className="inner">
                               <p>
-                                Our Northern Thai Teak grows in rich mountain
-                                soils. These soils are rich in natural minerals,
-                                which encourage healthy, even tree development.
-                                Teak trees benefit from excellent natural
-                                drainage, which eliminates defects. This ideal
-                                atmosphere allows the teak to grow strong,
-                                durable wood with beautiful colors and a
-                                desirable straight grain.
+                                With outstanding resistance to decay, rot, and
+                                insects, these hardwoods are designed to endure
+                                the elements. Whether used outdoors or in humid
+                                environments, Yellow Balau and Merbau deliver
+                                decades of dependable service with minimal
+                                maintenance.
                               </p>
                             </div>
                             {/* /.inner */}
@@ -169,23 +165,19 @@ export default function teak() {
                           onClick={() => handleToggle(3)}
                         >
                           <div className="accrodion-title">
-                            <h4>Teak Wisdom Through Generations</h4>
+                            <h4>Elegant Beauty That Matures Over Time</h4>
                             <div className="project-details__faq-box-count"></div>
                           </div>
                           <div className="accrodion-content">
                             <div className="inner">
                               <p>
-                                For generations, Thai experts have mastered the
-                                technique of teak cultivation. From ancient
-                                palaces to temples, Northern teak has always
-                                been the preferred material of royalty and
-                                expert builders. Our partners, particularly the
-                                Forest Industry Organization (FIO), rely on
-                                information that has been passed down for
-                                centuries. They closely manage forests, cut
-                                trees, and harvest at the right moment to ensure
-                                maximum quality, fewer knots, and a beautiful,
-                                consistent grain in each piece.
+                                Yellow Balau showcases a warm, golden-brown
+                                appearance with a fine, consistent grain that
+                                brings a natural richness to any space. Merbau
+                                offers deep red-brown tones and a smooth,
+                                interlocking grain that adds depth and
+                                sophistication. Both woods elevate interiors and
+                                exteriors with their unique charm.
                               </p>
                             </div>
                             {/* /.inner */}
@@ -198,18 +190,18 @@ export default function teak() {
                           onClick={() => handleToggle(4)}
                         >
                           <div className="accrodion-title">
-                            <h4>Ready for Every Projects</h4>
+                            <h4>Responsibly Sourced, Exceptionally Crafted</h4>
                             <div className="project-details__faq-box-count"></div>
                           </div>
                           <div className="accrodion-content">
                             <div className="inner">
                               <p>
-                                Northern Thai Teak, grown in a unique mountain
-                                environment, boasts a tighter grain, fewer
-                                knots, and exceptional strength. This makes it
-                                highly resistant to decay, insects, and harsh
-                                weather, ideal for luxury interiors and projects
-                                demanding lasting beauty and durability.
+                                Our Yellow Balau and Merbau are carefully
+                                selected from trusted Southeast Asian regions,
+                                in partnership with ethical producers known for
+                                consistent quality. Every piece is thoughtfully
+                                processed to meet the highest standards of form
+                                and function.
                               </p>
                             </div>
                             {/* /.inner */}
@@ -235,166 +227,6 @@ export default function teak() {
         </section>
         {/*About Two End */}
         <BalauProducts />
-        <section className="about-two">
-          <div
-            className="section-shape-1"
-            style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
-            }}
-          ></div>
-          <div className="about-two__shape-1 float-bob-x">
-            <img src="assets/images/shapes/about-two-shape-1.png" alt="" />
-          </div>
-          <div className="container">
-            <div className="row flex-row-reverse">
-              <div className="col-xl-6 wow fadeInRight" data-wow-delay="100ms">
-                <div className="about-two__left">
-                  <div className="section-title text-left sec-title-animation animation-style2">
-                    <h2 className="section-title__title title-animation">
-                      Merbau
-                    </h2>
-                  </div>
-                  <p
-                    className="about-two__text"
-                    style={{ marginBottom: "17px" }}
-                  >
-                    Our Northern Thai Teak is more than simply wood, it
-                    represents nature's perfection and centuries of skill.
-                    Discover the distinct characteristics that make it the
-                    world's most desirable timber.
-                  </p>
-                  <div className="faq-page__left">
-                    <div
-                      className="project-details__faq-box"
-                      style={{ counterReset: "count" }}
-                    >
-                      <div
-                        className="accrodion-grp faq-one-accrodion"
-                        data-grp-name="faq-one-accrodion-1"
-                      >
-                        <div
-                          className={
-                            isActive.key == 1 ? "accrodion active" : "accrodion"
-                          }
-                          onClick={() => handleToggle(1)}
-                        >
-                          <div className="accrodion-title">
-                            <h4>Strength from Slow Growth</h4>
-                            <div className="project-details__faq-box-count"></div>
-                          </div>
-                          <div className="accrodion-content">
-                            <div className="inner">
-                              <p>
-                                In Northern Thailand, the cooler, drier seasons
-                                and higher elevations cause teak trees to
-                                develop slowly. This natural process tightens
-                                the wood grain, making it extremely solid and
-                                sturdy. Slower development also means fewer
-                                natural faults, such as knots, which results in
-                                lumber that is more durable and strong over
-                                time.
-                              </p>
-                            </div>
-                            {/* /.inner */}
-                          </div>
-                        </div>
-                        <div
-                          className={
-                            isActive.key == 2 ? "accrodion active" : "accrodion"
-                          }
-                          onClick={() => handleToggle(2)}
-                        >
-                          <div className="accrodion-title">
-                            <h4>Perfect Growing Environment</h4>
-                            <div className="project-details__faq-box-count"></div>
-                          </div>
-                          <div className="accrodion-content">
-                            <div className="inner">
-                              <p>
-                                Our Northern Thai Teak grows in rich mountain
-                                soils. These soils are rich in natural minerals,
-                                which encourage healthy, even tree development.
-                                Teak trees benefit from excellent natural
-                                drainage, which eliminates defects. This ideal
-                                atmosphere allows the teak to grow strong,
-                                durable wood with beautiful colors and a
-                                desirable straight grain.
-                              </p>
-                            </div>
-                            {/* /.inner */}
-                          </div>
-                        </div>
-                        <div
-                          className={
-                            isActive.key == 3 ? "accrodion active" : "accrodion"
-                          }
-                          onClick={() => handleToggle(3)}
-                        >
-                          <div className="accrodion-title">
-                            <h4>Teak Wisdom Through Generations</h4>
-                            <div className="project-details__faq-box-count"></div>
-                          </div>
-                          <div className="accrodion-content">
-                            <div className="inner">
-                              <p>
-                                For generations, Thai experts have mastered the
-                                technique of teak cultivation. From ancient
-                                palaces to temples, Northern teak has always
-                                been the preferred material of royalty and
-                                expert builders. Our partners, particularly the
-                                Forest Industry Organization (FIO), rely on
-                                information that has been passed down for
-                                centuries. They closely manage forests, cut
-                                trees, and harvest at the right moment to ensure
-                                maximum quality, fewer knots, and a beautiful,
-                                consistent grain in each piece.
-                              </p>
-                            </div>
-                            {/* /.inner */}
-                          </div>
-                        </div>
-                        <div
-                          className={
-                            isActive.key == 4 ? "accrodion active" : "accrodion"
-                          }
-                          onClick={() => handleToggle(4)}
-                        >
-                          <div className="accrodion-title">
-                            <h4>Ready for Every Projects</h4>
-                            <div className="project-details__faq-box-count"></div>
-                          </div>
-                          <div className="accrodion-content">
-                            <div className="inner">
-                              <p>
-                                Northern Thai Teak, grown in a unique mountain
-                                environment, boasts a tighter grain, fewer
-                                knots, and exceptional strength. This makes it
-                                highly resistant to decay, insects, and harsh
-                                weather, ideal for luxury interiors and projects
-                                demanding lasting beauty and durability.
-                              </p>
-                            </div>
-                            {/* /.inner */}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
-                <div className="about-two__right">
-                  <div className="about-two__img">
-                    <img
-                      src="assets/images/resources/about-two-img-1.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <MerbauProducts />
         <Whychoose />
       </Layout>

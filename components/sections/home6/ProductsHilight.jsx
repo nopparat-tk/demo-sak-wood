@@ -51,7 +51,7 @@ export default function ProductsHilight() {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
-              Teak Highlight Products
+              Our Products
             </h2>
           </div>
           <div
@@ -368,8 +368,8 @@ export default function ProductsHilight() {
             className="testimonial-one__top wow fadeInLeft"
             data-wow-delay="100ms"
           >
-            <div className="row">
-              <div className="col-xl-6">
+            <div className="row justify-content-center">
+              <div className="col-xl-7 col-lg-9 col-md-9 col-sm-12">
                 <div className="item">
                   <div
                     className="testimonial-two__single"
@@ -447,97 +447,6 @@ export default function ProductsHilight() {
                       provide great stability and long-term performance for
                       furniture, framing, and heavy-duty woodwork, all while
                       maintaining their natural beauty.
-                    </p>
-                    <div
-                      className="btn-box"
-                      style={{
-                        marginTop: "20px",
-                      }}
-                    >
-                      <Link href="about" className="thm-btn">
-                        Get a consultation{" "}
-                        <span className="icon-up-right-arrow"></span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6">
-                <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
-                    <div
-                      className="testimonial-two__single-shape-1"
-                      style={{
-                        backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
-                      }}
-                    ></div>
-                    <div className="testimonial-two__image">
-                      <img
-                        src="assets/images/products/highlight/accessories.png"
-                        alt=""
-                      />
-                    </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
-                      <Link href="testimonials">Merbau</Link>
-                    </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
-                      {" "}
-                      Provides rich color and outstanding strength for a variety
-                      of applications.{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Decking
-                      </span>{" "}
-                      is ideal for high-traffic outdoor areas, as it resists
-                      moisture and damage.{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Cladding
-                      </span>{" "}
-                      provides deep reddish tones and long-lasting protection to
-                      walls and facades. The solid, long-lasting.{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Boards
-                      </span>{" "}
-                      are suitable for custom furniture and structural woodwork,
-                      combining beauty and durability.
                     </p>
                     <div
                       className="btn-box"
