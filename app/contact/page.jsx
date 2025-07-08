@@ -40,10 +40,12 @@ export default function Home() {
     if (!phone) {
       setPhoneError("Phone No. is required.");
       hasError = true;
-    } else if (phone.length < 10) {
-      setPhoneError("Phone number must be at least 10 digits.");
-      hasError = true;
-    } else {
+    }
+    // else if (phone.length < 10) {
+    //   setPhoneError("Phone number must be at least 10 digits.");
+    //   hasError = true;
+    // }
+    else {
       setPhoneError(null);
     }
     if (!subject) {
@@ -169,7 +171,7 @@ export default function Home() {
                       {/* <p>@sakwru</p> */}
                     </div>
                     <div className="btn-box">
-                      <Link href="#">
+                      <Link href="https://t.me/sakwru" target="_blank">
                         Send Us a Message
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -327,15 +329,15 @@ export default function Home() {
                               onChange={(e) => {
                                 const value = e.target.value
                                   .replace(/[^0-9,+]/g, "")
-                                  .slice(0, 15);
+                                  .slice(0, 20);
                                 setPhone(value);
-                                if (value.length > 0 && value.length < 10) {
-                                  setPhoneError(
-                                    "Phone number must be at least 10 digits."
-                                  );
-                                } else {
-                                  setPhoneError(null);
-                                }
+                                // if (value.length > 0 && value.length < 10) {
+                                //   setPhoneError(
+                                //     "Phone number must be at least 10 digits."
+                                //   );
+                                // } else {
+                                //   setPhoneError(null);
+                                // }
                               }}
                               placeholder="Your Phone No."
                             />

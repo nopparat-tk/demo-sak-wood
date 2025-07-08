@@ -97,9 +97,12 @@ export default function teak() {
                       Specifications
                     </h3>
                     <p className="service-details__text-3">
-                      Diameter: Up to 60 cm <br />
-                      Humidity: Up to 12% <br /> Origin: Malaysia (Class 1
-                      durability timber){" "}
+                      Scientific Name: Intsia spp. <br />
+                      Diameter: 120 - 150 cm.
+                      <br />
+                      Average Dried Weight: 815 kg/m3 <br />
+                      Origin: Malaysia <br />
+                      Durability: Class 1{" "}
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
@@ -184,9 +187,12 @@ export default function teak() {
                       Specifications
                     </h3>
                     <p className="service-details__text-3">
-                      Diameter: Up to 60 cm <br />
-                      Humidity: Up to 12% <br /> Origin: Malaysia (Class 1
-                      durability timber){" "}
+                      Scientific Name: Intsia spp. <br />
+                      Diameter: 120 - 150 cm.
+                      <br />
+                      Average Dried Weight: 815 kg/m3 <br />
+                      Origin: Malaysia <br />
+                      Durability: Class 1{" "}
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>

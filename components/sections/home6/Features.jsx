@@ -25,7 +25,8 @@ export default function Features() {
                   <span className="fas fa-money-bill-wave"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="">Reliable & Transparent</Link>
+                  {/* <Link href="">Reliable & Transparent</Link> */}
+                  Reliable & Transparent
                 </h3>
                 <p className="feature-two__text">
                   Honest pricing, no hidden expenses, and dependable customer
@@ -49,7 +50,8 @@ export default function Features() {
                   <span className="fas fa-industry"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="">Factory Direct Advantage</Link>
+                  {/* <Link href="">Factory Direct Advantage</Link> */}
+                  Factory Direct Advantage
                 </h3>
                 <p className="feature-two__text">
                   Factory-direct sourcing offers superior quality at competitive
@@ -73,7 +75,8 @@ export default function Features() {
                   <span className="fas fa-user-tie"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="landscape-design">Expert Support</Link>
+                  {/* <Link href="">Expert Support</Link> */}
+                  Expert Support
                 </h3>
                 <p className="feature-two__text">
                   Dedicated professionals will guide your project from idea to

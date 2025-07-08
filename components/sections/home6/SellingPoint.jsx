@@ -23,7 +23,8 @@ export default function SellingPoint() {
                   <span className="fas fa-history"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="interior-design">Lasting Beauty</Link>
+                  {/* <Link href="#">Lasting Beauty</Link> */}
+                  Lasting Beauty
                 </h3>
                 <p className="feature-two__text">
                   Golden grain, durable strength, <br /> and timeless appeal.
@@ -46,7 +47,8 @@ export default function SellingPoint() {
                   <span className="fas fa-globe-asia"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="urban-design">Premium Thai origin</Link>
+                  {/* <Link href="#">Premium Thai origin</Link> */}
+                  Premium Thai origin
                 </h3>
                 <p className="feature-two__text">
                   Sourced from the one of world's <br /> finest teak growing
@@ -70,7 +72,8 @@ export default function SellingPoint() {
                   <span className="far fa-hourglass"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="landscape-design">Smart investment</Link>
+                  {/* <Link href="#">Smart investment</Link> */}
+                  Smart investment
                 </h3>
                 <p className="feature-two__text">
                   An excellent legacy that expands <br /> over time.

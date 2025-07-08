@@ -23,7 +23,8 @@ export default function HarwoodSellPoint() {
                   <span className="fas fa-fist-raised"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="interior-design">Lasting Strength</Link>
+                  {/* <Link href="interior-design">Lasting Strength</Link> */}
+                  Lasting Strength
                 </h3>
                 <p className="feature-two__text">
                   Built for resistance to use, decay, and insects, hardwood
@@ -47,7 +48,8 @@ export default function HarwoodSellPoint() {
                   <span className="fas fa-swatchbook"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="urban-design">Timeless elegance</Link>
+                  {/* <Link href="urban-design">Timeless elegance</Link> */}
+                  Timeless elegance
                 </h3>
                 <p className="feature-two__text">
                   Rich tones and beautiful grain patterns add depth and
@@ -71,7 +73,8 @@ export default function HarwoodSellPoint() {
                   <span className="fas fa-search-location"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="landscape-design">Trusted Sourced</Link>
+                  {/* <Link href="landscape-design">Trusted Sourced</Link> */}
+                  Trusted Sourced
                 </h3>
                 <p className="feature-two__text">
                   Responsible sourcing from renowned factory ensures quality,

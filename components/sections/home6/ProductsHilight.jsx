@@ -231,10 +231,7 @@ export default function ProductsHilight() {
                       }}
                     ></div>
                     <div className="testimonial-two__image">
-                      <img
-                        src="assets/images/products/highlight/boards.png"
-                        alt=""
-                      />
+                      <img src="assets/images/products/Timber.png" alt="" />
                     </div>
                     <h3
                       className="testimonial-two__name"
@@ -244,7 +241,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Boards</Link>
+                      <Link href="testimonials">Teak Sawn Timbers</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -253,7 +250,8 @@ export default function ProductsHilight() {
                         lineHeight: "26px",
                       }}
                     >
-                      Premium{" "}
+                      Our Premium Teak Wood Boards are strong and stylish. They
+                      are ideal for{" "}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -261,23 +259,11 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak Wood Boards
+                        furniture, structural applications, and built-in
+                        projects,
                       </span>{" "}
-                      and{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Finger Joint Boards{" "}
-                      </span>{" "}
-                      are strong and stylish, making them ideal for a variety of
-                      applications. These boards are ideal for furniture, stair
-                      treads, shelving, cabinets, wall panels, and door frames,
                       providing durability, stability, and a sophisticated
-                      appearance to any interior project.
+                      appearance for any project.
                     </p>
                     <div
                       className="btn-box"
@@ -312,7 +298,7 @@ export default function ProductsHilight() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/accessories.png"
+                        src="assets/images/products/Finger-Joint.png"
                         alt=""
                       />
                     </div>
@@ -324,7 +310,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Accessories</Link>
+                      <Link href="testimonials">Finger-Joint Products</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -340,13 +326,14 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak skirting
+                        Teak Finger Jointed Boards
                       </span>{" "}
-                      creates a neat and attractive finish where walls meet
-                      floors, providing both protection and a polished final
-                      touch. Ideal for living rooms, hallways, bedrooms, and
-                      offices, it conceals floor gaps while improving the
-                      overall appearance of any interior area.
+                      offer excellent strength and stability due to their
+                      finger-jointed design. With their longer lengths, they are
+                      ideal for demanding applications like extended
+                      countertops, large tabletops, stair treads, or continuous
+                      wall panels, providing seamless beauty and reliable
+                      performance.
                     </p>
                     <div
                       className="btn-box"

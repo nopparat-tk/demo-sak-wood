@@ -29,10 +29,12 @@ export default function Whychoose() {
     if (!phone) {
       setPhoneError("Phone No. is required.");
       hasError = true;
-    } else if (phone.length < 10) {
-      setPhoneError("Phone number must be at least 10 digits.");
-      hasError = true;
-    } else {
+    }
+    // else if (phone.length < 10) {
+    //   setPhoneError("Phone number must be at least 10 digits.");
+    //   hasError = true;
+    // }
+    else {
       setPhoneError(null);
     }
     if (!massege) {
@@ -152,15 +154,15 @@ export default function Whychoose() {
                           onChange={(e) => {
                             const value = e.target.value
                               .replace(/[^0-9,+]/g, "")
-                              .slice(0, 15);
+                              .slice(0, 20);
                             setPhone(value);
-                            if (value.length > 0 && value.length < 10) {
-                              setPhoneError(
-                                "Phone number must be at least 10 digits."
-                              );
-                            } else {
-                              setPhoneError(null);
-                            }
+                            // if (value.length > 0 && value.length < 10) {
+                            //   setPhoneError(
+                            //     "Phone number must be at least 10 digits."
+                            //   );
+                            // } else {
+                            //   setPhoneError(null);
+                            // }
                           }}
                           placeholder="Your Phone No."
                         />
