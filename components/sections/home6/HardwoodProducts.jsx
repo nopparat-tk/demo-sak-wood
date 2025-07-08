@@ -43,7 +43,7 @@ const swiperOptions = {
     },
   },
 };
-export default function TeakProducts() {
+export default function HardwoodProducts() {
   return (
     <>
       {/*Testimonial Two Start*/}
@@ -57,7 +57,7 @@ export default function TeakProducts() {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
-              Our Teak Products
+              Our Hardwoods Products
             </h2>
           </div>
           <div className="testimonial-two__bottom">

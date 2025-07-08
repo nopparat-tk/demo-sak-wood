@@ -4,7 +4,7 @@ import Layout from "@/components/layout/Layout";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
-import SellingPoint from "@/components/sections/home6/SellingPoint";
+import HardwoodSellPoint from "@/components/sections/home6/HarwoodSellPoint";
 import Products from "@/components/sections/home6/TeakProducts";
 import Whychoose from "@/components/sections/home6/Whychoose";
 
@@ -67,9 +67,9 @@ export default function teak() {
   };
   return (
     <>
-      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Teak">
+      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Merbau">
         {/*Project Details Start*/}
-        <SellingPoint />
+        <HardwoodSellPoint />
         {/*About Two Start*/}
         <section className="about-two">
           <div
@@ -87,7 +87,7 @@ export default function teak() {
                 <div className="about-two__left">
                   <div className="section-title text-left sec-title-animation animation-style2">
                     <h2 className="section-title__title title-animation">
-                      Northern Thai Teak
+                      Tropical Hardwoods
                     </h2>
                   </div>
                   <p

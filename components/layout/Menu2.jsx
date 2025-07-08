@@ -3,33 +3,33 @@ import Link from "next/link";
 // import { Link } from "@/i18n/navigation";
 
 export default function Menu() {
-   // const router = useRouter()
+  // const router = useRouter()
 
-   return (
-      <>
-         <ul className="main-menu__list">
-            <li>
-               <Link href="/">Home </Link>
-            </li>
-            <li>
-               <Link href="teak">Thai Teak Products</Link>
-            </li>
-            <li>
-               <Link href="yellow-balau">Hardwoods Products</Link>
-            </li>
-            {/* <li>
+  return (
+    <>
+      <ul className="main-menu__list">
+        <li>
+          <Link href="/">Home </Link>
+        </li>
+        <li>
+          <Link href="teak">Thai Teak Products</Link>
+        </li>
+        <li>
+          <Link href="hardwoods">Hardwoods Products</Link>
+        </li>
+        {/* <li>
                <Link href="merbau">Merbau</Link>
             </li> */}
-            {/* <li>
+        {/* <li>
                <Link href="Mersawa">Mersawa</Link>
             </li>
             <li>
                <Link href="Keruing">Keruing</Link>
             </li> */}
-            <li>
-               <Link href="contact">Contact Us</Link>
-            </li>
-         </ul>
-      </>
-   );
+        <li>
+          <Link href="contact">Contact Us</Link>
+        </li>
+      </ul>
+    </>
+  );
 }

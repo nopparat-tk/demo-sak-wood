@@ -96,8 +96,8 @@ export default function Whychoose() {
             <div className="col-xl-6">
               <div className="slogan-one__content text-center">
                 <div className="title">
-                  <h3 style={{ fontWeight: "semi", letterSpacing: "0.025em" }}>
-                    Request Expert Advice
+                  <h3 style={{ fontWeight: "bold", letterSpacing: "0.025em" }}>
+                    Get a Call Back from Our Experts
                   </h3>
                   <h4>
                     Seeking the ideal hardwood timber for your projects? <br />
@@ -195,6 +195,9 @@ export default function Whychoose() {
                           className="thm-btn contact-page__btn"
                           // data-loading-text="Please wait..."
                           disabled={submitting}
+                          style={{
+                            fontWeight: "800",
+                          }}
                         >
                           {submitting ? "Sending..." : "Request a Callback"}
                           <span className="icon-up-right-arrow"></span>

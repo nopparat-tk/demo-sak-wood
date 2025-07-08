@@ -26,13 +26,17 @@ export default function HeroProduct() {
                     </h2>
                     <h3
                       className="service-details__points-title"
-                      style={{ top: "12px",borderBottom: "none" }}
+                      style={{ top: "12px", borderBottom: "none" }}
                     >
                       Characteristics
                     </h3>
                     <ul
                       className="service-details__points-list list-unstyled"
-                      style={{ marginTop: "30px", borderBottom: "1px solid rgba(255, 255, 255, 0.1)", paddingBottom: "25px" }}
+                      style={{
+                        marginTop: "30px",
+                        borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
+                        paddingBottom: "25px",
+                      }}
                     >
                       <li>
                         <div className="service-details__points-shape"></div>
@@ -61,23 +65,24 @@ export default function HeroProduct() {
                     </ul>
                   </div>
                   <div className="service-details__points-box">
-                     <h3
+                    <h3
                       className="service-details__points-title"
                       style={{ top: "15px", borderBottom: "none" }}
                     >
                       Product Specifications
                     </h3>
-                    <ul
-                      className="service-details__points-list list-unstyled"
-                    >
+                    <ul className="service-details__points-list list-unstyled">
                       <li>
-                        <p>Diameter: Up to 60 cm.</p>
+                        <p>Logs Diameter: 40 - 60 cm.</p>
                       </li>
                       <li>
                         <p>Humidity: 12-14%</p>
                       </li>
                       <li>
-                        <p>Origin: Northern Region Teak Forest, Thailand (Best Source)</p>
+                        <p>
+                          Origin: Northern Region Teak Forests, Thailand (Best
+                          Source)
+                        </p>
                       </li>
                     </ul>
                   </div>

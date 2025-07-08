@@ -312,7 +312,7 @@ export default function ProductsHilight() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/flooring-solutions.png"
+                        src="assets/images/products/highlight/accessories.png"
                         alt=""
                       />
                     </div>
@@ -481,7 +481,7 @@ export default function ProductsHilight() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/flooring-solutions.png"
+                        src="assets/images/products/highlight/accessories.png"
                         alt=""
                       />
                     </div>
@@ -537,7 +537,6 @@ export default function ProductsHilight() {
                         Boards
                       </span>{" "}
                       are suitable for custom furniture and structural woodwork,
-                     
                       combining beauty and durability.
                     </p>
                     <div
