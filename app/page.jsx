@@ -20,7 +20,10 @@ export default function Home() {
         <About />
         <HeroProducts />
         <Features />
-        <Whychoose />
+        <section id="whychoose">
+          <Whychoose />
+        </section>
+
         <Premium />
         {/* <Teak /> */}
         {/* <Balau /> */}

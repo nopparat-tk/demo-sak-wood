@@ -130,7 +130,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -198,7 +198,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -285,7 +285,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -354,7 +354,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -454,7 +454,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
