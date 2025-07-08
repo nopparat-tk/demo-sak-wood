@@ -221,10 +221,7 @@ export default function teak() {
               <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
                 <div className="about-two__right">
                   <div className="about-two__img">
-                    <img
-                      src="assets/images/resources/about-two-img-1.jpg"
-                      alt=""
-                    />
+                    <img src="assets/images/resources/teak-hl.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -233,7 +230,9 @@ export default function teak() {
         </section>
         {/*About Two End */}
         <Products />
-        <Whychoose />
+        <section id="whychoose">
+          <Whychoose />
+        </section>
       </Layout>
     </>
   );

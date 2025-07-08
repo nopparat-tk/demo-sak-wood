@@ -47,7 +47,7 @@ export default function ProductsHilight() {
   return (
     <>
       {/*Testimonial Two Start*/}
-      <section className="testimonial-two" style={{ paddingTop: "60px" }}>
+      <section className="testimonial-two" style={{ padding: "60px 0 0" }}>
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
@@ -369,7 +369,7 @@ export default function ProductsHilight() {
             data-wow-delay="100ms"
           >
             <div className="row justify-content-center">
-              <div className="col-xl-7 col-lg-9 col-md-9 col-sm-12">
+              <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                 <div className="item">
                   <div
                     className="testimonial-two__single"
@@ -388,7 +388,7 @@ export default function ProductsHilight() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/boards.png"
+                        src="assets/images/products/highlight/hardwoods.png"
                         alt=""
                       />
                     </div>
@@ -400,7 +400,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Yellow Balau</Link>
+                      <Link href="testimonials">Tropical Hardwoods</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"

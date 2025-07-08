@@ -85,7 +85,7 @@ export default function MerbauProducts() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/flooring-solutions.png"
+                        src="assets/images/products/merbau-decking.png"
                         alt=""
                       />
                     </div>
@@ -97,7 +97,7 @@ export default function MerbauProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Decking</Link>
+                      Decking
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -118,7 +118,7 @@ export default function MerbauProducts() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="/hardwoods#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -147,7 +147,7 @@ export default function MerbauProducts() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/wall-panels.png"
+                        src="assets/images/products/merbau-cladding.png"
                         alt=""
                       />
                     </div>
@@ -159,7 +159,7 @@ export default function MerbauProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Cladding</Link>
+                      Cladding
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -181,7 +181,7 @@ export default function MerbauProducts() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="/hardwoods#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -210,7 +210,7 @@ export default function MerbauProducts() {
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/boards.png"
+                        src="assets/images/products/merbau-boards.png"
                         alt=""
                       />
                     </div>
@@ -222,7 +222,7 @@ export default function MerbauProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Boards</Link>
+                      Boards
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -242,7 +242,7 @@ export default function MerbauProducts() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="about" className="thm-btn">
+                      <Link href="/hardwoods#whychoose" className="thm-btn">
                         Get a consultation{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>

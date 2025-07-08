@@ -12,7 +12,7 @@ export default function HeroProduct() {
         <div className="container">
           <div
             className="project-details__content"
-            style={{ paddingBottom: "60px" }}
+            style={{ paddingBottom: "60px", marginTop: "0px" }}
           >
             <div className="row flex-row-reverse">
               <div className="col-xl-6">
@@ -33,7 +33,7 @@ export default function HeroProduct() {
                     <ul
                       className="service-details__points-list list-unstyled"
                       style={{
-                        marginTop: "30px",
+                        marginTop: "8px",
                         borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
                         paddingBottom: "25px",
                       }}
@@ -48,11 +48,11 @@ export default function HeroProduct() {
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Few Knots</p>
+                        <p>High Natural Oil Content</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Extra Strong</p>
+                        <p>Exceptional Strength & Durability</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
@@ -60,7 +60,19 @@ export default function HeroProduct() {
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Lasts Many Decades</p>
+                        <p>Warping Resistant</p>
+                      </li>
+                      <li>
+                        <div className="service-details__points-shape"></div>
+                        <p>Naturally Pest & Rot Resistant</p>
+                      </li>
+                      <li>
+                        <div className="service-details__points-shape"></div>
+                        <p>Sourced from Best Region</p>
+                      </li>
+                      <li>
+                        <div className="service-details__points-shape"></div>
+                        <p>Lasts for Centuries</p>
                       </li>
                     </ul>
                   </div>
@@ -88,7 +100,7 @@ export default function HeroProduct() {
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
                     <Link
-                      href="about"
+                      href="teak"
                       className="thm-btn"
                       style={{ textTransform: "uppercase" }}
                     >

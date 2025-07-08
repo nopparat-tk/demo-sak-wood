@@ -20,7 +20,7 @@ export default function SellingPoint() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-staircase"></span>
+                  <span className="fas fa-history"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="interior-design">Lasting Beauty</Link>
@@ -43,7 +43,7 @@ export default function SellingPoint() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-plant"></span>
+                  <span className="fas fa-globe-asia"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="urban-design">Premium Thai origin</Link>
@@ -67,7 +67,7 @@ export default function SellingPoint() {
             >
               <div className="feature-two__single last-child">
                 <div className="feature-two__icon">
-                  <span className="icon-vacuum-cleaner"></span>
+                  <span className="far fa-hourglass"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="landscape-design">Smart investment</Link>

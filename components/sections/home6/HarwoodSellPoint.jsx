@@ -20,7 +20,7 @@ export default function HarwoodSellPoint() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-staircase"></span>
+                  <span className="fas fa-fist-raised"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="interior-design">Lasting Strength</Link>
@@ -44,7 +44,7 @@ export default function HarwoodSellPoint() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-plant"></span>
+                  <span className="fas fa-swatchbook"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="urban-design">Timeless elegance</Link>
@@ -68,7 +68,7 @@ export default function HarwoodSellPoint() {
             >
               <div className="feature-two__single last-child">
                 <div className="feature-two__icon">
-                  <span className="icon-vacuum-cleaner"></span>
+                  <span className="fas fa-search-location"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="landscape-design">Trusted Sourced</Link>

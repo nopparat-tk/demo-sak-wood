@@ -49,7 +49,7 @@ const swiperOptions = {
     },
   },
 };
-export default function teak() {
+export default function hardwoods() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,
@@ -216,7 +216,7 @@ export default function teak() {
                 <div className="about-two__right">
                   <div className="about-two__img">
                     <img
-                      src="assets/images/resources/about-two-img-1.jpg"
+                      src="assets/images/resources/hardwoods-hl.png"
                       alt=""
                     />
                   </div>
@@ -228,7 +228,9 @@ export default function teak() {
         {/*About Two End */}
         <BalauProducts />
         <MerbauProducts />
-        <Whychoose />
+        <section id="whychoose">
+          <Whychoose />
+        </section>
       </Layout>
     </>
   );

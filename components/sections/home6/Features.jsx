@@ -22,10 +22,10 @@ export default function Features() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-staircase"></span>
+                  <span className="fas fa-money-bill-wave"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="interior-design">Reliable & Transparent</Link>
+                  <Link href="">Reliable & Transparent</Link>
                 </h3>
                 <p className="feature-two__text">
                   Honest pricing, no hidden expenses, and dependable customer
@@ -46,10 +46,10 @@ export default function Features() {
             >
               <div className="feature-two__single">
                 <div className="feature-two__icon">
-                  <span className="icon-plant"></span>
+                  <span className="fas fa-industry"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="urban-design">Factory Direct Advantage</Link>
+                  <Link href="">Factory Direct Advantage</Link>
                 </h3>
                 <p className="feature-two__text">
                   Factory-direct sourcing offers superior quality at competitive
@@ -70,7 +70,7 @@ export default function Features() {
             >
               <div className="feature-two__single last-child">
                 <div className="feature-two__icon">
-                  <span className="icon-vacuum-cleaner"></span>
+                  <span className="fas fa-user-tie"></span>
                 </div>
                 <h3 className="feature-two__title">
                   <Link href="landscape-design">Expert Support</Link>

@@ -37,10 +37,7 @@ export default function teak() {
                 >
                   <div className="service-details__right">
                     <div className="service-details__img">
-                      <img
-                        src="assets/images/services/service-details-img-1.jpg"
-                        alt=""
-                      />
+                      <img src="assets/images/services/merbau-hp.png" alt="" />
                     </div>
                     <h3 className="service-details__title-1">Merbau</h3>
                     <p className="service-details__text-1">
@@ -57,7 +54,7 @@ export default function teak() {
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <img
-                          src="assets/images/services/service-details-points-img.jpg"
+                          src="assets/images/services/merbau-characteristics.png"
                           alt=""
                         />
                       </div>
@@ -101,9 +98,18 @@ export default function teak() {
                     </h3>
                     <p className="service-details__text-3">
                       Diameter: Up to 60 cm <br />
-                      Humidity: Up to 12% <br /> Origin: South East Asian
-                      Countries (Best Source){" "}
+                      Humidity: Up to 12% <br /> Origin: Malaysia (Class 1
+                      durability timber){" "}
                     </p>
+                  </div>
+                  <div className="btn-box" style={{ marginTop: "30px" }}>
+                    <Link
+                      href="hardwoods"
+                      className="thm-btn"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      More Details <span className="icon-up-right-arrow"></span>{" "}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -116,7 +122,7 @@ export default function teak() {
                   <div className="service-details__right">
                     <div className="service-details__img">
                       <img
-                        src="assets/images/services/service-details-img-1.jpg"
+                        src="assets/images/services/yellow-balau-hp.png"
                         alt=""
                       />
                     </div>
@@ -135,7 +141,7 @@ export default function teak() {
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <img
-                          src="assets/images/services/service-details-points-img.jpg"
+                          src="assets/images/services/yellow-balau-characteristics.png"
                           alt=""
                         />
                       </div>
@@ -179,9 +185,18 @@ export default function teak() {
                     </h3>
                     <p className="service-details__text-3">
                       Diameter: Up to 60 cm <br />
-                      Humidity: Up to 12% <br /> Origin: South East Asian
-                      Countries (Best Source){" "}
+                      Humidity: Up to 12% <br /> Origin: Malaysia (Class 1
+                      durability timber){" "}
                     </p>
+                  </div>
+                  <div className="btn-box" style={{ marginTop: "30px" }}>
+                    <Link
+                      href="hardwoods"
+                      className="thm-btn"
+                      style={{ textTransform: "uppercase" }}
+                    >
+                      More Details <span className="icon-up-right-arrow"></span>{" "}
+                    </Link>
                   </div>
                 </div>
               </div>
