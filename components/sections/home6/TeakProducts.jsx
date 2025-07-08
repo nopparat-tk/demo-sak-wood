@@ -97,7 +97,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Flooring Solutions</Link>
+                      <Link href="testimonials">Parquet</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -106,30 +106,9 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak Parquet
-                      </span>{" "}
-                      is an excellent choice for creating stunning indoor
-                      designs. It looks nice and is really resilient. <br />{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak flooring
-                      </span>{" "}
-                      features sturdy, robust boards that are ideal for creating
-                      beautiful, long-lasting home interiors. Teak Decking is
-                      effective resistant water, rot, and insects when used
-                      outdoors. It's ideal for decks, patios, and poolsides
+                      Create beautiful indoor floors with attractive designs and
+                      outstanding strength. Teak Parquet is a highly durable
+                      option that provides timeless luxury to any room.
                     </p>
                     <div
                       className="btn-box"
@@ -178,7 +157,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Wall Panels</Link>
+                      <Link href="testimonials">Flooring</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -187,19 +166,9 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak cladding
-                      </span>{" "}
-                      adds natural beauty and warmth to any wall. It's a stylish
-                      and durable solution for home design, perfect for feature
-                      walls, ceilings, headboards, indoor paneling, and feature
-                      walls in living rooms, bedrooms, and lobbies.
+                      Our durable, elegant teak planks provide long-lasting
+                      flooring for any home. They are ideal for high-traffic
+                      areas, providing incredible durability and timeless charm.
                     </p>
                     <div
                       className="btn-box"
@@ -248,7 +217,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Boards</Link>
+                      <Link href="testimonials">Decking</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -257,31 +226,10 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      Premium{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak Wood Boards
-                      </span>{" "}
-                      and{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Finger Joint Boards{" "}
-                      </span>{" "}
-                      are strong and stylish, making them ideal for a variety of
-                      applications. These boards are ideal for furniture, stair
-                      treads, shelving, cabinets, wall panels, and door frames,
-                      providing durability, stability, and a sophisticated
-                      appearance to any interior project.
+                      Our teak decking is designed for outdoor use and resists
+                      water, rot, and insects. It remains gorgeous for years,
+                      resulting in magnificent and long-lasting decks, patios,
+                      and poolsides.
                     </p>
                     <div
                       className="btn-box"
@@ -330,7 +278,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Accessories</Link>
+                      <Link href="testimonials">Cladding</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -339,20 +287,9 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak skirting
-                      </span>{" "}
-                      creates a neat and attractive finish where walls meet
-                      floors, providing both protection and a polished final
-                      touch. Ideal for living rooms, hallways, bedrooms, and
-                      offices, it conceals floor gaps while improving the
-                      overall appearance of any interior area.
+                      Create natural beauty and warmth on any wall or ceiling.
+                      It's a stylish, durable alternative for decorating rooms
+                      that provides long-lasting protection.
                     </p>
                     <div
                       className="btn-box"
@@ -401,7 +338,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Flooring Solutions</Link>
+                      <Link href="testimonials">Boards</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -410,30 +347,10 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak Parquet
-                      </span>{" "}
-                      is an excellent choice for creating stunning indoor
-                      designs. It looks nice and is really resilient. <br />{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak flooring
-                      </span>{" "}
-                      features sturdy, robust boards that are ideal for creating
-                      beautiful, long-lasting home interiors. Teak Decking is
-                      effective resistant water, rot, and insects when used
-                      outdoors. It's ideal for decks, patios, and poolsides
+                      Our solid teak wood boards are both sturdy and elegant.
+                      They give the ideal foundation for all forms of fine
+                      woodworking, from custom furniture to elaborate interior
+                      elements, ensuring long-term quality.
                     </p>
                     <div
                       className="btn-box"
@@ -482,7 +399,7 @@ export default function TeakProducts() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Wall Panels</Link>
+                      <Link href="testimonials">Finger Jointed</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -491,19 +408,70 @@ export default function TeakProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        Teak cladding
-                      </span>{" "}
-                      adds natural beauty and warmth to any wall. It's a stylish
-                      and durable solution for home design, perfect for feature
-                      walls, ceilings, headboards, indoor paneling, and feature
-                      walls in living rooms, bedrooms, and lobbies.
+                      Finger jointed teak boards provide excellent strength and
+                      extremely long lengths. They are great for lengthy
+                      countertops, massive tabletops, stair treads, and other
+                      large-scale, demanding tasks that require solidity.
+                    </p>
+                    <div
+                      className="btn-box"
+                      style={{
+                        marginTop: "20px",
+                      }}
+                    >
+                      <Link href="about" className="thm-btn">
+                        Get a consultation{" "}
+                        <span className="icon-up-right-arrow"></span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                {/*Testimonial Two Single End*/}
+              </SwiperSlide>
+              <SwiperSlide>
+                {/*Testimonial Two Single Start*/}
+                <div className="item">
+                  <div
+                    className="testimonial-two__single"
+                    style={{
+                      marginTop: "0px",
+                      padding: "47px",
+                      textAlign: "left",
+                    }}
+                  >
+                    <div
+                      className="testimonial-two__single-shape-1"
+                      style={{
+                        backgroundImage:
+                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                      }}
+                    ></div>
+                    <div className="testimonial-two__image">
+                      <img
+                        src="assets/images/products/highlight/wall-panels.png"
+                        alt=""
+                      />
+                    </div>
+                    <h3
+                      className="testimonial-two__name"
+                      style={{
+                        marginTop: "18px",
+                        marginBottom: "44px",
+                        fontSize: "24px",
+                      }}
+                    >
+                      <Link href="testimonials">Skirting</Link>
+                    </h3>
+                    <p
+                      className="testimonial-two__text"
+                      style={{
+                        fontSize: "17px",
+                        lineHeight: "26px",
+                      }}
+                    >
+                      Elevate the details of your home with beautiful teak
+                      skirting. It offers long-lasting beauty, a sturdy
+                      protective border, and an elegant look to any room.
                     </p>
                     <div
                       className="btn-box"
