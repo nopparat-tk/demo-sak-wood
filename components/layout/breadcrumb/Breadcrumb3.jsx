@@ -13,8 +13,8 @@ export default function Breadcrumb3() {
         <div className="container">
           <div className="page-header__inner">
             <div className="page-header__title-box">
-              <p>Excellence Tropical Hardwoods</p>
-              <h3>Hardwoods</h3>
+              <p>Timeless Woods for Timeless Spaces</p>
+              <h3>Tropical Hardwood</h3>
             </div>
             <div className="thm-breadcrumb__box">
               <ul className="thm-breadcrumb list-unstyled">

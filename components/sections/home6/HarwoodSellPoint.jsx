@@ -23,11 +23,11 @@ export default function HarwoodSellPoint() {
                   <span className="icon-staircase"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="interior-design">Hardwood USP 1</Link>
+                  <Link href="interior-design">Lasting Strength</Link>
                 </h3>
                 <p className="feature-two__text">
-                  Mrittik Architects is a full-service design firm providing ,
-                  master planning, urban design,
+                  Built for resistance to use, decay, and insects, hardwood
+                  lasts for generations.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -47,11 +47,11 @@ export default function HarwoodSellPoint() {
                   <span className="icon-plant"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="urban-design">Hardwood USP 2</Link>
+                  <Link href="urban-design">Timeless elegance</Link>
                 </h3>
                 <p className="feature-two__text">
-                  Mrittik Architects is a full-service design firm providing ,
-                  master planning, urban design,
+                  Rich tones and beautiful grain patterns add depth and
+                  character to any space.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -71,11 +71,11 @@ export default function HarwoodSellPoint() {
                   <span className="icon-vacuum-cleaner"></span>
                 </div>
                 <h3 className="feature-two__title">
-                  <Link href="landscape-design">Hardwood USP 3</Link>
+                  <Link href="landscape-design">Trusted Sourced</Link>
                 </h3>
                 <p className="feature-two__text">
-                  Mrittik Architects is a full-service design firm providing ,
-                  master planning, urban design,
+                  Responsible sourcing from renowned factory ensures quality,
+                  competitive pricing and integrity.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
