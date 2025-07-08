@@ -13,8 +13,8 @@ const swiperOptions = {
 
   // Navigation
   navigation: {
-    nextEl: ".srn",
-    prevEl: ".srp",
+    nextEl: ".swiper-arrow-next",
+    prevEl: ".swiper-arrow-prev",
   },
 
   // Pagination
@@ -489,6 +489,17 @@ export default function TeakProducts() {
                 {/*Testimonial Two Single End*/}
               </SwiperSlide>
             </Swiper>
+          </div>
+        </div>
+        <div
+          className="main-slider-nav"
+          style={{ top: "55%", padding: "0 72px" }}
+        >
+          <div className="swiper-arrow-prev">
+            <span className="icon-left-arrow"></span>
+          </div>
+          <div className="swiper-arrow-next">
+            <span className="icon-right-arrow"></span>
           </div>
         </div>
       </section>

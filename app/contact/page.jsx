@@ -256,21 +256,34 @@ export default function Home() {
                           </div>
                           <div className="content">
                             <h3>Telegram</h3>
-                            <p>@sakwru</p>
+                            <p>
+                              <Link href="https://t.me/sakwru" target="_blank">
+                                @sakwru
+                              </Link>
+                            </p>
                           </div>
                         </li>
                         <li>
                           <div className="icon">
                             {/* <span className="fab fa-telegram-plane"></span> */}
-                            <img
-                              src="assets/images/brand/vk-logo.svg"
-                              alt=""
-                              style={{ width: "26px" }}
-                            />
+                            <Link href="https://vk.com/sakwru" target="_blank">
+                              <img
+                                src="assets/images/brand/vk-logo.svg"
+                                alt=""
+                                style={{ width: "26px" }}
+                              />
+                            </Link>
                           </div>
                           <div className="content">
                             <h3>VK</h3>
-                            <p>vk.com/sakwru</p>
+                            <p>
+                              <Link
+                                href="https://vk.com/sakwru"
+                                target="_blank"
+                              >
+                                vk.com/sakwru
+                              </Link>
+                            </p>
                           </div>
                         </li>
                       </ul>
