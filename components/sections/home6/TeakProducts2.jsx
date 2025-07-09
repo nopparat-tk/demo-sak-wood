@@ -204,9 +204,21 @@ export default function TeakProducts2() {
             />
           </div>
         </div>
+        <div className="btn-box mt-3 d-flex justify-content-center">
+          <a
+            className="thm-btn"
+            href="assets/images/pricelist/sakw-teak-pricelist.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Full Price-List{" "}
+            <span className="fas fa-file-download"></span>
+          </a>
+        </div>
         <div
           className="main-slider-nav"
-          style={{ top: "55%", padding: "0 72px" }}
+          style={{ top: "50%", padding: "0 60px" }}
         >
           <div className="swiper-arrow-prev">
             <span className="icon-left-arrow"></span>
