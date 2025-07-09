@@ -5,7 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
 import SellingPoint from "@/components/sections/home6/SellingPoint";
-import Products from "@/components/sections/home6/TeakProducts";
+import Products from "@/components/sections/home6/TeakProducts2";
 import Whychoose from "@/components/sections/home6/Whychoose";
 
 const swiperOptions = {

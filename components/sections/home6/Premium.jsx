@@ -41,8 +41,8 @@ export default function Services() {
                   Built for strength
                 </h3>
                 <p className="feature-two__text">
-                  Exceptional strength and durability—designed for tough jobs
-                  and built to last generations.
+                  Exceptional strength and <br /> durability — designed for
+                  tough jobs and built to last generations.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>

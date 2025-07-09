@@ -97,10 +97,14 @@ export default function teak() {
                       Specifications
                     </h3>
                     <p className="service-details__text-3">
-                      Scientific Name: Intsia spp. <br />
+                      Scientific Name:{" "}
+                      <span style={{ fontStyle: "italic", fontWeight: "700" }}>
+                        Intsia spp.
+                      </span>{" "}
+                      <br />
                       Diameter: 120 - 150 cm.
                       <br />
-                      Average Dried Weight: 815 kg/m3 <br />
+                      Average Dried Weight: 815 kg/m<sup>3</sup> <br />
                       Origin: Malaysia <br />
                       Durability: Class 1{" "}
                     </p>
@@ -137,7 +141,7 @@ export default function teak() {
                       style.
                     </p>
                     <p className="service-details__text-2">
-                      Ideal for Outdoor spaces such as seaside decks, garden
+                      Ideal for outdoor spaces such as seaside decks, garden
                       patios, rooftop pathways, outside wall cladding, pergolas,
                       and furniture with long-lasting durability.
                     </p>
@@ -187,10 +191,14 @@ export default function teak() {
                       Specifications
                     </h3>
                     <p className="service-details__text-3">
-                      Scientific Name: Shorea spp. <br />
+                      Scientific Name:{" "}
+                      <span style={{ fontStyle: "italic", fontWeight: "700" }}>
+                        Shorea spp.{" "}
+                      </span>
+                      <br />
                       Diameter: 100 - 200 cm.
                       <br />
-                      Average Dried Weight: 815 kg/m3 <br />
+                      Average Dried Weight: 850 kg/m<sup>3</sup> <br />
                       Origin: Malaysia <br />
                       Durability: Class 1{" "}
                     </p>

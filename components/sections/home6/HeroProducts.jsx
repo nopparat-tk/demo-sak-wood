@@ -68,10 +68,6 @@ export default function HeroProduct() {
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Sourced from Best Region</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
                         <p>Lasts for Centuries</p>
                       </li>
                     </ul>

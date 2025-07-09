@@ -102,7 +102,7 @@ export default function MerbauProducts() {
                     <p
                       className="testimonial-two__text"
                       style={{
-                        fontSize: "17px",
+                        fontSize: "16px",
                         lineHeight: "26px",
                       }}
                     >
@@ -164,16 +164,21 @@ export default function MerbauProducts() {
                     <p
                       className="testimonial-two__text"
                       style={{
-                        fontSize: "17px",
+                        fontSize: "16px",
                         lineHeight: "26px",
                       }}
                     >
-                      Use Merbau cladding to transform your environment. Its
+                      {/* Use Merbau cladding to transform your environment. Its
                       rich reddish-brown tones develop with time, providing
                       long-lasting beauty and powerful protection. Moisture and
                       termite resistance make it ideal for exterior walls,
                       ceilings, facades, and soffits in residences, resorts, and
-                      coastal buildings.
+                      coastal buildings. */}
+                      Merbau cladding in its rich reddish-brown <br />
+                      tones develop with time, providing long-lasting beauty and
+                      powerful protection. Moisture and termite resistance make
+                      it ideal for exterior walls, ceilings, facades, and
+                      soffits in residences, resorts, and coastal buildings.
                     </p>
                     <div
                       className="btn-box"
@@ -231,7 +236,7 @@ export default function MerbauProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      A top choice for furniture, cabinetry, stairs, door
+                      A top choice for furniture, cabinetry, <br /> stairs, door
                       frames, and structural builds. Its rich tone, natural
                       strength, and durability in humid conditions make it
                       perfect for both indoor and semi-outdoor use.

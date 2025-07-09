@@ -1,8 +1,12 @@
 "use client";
+import React, { useState } from "react";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Lightbox } from "yet-another-react-lightbox";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Download from "yet-another-react-lightbox/plugins/download";
+import "yet-another-react-lightbox/styles.css";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -43,7 +47,31 @@ const swiperOptions = {
     },
   },
 };
+
+const slidesData = [
+  {
+    title: "Parquet",
+    img: "assets/images/products/highlight/flooring-solutions.png",
+    desc: "Create beautiful indoor floors with attractive designs and outstanding strength. Teak Parquet is a highly durable option that provides timeless luxury to any room.",
+    lightbox: {
+      src: "assets/images/pricelist/sakw-teak-parquet.png",
+      downloadUrl: "/sakw-teak-parquet.png",
+    },
+  },
+  {
+    title: "Flooring",
+    img: "assets/images/products/highlight/wall-panels.png",
+    desc: "Our durable, elegant teak planks provide long-lasting flooring for any home. They are ideal for high-traffic areas, providing incredible durability and timeless charm.",
+    lightbox: {
+      src: "assets/images/pricelist/sakw-teak-flooring.png",
+      downloadUrl: "/sakw-teak-flooring.png",
+    },
+  },
+  // Add more slides as needed, each with its own lightbox image
+];
+
 export default function TeakProducts() {
+  const [openIndex, setOpenIndex] = useState(null);
   return (
     <>
       {/*Testimonial Two Start*/}

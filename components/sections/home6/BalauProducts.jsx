@@ -102,7 +102,7 @@ export default function BalauProducts() {
                     <p
                       className="testimonial-two__text"
                       style={{
-                        fontSize: "17px",
+                        fontSize: "16px",
                         lineHeight: "26px",
                       }}
                     >
@@ -163,7 +163,7 @@ export default function BalauProducts() {
                     <p
                       className="testimonial-two__text"
                       style={{
-                        fontSize: "17px",
+                        fontSize: "16px",
                         lineHeight: "26px",
                       }}
                     >

@@ -397,8 +397,8 @@ export default function ProductsHilight() {
                       }}
                     >
                       {" "}
-                      Is a long-lasting, weather-resistant hardwood suitable for
-                      both indoor and outdoor use.
+                      We are supplying various species of tropical hardwoods for
+                      projects of any complexity.{" "}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -406,10 +406,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        {" "}
-                        Decking
+                        MERBAU
                       </span>{" "}
-                      is suitable for patios, walkways, and high-traffic areas.{" "}
+                      and{" "}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -417,23 +416,14 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Cladding{" "}
-                      </span>{" "}
+                        YELLOW BALAU{" "}
+                      </span>
+                      from Malaysia are the long-lasting, weather-resistant
+                      hardwoods suitable for both indoor and outdoor use.
+                      Reddish Merbau decking is suitable for patios, walkways,
+                      and high-traffic areas. Durable Yellow Balau cladding
                       provides warm golden tones to the walls while keeping them
                       protected from the weather.
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {" "}
-                        Boards{" "}
-                      </span>{" "}
-                      provide great stability and long-term performance for
-                      furniture, framing, and heavy-duty woodwork, all while
-                      maintaining their natural beauty.
                     </p>
                     <div
                       className="btn-box"
