@@ -118,26 +118,6 @@ export default function About() {
               >
                 <div className="about-three__img">
                   <img src="assets/images/resources/welcome-4.png" alt="" />
-                  {/* <div className="about-three__experience-box">
-                              <div className="welcome-style1__img">
-                                 <div className="img1">
-                                    <img
-                                       src="assets/images/backgrounds/teak-video-2.png"
-                                       alt="Image"
-                                    />
-                                    <div className="video-btn">
-                                       <a
-                                          className="video-popup"
-                                          title="Video Gallery"
-                                          onClick={() => setOpen(true)}
-                                       >
-                                          <span className="fa fa-play"></span>
-                                          <i className="ripple"></i>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div> */}
                 </div>
               </div>
             </div>
