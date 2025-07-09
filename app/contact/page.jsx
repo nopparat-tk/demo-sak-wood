@@ -310,7 +310,7 @@ export default function Home() {
                               // name="name"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
-                              placeholder="Your name"
+                              placeholder="Your Name"
                               required=""
                             />
                             {nameError && (
