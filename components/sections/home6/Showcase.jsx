@@ -92,7 +92,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">British Embassy Bangkok </Link>
+                      {/* <Link href="#showcase">British Embassy Bangkok </Link> */}
+                      British Embassy Bangkok
                     </h3>
                     <p>
                       South Asia Kraft Wood is honored to bring you the same
@@ -120,7 +121,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Mrigadayavan Palace</Link>
+                      {/* <Link href="#showcase">Mrigadayavan Palace</Link> */}
+                      Mrigadayavan Palace
                     </h3>
                     <p>
                       known as the "Palace of Love and Hope," stands as an
@@ -148,9 +150,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">
+                      {/* <Link href="#showcase">
                         Symbol of Strength and Prosperity
-                      </Link>
+                      </Link> */}
+                      Symbol of Strength and Prosperity
                     </h3>
                     <p>
                       For centuries, Thai teak has been the wood of choice for
@@ -178,7 +181,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Legend of a Live Material</Link>
+                      {/* <Link href="#showcase">Legend of a Live Material</Link> */}
+                      Legend of a Live Material
                     </h3>
                     <p>
                       In Thai folklore, teak is spoken of as a, “living wood,”
@@ -206,7 +210,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Architecture that Inspires</Link>
+                      {/* <Link href="#showcase">Architecture that Inspires</Link> */}
+                      Architecture that Inspires
                     </h3>
                     <p>
                       Throughout history, Thailand’s temples and spiritual
@@ -234,7 +239,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">British Embassy Bangkok </Link>
+                      {/* <Link href="#showcase">British Embassy Bangkok </Link> */}
+                      British Embassy Bangkok
                     </h3>
                     <p>
                       South Asia Kraft Wood is honored to bring you the same
@@ -262,7 +268,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Mrigadayavan Palace</Link>
+                      {/* <Link href="#showcase">Mrigadayavan Palace</Link> */}
+                      Mrigadayavan Palace
                     </h3>
                     <p>
                       known as the "Palace of Love and Hope," stands as an
@@ -290,9 +297,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">
+                      {/* <Link href="#showcase">
                         Symbol of Strength and Prosperity
-                      </Link>
+                      </Link> */}
+                      Symbol of Strength and Prosperity
                     </h3>
                     <p>
                       For centuries, Thai teak has been the wood of choice for
@@ -320,7 +328,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Legend of a Live Material</Link>
+                      {/* <Link href="#showcase">Legend of a Live Material</Link> */}
+                      Legend of a Live Material
                     </h3>
                     <p>
                       In Thai folklore, teak is spoken of as a, “living wood,”
@@ -348,7 +357,8 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="#showcase">Architecture that Inspires</Link>
+                      {/* <Link href="#showcase">Architecture that Inspires</Link> */}
+                      Architecture that Inspires
                     </h3>
                     <p>
                       Throughout history, Thailand’s temples and spiritual
