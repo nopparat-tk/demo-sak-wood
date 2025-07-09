@@ -583,6 +583,18 @@ export default function ProductsHilight() {
               </div>
             </div>
           </div> */}
+          {/* <div className="btn-box mt-1 d-flex justify-content-center">
+            <a
+              className="dwn-btn"
+              href="assets/images/pricelist/sakw-teak-pricelist.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Full Price-List{" "}
+              <span className="fas fa-file-download"></span>
+            </a>
+          </div> */}
         </div>
       </section>
       {/*Testimonial Two End*/}

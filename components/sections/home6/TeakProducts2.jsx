@@ -204,7 +204,7 @@ export default function TeakProducts2() {
             />
           </div>
         </div>
-        <div className="btn-box mt-3 d-flex justify-content-center">
+        <div className="btn-box mt-1 d-flex justify-content-center">
           <a
             className="dwn-btn"
             href="assets/images/pricelist/sakw-teak-pricelist.pdf"
