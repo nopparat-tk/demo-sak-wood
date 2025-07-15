@@ -29,6 +29,8 @@ export default function HarwoodSellPoint() {
                 <p className="feature-two__text">
                   Built for resistance to use, decay, and insects, hardwood
                   lasts for generations.
+                  <br />
+                  <br />
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -54,6 +56,8 @@ export default function HarwoodSellPoint() {
                 <p className="feature-two__text">
                   Rich tones and beautiful grain patterns add depth and
                   character to any space.
+                  <br />
+                  <br />
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -77,8 +81,8 @@ export default function HarwoodSellPoint() {
                   Trusted Sourced
                 </h3>
                 <p className="feature-two__text">
-                  Responsible sourcing from renowned factory ensures quality,
-                  competitive pricing and integrity.
+                  Responsible sourcing from renowned facilities ensures business
+                  integrity, quality, and competitive pricing.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>

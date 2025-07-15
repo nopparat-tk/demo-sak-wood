@@ -61,7 +61,7 @@ const slidesData = [
   {
     title: "Flooring",
     img: "assets/images/products/Floorboard.png",
-    desc: "Our durable, elegant teak planks provide long-lasting flooring for any home. They are ideal for high-traffic areas, providing incredible durability and timeless charm.",
+    desc: "Our durable and attractive teak floorboards offer reliable and beautiful flooring for your home or business. Perfectly suited for high-traffic areas, they provide both performance and timeless charm.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-flooring.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -70,7 +70,7 @@ const slidesData = [
   {
     title: "Decking",
     img: "assets/images/products/Decking.png",
-    desc: "Our teak decking is designed for outdoor use and resists water, rot, and insects. It remains gorgeous for years, resulting in magnificent and long-lasting decks, patios, and poolsides.",
+    desc: "Our teak decking is designed for outdoor use and resists water, rot, and insects. It remains gorgeous for years, resulting in magnificent decks, patios, balconies, and poolside areas.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-decking.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -79,7 +79,7 @@ const slidesData = [
   {
     title: "Cladding",
     img: "assets/images/products/Cladding.png",
-    desc: "Create natural beauty and warmth on any wall or ceiling. It's a stylish, durable alternative for decorating rooms that provides long-lasting protection.",
+    desc: "Real teak cladding adds beauty, allure, and opulence to any wall or ceiling. Create a warm and inviting atmosphere for rooms you won't want to leave.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-cladding.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -88,7 +88,7 @@ const slidesData = [
   {
     title: "Boards",
     img: "assets/images/products/Timber.png",
-    desc: "Our solid teak wood boards are both sturdy and elegant. They give the ideal foundation for all forms of fine woodworking, from custom furniture to elaborate interior elements, ensuring long-term quality.",
+    desc: "Our solid teak wood boards are as attractive as they are functional. They give a foundation that is beyond compare for all forms of fine woodworking, from custom furniture to elaborate interior elements.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -97,7 +97,7 @@ const slidesData = [
   {
     title: "Finger Jointed",
     img: "assets/images/products/Finger-Joint.png",
-    desc: "Finger jointed teak boards provide excellent strength and extremely long lengths. They are great for lengthy countertops, massive tabletops, stair treads, and other large-scale, demanding tasks that require solidity.",
+    desc: "Finger jointed teak boards provide excellent strength and extremely long lengths. They are great for lengthy countertops, massive tabletops, stair treads, and other large-scale projects that demand solidity.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -106,7 +106,7 @@ const slidesData = [
   {
     title: "Skirting",
     img: "assets/images/products/Skirtin.png",
-    desc: "Elevate the details of your home with beautiful teak skirting. It offers long-lasting beauty, a sturdy protective border, and an elegant look to any room.",
+    desc: "Fulfill a room's potential with detailed perfection from the finest teak skirting boards. Not just a sturdy protective border, teak skirting also offers the finishing touch of refinement and beauty.",
     lightbox: {
       src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
       downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
@@ -218,7 +218,7 @@ export default function TeakProducts2() {
         </div>
         <div
           className="main-slider-nav"
-          style={{ top: "50%", padding: "0 60px" }}
+          style={{ top: "52%", padding: "0 72px" }}
         >
           <div className="swiper-arrow-prev">
             <span className="icon-left-arrow"></span>

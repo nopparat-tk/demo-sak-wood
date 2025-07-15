@@ -41,14 +41,18 @@ export default function teak() {
                     </div>
                     <h3 className="service-details__title-1">Merbau</h3>
                     <p className="service-details__text-1">
-                      Bold Resilient Timeless Merbau's rich red-brown tones and
+                      {/* Bold Resilient Timeless Merbau's rich red-brown tones and
                       solid, hefty feel convey a sense of luxury and stability.
                       Built to last, it brings warmth and strength to any
-                      environment, indoors or outdoors.
+                      environment, indoors or outdoors. */}
+                      Bold. Resilient. Timeless. Merbau's rich red-brown tones
+                      and solid, hefty feel convey a sense of splendor and
+                      stability. Built to last, Merbau brings warmth and
+                      strength to any environment, indoors or outdoors.
                     </p>
                     <p className="service-details__text-2">
                       Ideal for grand stairs, luxurious flooring, weatherproof
-                      decks, heritage-style build-in, heavy-duty furniture, and
+                      decks, heritage-style build-ins, heavy-duty furniture, and
                       feature woodwork with a strong presence.
                     </p>
                     <div className="service-details__img-and-point-box">
@@ -135,10 +139,13 @@ export default function teak() {
                     </div>
                     <h3 className="service-details__title-1">Yellow Balau</h3>
                     <p className="service-details__text-1">
-                      Tough and golden, Yellow Balau endures the roughest
+                      {/* Tough and golden, Yellow Balau endures the roughest
                       outdoor conditions with elegance. It's the ideal wood for
                       amazing outdoor living, where strength meets sophisticated
-                      style.
+                      style. */}
+                      Tough and golden, Yellow Balau admirably withstands the
+                      roughest outdoor conditions. It's a favored wood for
+                      amazing outdoor living, where strength meets style.
                     </p>
                     <p className="service-details__text-2">
                       Ideal for outdoor spaces such as seaside decks, garden

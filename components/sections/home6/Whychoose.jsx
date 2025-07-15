@@ -108,13 +108,10 @@ export default function Whychoose() {
                   <p>
                     Whether for{" "}
                     <span style={{ fontWeight: "bold" }}>
-                      expert guidance, custom sizing,
+                      expert guidance, custom sizing, or a personalized
+                      consultation.
                     </span>{" "}
-                    or a{" "}
-                    <span style={{ fontWeight: "bold" }}>
-                      personalized consultation.
-                    </span>{" "}
-                    <br />
+                    <span style={{ fontWeight: "bold" }}></span> <br />
                     Let our team guide your journey every step of the way.
                   </p>
                 </div>

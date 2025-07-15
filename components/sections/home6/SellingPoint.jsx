@@ -51,8 +51,8 @@ export default function SellingPoint() {
                   Premium Thai origin
                 </h3>
                 <p className="feature-two__text">
-                  Sourced from the one of world's <br /> finest teak growing
-                  location.
+                  Sourced from the one of the world's <br /> finest teak growing
+                  locations.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
@@ -76,7 +76,8 @@ export default function SellingPoint() {
                   Smart investment
                 </h3>
                 <p className="feature-two__text">
-                  An excellent legacy that expands <br /> over time.
+                  {/* An excellent legacy that expands <br /> over time. */}
+                  A valuable legacy that persists <br /> through time.
                 </p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>

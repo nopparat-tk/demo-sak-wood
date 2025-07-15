@@ -106,10 +106,10 @@ export default function MerbauProducts() {
                         lineHeight: "26px",
                       }}
                     >
-                      Perfect for high-traffic outdoor spaces like patios, pool
-                      surrounds, balconies, and garden walkways. Its dense,
-                      oil-rich wood resists moisture, decay, and insects,
-                      keeping its rich color and strength for years ideal for
+                      Ideal for high-traffic outdoor spaces like <br /> patios,
+                      pool areas, balconies, and garden walkways. Its dense,
+                      oil-laden wood resists moisture, decay, and insects,
+                      keeping its rich color and strength for years. Chosen for
                       both residential and commercial use.
                     </p>
                     <div

@@ -85,15 +85,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="prestige-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">British Embassy Bangkok </Link> */}
-                      British Embassy Bangkok
+                      <Link href="prestige-of-teak">
+                        British Embassy Bangkok{" "}
+                      </Link>
+                      {/* British Embassy Bangkok */}
                     </h3>
                     <p>
                       South Asia Kraft Wood is honored to bring you the same
@@ -114,15 +116,14 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="golden-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Mrigadayavan Palace</Link> */}
-                      Mrigadayavan Palace
+                      <Link href="golden-teak">Mrigadayavan Palace</Link>
                     </h3>
                     <p>
                       known as the "Palace of Love and Hope," stands as an
@@ -143,17 +144,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="symbol-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">
+                      <Link href="symbol-of-teak">
                         Symbol of Strength and Prosperity
-                      </Link> */}
-                      Symbol of Strength and Prosperity
+                      </Link>
+                      {/* Symbol of Strength and Prosperity */}
                     </h3>
                     <p>
                       For centuries, Thai teak has been the wood of choice for
@@ -174,15 +175,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="legend-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Legend of a Live Material</Link> */}
-                      Legend of a Live Material
+                      <Link href="legend-of-teak">
+                        Legend of a Live Material
+                      </Link>
+                      {/* Legend of a Live Material */}
                     </h3>
                     <p>
                       In Thai folklore, teak is spoken of as a, “living wood,”
@@ -203,15 +206,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="teak-in-temples">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Architecture that Inspires</Link> */}
-                      Architecture that Inspires
+                      <Link href="teak-in-temples">
+                        Architecture that Inspires
+                      </Link>
+                      {/* Architecture that Inspires */}
                     </h3>
                     <p>
                       Throughout history, Thailand’s temples and spiritual
@@ -232,15 +237,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="prestige-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">British Embassy Bangkok </Link> */}
-                      British Embassy Bangkok
+                      <Link href="prestige-of-teak">
+                        British Embassy Bangkok{" "}
+                      </Link>
+                      {/* British Embassy Bangkok */}
                     </h3>
                     <p>
                       South Asia Kraft Wood is honored to bring you the same
@@ -261,15 +268,14 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="golden-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Mrigadayavan Palace</Link> */}
-                      Mrigadayavan Palace
+                      <Link href="golden-teak">Mrigadayavan Palace</Link>
                     </h3>
                     <p>
                       known as the "Palace of Love and Hope," stands as an
@@ -290,17 +296,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="symbol-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">
+                      <Link href="symbol-of-teak">
                         Symbol of Strength and Prosperity
-                      </Link> */}
-                      Symbol of Strength and Prosperity
+                      </Link>
+                      {/* Symbol of Strength and Prosperity */}
                     </h3>
                     <p>
                       For centuries, Thai teak has been the wood of choice for
@@ -321,15 +327,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="legend-of-teak">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Legend of a Live Material</Link> */}
-                      Legend of a Live Material
+                      <Link href="legend-of-teak">
+                        Legend of a Live Material
+                      </Link>
+                      {/* Legend of a Live Material */}
                     </h3>
                     <p>
                       In Thai folklore, teak is spoken of as a, “living wood,”
@@ -350,15 +358,17 @@ export default function Showcase() {
                       alt="Image"
                     />
                     <div className="overlay-icon">
-                      <Link href="#showcase">
+                      <Link href="teak-in-temples">
                         <i className="fa fa-link"></i>
                       </Link>
                     </div>
                   </div>
                   <div className="content-box">
                     <h3>
-                      {/* <Link href="#showcase">Architecture that Inspires</Link> */}
-                      Architecture that Inspires
+                      <Link href="teak-in-temples">
+                        Architecture that Inspires
+                      </Link>
+                      {/* Architecture that Inspires */}
                     </h3>
                     <p>
                       Throughout history, Thailand’s temples and spiritual

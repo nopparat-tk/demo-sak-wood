@@ -119,12 +119,7 @@ export default function Home() {
                   <div className="single-contact-info-section__content">
                     <div className="text">
                       <h3>Speak directly</h3>
-                      <p>With The Hardwoods specialist.</p>
-                      {/* <p>
-                                    <Link href="tal:79118880388">
-                                       +7 911 888 03 88
-                                    </Link>
-                                 </p> */}
+                      <p>With the Hardwoods Specialist.</p>
                     </div>
                     <div className="btn-box">
                       <Link href="tel:+79118880388">
@@ -144,11 +139,6 @@ export default function Home() {
                     <div className="text">
                       <h3>Begin Your Masterpiece</h3>
                       <p> Send Us Your Detailed Inquiry.</p>
-                      {/* <p>
-                                    <Link href="mailto:info@sakw.ru">
-                                       info@sakw.ru
-                                    </Link>
-                                 </p> */}
                     </div>
                     <div className="btn-box">
                       <Link href="mailto:info@sakw.ru">
@@ -179,26 +169,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-xl-3">
-                        <div className="single-contact-info-section">
-                           <div className="icon">
-                              <i className="far fa-clock"></i>
-                           </div>
-                           <div className="single-contact-info-section__content">
-                              <div className="text">
-                                 <h3>Off.Hrs</h3>
-                                 <p>Monday-Satday: 9.00 am to 7.30 pm</p>
-                                 <p>Hotline is available 24/7.</p>
-                              </div>
-                              <div className="btn-box">
-                                 <Link href="#">
-                                    Get Call Back
-                                    <span className="icon-up-right-arrow"></span>
-                                 </Link>
-                              </div>
-                           </div>
-                        </div>
-                     </div> */}
             </div>
           </div>
         </section>
@@ -265,7 +235,6 @@ export default function Home() {
                         </li>
                         <li>
                           <div className="icon">
-                            {/* <span className="fab fa-telegram-plane"></span> */}
                             <Link href="https://vk.com/sakwru" target="_blank">
                               <img
                                 src="assets/images/brand/vk-logo.svg"

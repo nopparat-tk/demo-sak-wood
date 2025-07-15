@@ -40,35 +40,43 @@ export default function HeroProduct() {
                     >
                       <li>
                         <div className="service-details__points-shape"></div>
+                        {/* <p>Rich Golden Color</p> */}
+                        <p>Quality From the Best Growing Region</p>
+                      </li>
+                      <li>
+                        <div className="service-details__points-shape"></div>
+                        {/* <p>Smooth Grain</p> */}
                         <p>Rich Golden Color</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Smooth Grain</p>
+                        {/* <p>High Natural Oil Content</p> */}
+                        <p>Smooth Texture</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>High Natural Oil Content</p>
+                        {/* <p>Exceptional Strength & Durability</p> */}
+                        <p>Resists Warping and Bending</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Exceptional Strength & Durability</p>
+                        {/* <p>Sourced from the Best region</p> */}
+                        <p>Resistant Against Pests and Fungi</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Sourced from the Best region</p>
+                        {/* <p>Warping Resistant</p> */}
+                        <p>Naturally Repels Moisture and Rot</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Warping Resistant</p>
+                        {/* <p>Naturally Pest & Rot Resistant</p> */}
+                        <p>Withstands Extreme Climate Conditions</p>
                       </li>
                       <li>
                         <div className="service-details__points-shape"></div>
-                        <p>Naturally Pest & Rot Resistant</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        <p>Lasts for Centuries</p>
+                        {/* <p>Lasts for Centuries</p> */}
+                        <p>Endures for Centuries</p>
                       </li>
                     </ul>
                   </div>
@@ -81,7 +89,7 @@ export default function HeroProduct() {
                     </h3>
                     <ul className="service-details__points-list list-unstyled">
                       <li>
-                        <p>Logs Diameter: 40 - 60 cm.</p>
+                        <p>Logs Diameter: 60 - 80 cm.</p>
                       </li>
                       <li>
                         <p>Humidity: 12-14%</p>

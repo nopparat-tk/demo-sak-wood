@@ -71,10 +71,7 @@ export default function Banner() {
                     className="text main-slider__text"
                     style={{ paddingBottom: "10px" }}
                   >
-                    <p>
-                      Selected Premium Thai Teak & Fine Asian Hardwoods by
-                      Specialist
-                    </p>
+                    <p>Selected Premium Thai Teak & Fine Asian Hardwoods</p>
                   </div>
                   {/* <div className="main-slider__btn-box">
                               <Link
@@ -113,9 +110,9 @@ export default function Banner() {
                   <div className="text">
                     <p>
                       Each plank carries the DNA of ancient forests. Our curated
-                      collection of exotic Asian hardwoods transforms
-                      architectural concepts into living masterpieces that speak
-                      to the soul.
+                      collection of exotic hardwoods offers materials of
+                      unrivaled quality to transform your space into a living
+                      masterpiece.
                     </p>
                   </div>
                   {/* <div className="btn-box">
@@ -152,8 +149,8 @@ export default function Banner() {
                   </div>
                   <div className="text">
                     <p>
-                      For architects who design tomorrow's heritage spaces. Our
-                      premium hardwoods don't just fill a room—they define it,
+                      For architects who design tomorrow’s heritage spaces. Our
+                      premium hardwoods don’t just fill a room - they define it,
                       creating environments that resonate with sophistication
                       and permanence.
                     </p>
@@ -185,17 +182,17 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Beyond Standard
+                      Elevated Beyound
                       <br />
-                      Design <span>Elevated</span>
+                      Ordinary <span>Design</span>
                     </h2>
                   </div>
                   <div className="text">
                     <p>
-                      When standard won't suffice, We delivers materials that
-                      match your ambition. Our exclusive Asian hardwood
-                      collection empowers designers to create spaces that become
-                      destinations.
+                      When you desire far greater than average, we deliver
+                      materials that match your ambition. Our exclusive Asian
+                      hardwood collection empowers you to create spaces that
+                      become destinations.
                     </p>
                     <br />
                   </div>
@@ -226,18 +223,17 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Coveted Woods
+                      Renowned Woods
                       <br />
                       <span>Visionary</span> Design
                     </h2>
                   </div>
                   <div className="text">
                     <p>
-                      Where the world's most coveted hardwoods meet visionary
-                      design, We supply the materials. We transform your
-                      blueprints into breathtaking realities, crafting
-                      architectural concepts into living masterpieces that speak
-                      to the soul.
+                      Where the world's treasured hardwoods meet visionary
+                      design, we supply the materials. Wood of this distinction
+                      turns your blueprints into breathtaking realities,
+                      crafting architectural triumphs that speak to the soul.
                     </p>
                   </div>
                   {/* <div className="btn-box">

@@ -126,9 +126,9 @@ export default function hardwoods() {
                                 Yellow Balau offers impressive density and
                                 resilience, made to perform under the most
                                 demanding conditions. Merbau, with its superior
-                                dimensional stability, resists warping and wear
-                                making both species ideal for structural
-                                applications and daily use.
+                                dimensional stability, resists warping and wear.
+                                Both species are ideal for structural
+                                applications as well as daily use.
                               </p>
                             </div>
                             {/* /.inner */}
@@ -171,13 +171,13 @@ export default function hardwoods() {
                           <div className="accrodion-content">
                             <div className="inner">
                               <p>
-                                Yellow Balau showcases a warm, golden-brown
-                                appearance with a fine, consistent grain that
-                                brings a natural richness to any space. Merbau
-                                offers deep red-brown tones and a smooth,
-                                interlocking grain that adds depth and
-                                sophistication. Both woods elevate interiors and
-                                exteriors with their unique charm.
+                                Yellow Balau showcases a fine, consistent grain
+                                that contributes an aesthetic allure and soft
+                                yellow-brown tones. Merbau offers deep red-brown
+                                hues and a smooth, interlocking grain that
+                                brings depth and stunning colors. Both woods
+                                elevate interiors and exteriors with their
+                                unique charms.
                               </p>
                             </div>
                             {/* /.inner */}

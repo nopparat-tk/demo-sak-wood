@@ -46,9 +46,9 @@ export default function About() {
                   </h2>
                 </div>
                 <p className="about-three__text">
-                  Your trusted partner for exceptional South Asian hardwoods.
-                  Specializing in premium Thai Teak & Tropical Hardwoods for
-                  rare beauty and strength in your spaces.
+                  Your trusted partner for first class Asian hardwoods.
+                  Specializing in premium Thai Teak <br /> & Tropical Hardwoods
+                  for extraordinary beauty and champion strength.
                 </p>
                 <ul className="about-three__points-list list-unstyled">
                   <li>
@@ -66,7 +66,8 @@ export default function About() {
                         <ul className="service-details__points-list list-unstyled">
                           <li>
                             <div className="service-details__points-shape"></div>
-                            <p>Exceptional Quality & Durability</p>
+                            {/* <p>Exceptional Quality & Durability</p> */}
+                            <p>Outstanding Quality</p>
                           </li>
                           <li>
                             <div className="service-details__points-shape"></div>

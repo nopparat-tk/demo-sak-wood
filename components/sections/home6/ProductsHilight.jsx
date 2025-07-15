@@ -108,8 +108,10 @@ export default function ProductsHilight() {
                       >
                         Teak Parquet
                       </span>{" "}
-                      is an excellent choice for creating stunning indoor
-                      designs. It looks nice and is really resilient. <br />{" "}
+                      {/* is an excellent choice for creating stunning indoor
+                      designs. It looks nice and is really resilient. <br />{" "} */}
+                      showcases the class and timeless elegance of this prized
+                      wood through stunning design patterns. <br />
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -119,10 +121,27 @@ export default function ProductsHilight() {
                       >
                         Teak flooring
                       </span>{" "}
-                      features sturdy, robust boards that are ideal for creating
+                      {/* features sturdy, robust boards that are ideal for creating
                       beautiful, long-lasting home interiors. Teak Decking is
                       effective resistant water, rot, and insects when used
-                      outdoors. It's ideal for decks, patios, and poolsides
+                      outdoors. It's ideal for decks, patios, and poolsides */}
+                      features sturdy, robust boards for generations-long beauty
+                      and durability. <br />
+                      <span
+                        style={{
+                          textTransform: "uppercase",
+                          fontWeight: "bold",
+                          color: "var(--tecture-white)",
+                        }}
+                      >
+                        Teak Decking
+                      </span>{" "}
+                      {/* features sturdy, robust boards that are ideal for creating
+                      beautiful, long-lasting home interiors. Teak Decking is
+                      effective resistant water, rot, and insects when used
+                      outdoors. It's ideal for decks, patios, and poolsides */}
+                      naturally resists water, rot, and insects. The supreme
+                      choice for decks, patios, and poolside.
                     </p>
                     <div
                       className="btn-box"
@@ -187,10 +206,14 @@ export default function ProductsHilight() {
                       >
                         Teak cladding
                       </span>{" "}
-                      adds natural beauty and warmth to any wall. It's a stylish
+                      {/* adds natural beauty and warmth to any wall. It's a stylish
                       and durable solution for home design, perfect for feature
                       walls, ceilings, headboards, indoor paneling, and feature
-                      walls in living rooms, bedrooms, and lobbies.
+                      walls in living rooms, bedrooms, and lobbies. */}
+                      combines sophistication and warmth to create show-stopping
+                      feature walls, an unrivaled building facade, or ceilings
+                      touched by refinement. With renowned durability, your teak
+                      walls will be low-maintenance and long-lasting.
                     </p>
                     <div
                       className="btn-box"
@@ -250,8 +273,13 @@ export default function ProductsHilight() {
                         lineHeight: "26px",
                       }}
                     >
-                      Our Premium Teak Wood Boards are strong and stylish. They
-                      are ideal for{" "}
+                      {/* Our Premium Teak Wood Boards are strong and stylish. They
+                      are ideal for{" "} */}
+                      Premium Teak Wood Boards are radiant with the fully
+                      displayed patterns and colors exclusively found in real
+                      Thai teak. This beauty combined with impressive natural
+                      strength and famous durability makes teak sawn timber the
+                      wood of choice for{" "}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -262,8 +290,8 @@ export default function ProductsHilight() {
                         furniture, structural applications, and built-in
                         projects,
                       </span>{" "}
-                      providing durability, stability, and a sophisticated
-                      appearance for any project.
+                      {/* providing durability, stability, and a sophisticated
+                      appearance for any project. */}
                     </p>
                     <div
                       className="btn-box"
@@ -328,12 +356,18 @@ export default function ProductsHilight() {
                       >
                         Teak Finger Jointed Boards
                       </span>{" "}
-                      offer excellent strength and stability due to their
+                      {/* offer excellent strength and stability due to their
                       finger-jointed design. With their longer lengths, they are
                       ideal for demanding applications like extended
                       countertops, large tabletops, stair treads, or continuous
                       wall panels, providing seamless beauty and reliable
-                      performance.
+                      performance. */}
+                      are engineered with a finger-jointed design to increase
+                      strength, stability, and size. With longer lengths and
+                      enhanced strength, they are a favorite for demanding
+                      applications like countertops, large tabletops, stair
+                      treads, or continuous wall panels, providing a rich beauty
+                      combined with unmatched reliability.
                     </p>
                     <div
                       className="btn-box"
@@ -396,9 +430,11 @@ export default function ProductsHilight() {
                         lineHeight: "26px",
                       }}
                     >
-                      {" "}
+                      {/* {" "}
                       We are supplying various species of tropical hardwoods for
-                      projects of any complexity.{" "}
+                      projects of any complexity.{" "} */}
+                      We supply tropical hardwoods for projects of any
+                      complexity.
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -418,11 +454,17 @@ export default function ProductsHilight() {
                       >
                         YELLOW BALAU{" "}
                       </span>
-                      from Malaysia are the long-lasting, weather-resistant
+                      {/* from Malaysia are the long-lasting, weather-resistant
                       hardwoods suitable for both indoor and outdoor use.
                       Reddish Merbau decking is suitable for patios, walkways,
                       and high-traffic areas. Durable Yellow Balau cladding
                       provides warm golden tones to the walls while keeping them
+                      protected from the weather. */}
+                      from Malaysia are the long-lasting, weather-resistant
+                      hardwoods for excellence both indoors and outdoors.
+                      Reddish Merbau decking makes stunning patios, walkways,
+                      and high-traffic areas. Durable Yellow Balau cladding
+                      brings soft golden tones to walls while keeping them
                       protected from the weather.
                     </p>
                     <div

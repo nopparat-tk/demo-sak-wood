@@ -12,7 +12,7 @@ export default function Menu() {
           <Link href="/">Home </Link>
         </li>
         <li>
-          <Link href="teak">Thai Teak Products</Link>
+          <Link href="thai-teak">Thai Teak Products</Link>
         </li>
         <li>
           <Link href="hardwoods">Hardwoods Products</Link>
