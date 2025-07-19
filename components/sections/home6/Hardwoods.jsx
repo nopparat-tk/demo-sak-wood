@@ -27,21 +27,21 @@ export default function hardwoods() {
         <div className="about-three__shape1">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/site-footer-two-shape-1.png"
+            src="/assets/images/shapes/site-footer-two-shape-1.png"
             alt="Shape"
           />
         </div>
         <div className="about-three__shape2">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/site-footer-two-shape-2.png"
+            src="/assets/images/shapes/site-footer-two-shape-2.png"
             alt="Shape"
           />
         </div>
         <div className="about-three__shape3">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/about-v1-shape1.png"
+            src="/assets/images/shapes/about-v1-shape1.png"
             alt="Shape"
           />
         </div>
@@ -56,7 +56,7 @@ export default function hardwoods() {
                 >
                   <div className="service-details__right">
                     <div className="service-details__img">
-                      <img src="assets/images/services/merbau-hp.png" alt="" />
+                      <img src="/assets/images/services/merbau-hp.png" alt="" />
                     </div>
                     <h3 className="service-details__title-1">
                       {t("merbau.title")}
@@ -70,7 +70,7 @@ export default function hardwoods() {
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <img
-                          src="assets/images/services/merbau-characteristics.png"
+                          src="/assets/images/services/merbau-characteristics.png"
                           alt=""
                         />
                       </div>
@@ -128,7 +128,7 @@ export default function hardwoods() {
                   <div className="service-details__right">
                     <div className="service-details__img">
                       <img
-                        src="assets/images/services/yellow-balau-hp.png"
+                        src="/assets/images/services/yellow-balau-hp.png"
                         alt=""
                       />
                     </div>
@@ -140,7 +140,7 @@ export default function hardwoods() {
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <img
-                          src="assets/images/services/yellow-balau-characteristics.png"
+                          src="/assets/images/services/yellow-balau-characteristics.png"
                           alt=""
                         />
                       </div>

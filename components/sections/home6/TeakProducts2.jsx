@@ -51,65 +51,65 @@ const swiperOptions = {
 const slidesData = [
   {
     title: "Parquet",
-    img: "assets/images/products/Parquet.png",
+    img: "/assets/images/products/Parquet.png",
     desc: "Create beautiful indoor floors with attractive designs and outstanding strength. Teak Parquet is a highly durable option that provides timeless luxury to any room.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-parquet.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-parquet.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Flooring",
-    img: "assets/images/products/Floorboard.png",
+    img: "/assets/images/products/Floorboard.png",
     desc: "Our durable and attractive teak floorboards offer reliable and beautiful flooring for your home or business. Perfectly suited for high-traffic areas, they provide both performance and timeless charm.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-flooring.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-flooring.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Decking",
-    img: "assets/images/products/Decking.png",
+    img: "/assets/images/products/Decking.png",
     desc: "Our teak decking is designed for outdoor use and resists water, rot, and insects. It remains gorgeous for years, resulting in magnificent decks, patios, balconies, and poolside areas.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-decking.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-decking.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Cladding",
-    img: "assets/images/products/Cladding.png",
+    img: "/assets/images/products/Cladding.png",
     desc: "Real teak cladding adds beauty, allure, and opulence to any wall or ceiling. Create a warm and inviting atmosphere for rooms you won't want to leave.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-cladding.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-cladding.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Boards",
-    img: "assets/images/products/Timber.png",
+    img: "/assets/images/products/Timber.png",
     desc: "Our solid teak wood boards are as attractive as they are functional. They give a foundation that is beyond compare for all forms of fine woodworking, from custom furniture to elaborate interior elements.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Finger Jointed",
-    img: "assets/images/products/Finger-Joint.png",
+    img: "/assets/images/products/Finger-Joint.png",
     desc: "Finger jointed teak boards provide excellent strength and extremely long lengths. They are great for lengthy countertops, massive tabletops, stair treads, and other large-scale projects that demand solidity.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   {
     title: "Skirting",
-    img: "assets/images/products/Skirtin.png",
+    img: "/assets/images/products/Skirtin.png",
     desc: "Fulfill a room's potential with detailed perfection from the finest teak skirting boards. Not just a sturdy protective border, teak skirting also offers the finishing touch of refinement and beauty.",
     lightbox: {
-      src: "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
-      downloadUrl: "assets/images/pricelist/sakw-teak-pricelist.pdf",
+      src: "/assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png",
+      downloadUrl: "/assets/images/pricelist/sakw-teak-pricelist.pdf",
     },
   },
   // Add more slides as needed, each with its own lightbox image
@@ -124,7 +124,7 @@ export default function TeakProducts2() {
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="container">
@@ -153,7 +153,7 @@ export default function TeakProducts2() {
                         className="testimonial-two__single-shape-1"
                         style={{
                           backgroundImage:
-                            "url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                            "url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                         }}
                       ></div>
                       <div className="testimonial-two__image">
@@ -207,7 +207,7 @@ export default function TeakProducts2() {
         <div className="btn-box mt-1 d-flex justify-content-center">
           <a
             className="dwn-btn"
-            href="assets/images/pricelist/sakw-teak-pricelist.pdf"
+            href="/assets/images/pricelist/sakw-teak-pricelist.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"

@@ -56,13 +56,13 @@ export default function Showcase() {
           className="services-three__bg"
           style={{
             backgroundImage:
-              " url(assets/images/shapes/site-footer-shape-1.jpg)",
+              " url(/assets/images/shapes/site-footer-shape-1.jpg)",
           }}
         ></div>
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="container">
@@ -83,7 +83,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-1.png"
+                      src="/assets/images/resources/showcase-1.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -109,7 +109,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-2.png"
+                      src="/assets/images/resources/showcase-2.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -134,7 +134,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-3.png"
+                      src="/assets/images/resources/showcase-3.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -160,7 +160,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-4.png"
+                      src="/assets/images/resources/showcase-4.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -186,7 +186,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-5.png"
+                      src="/assets/images/resources/showcase-5.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -212,7 +212,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-1.png"
+                      src="/assets/images/resources/showcase-1.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -238,7 +238,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-2.png"
+                      src="/assets/images/resources/showcase-2.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -263,7 +263,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-3.png"
+                      src="/assets/images/resources/showcase-3.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -289,7 +289,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-4.png"
+                      src="/assets/images/resources/showcase-4.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">
@@ -315,7 +315,7 @@ export default function Showcase() {
                 <div className="single-service-style4">
                   <div className="img-box">
                     <img
-                      src="assets/images/resources/showcase-5.png"
+                      src="/assets/images/resources/showcase-5.png"
                       alt="Image"
                     />
                     <div className="overlay-icon">

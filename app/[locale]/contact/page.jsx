@@ -108,13 +108,13 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={4} footerStyle={4}>
+      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Contact Us">
         {/*Page Header Start*/}
         <section className="page-header">
           <div
             className="page-header__bg"
             style={{
-              backgroundImage: " url(assets/images/backgrounds/contact.png)",
+              backgroundImage: " url(/assets/images/backgrounds/contact.png)",
             }}
           ></div>
           <div className="container">
@@ -209,7 +209,8 @@ export default function Home() {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage:
+                " url(/assets/images/shapes/section-shape-1.png)",
             }}
           ></div>
           <div className="container">

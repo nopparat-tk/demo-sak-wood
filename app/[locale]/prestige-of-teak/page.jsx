@@ -13,11 +13,11 @@ export default function PrestigeOfTeak() {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const images = [
-    { src: "assets/images/showcase/prestige-of-teak-2.png" },
-    { src: "assets/images/showcase/prestige-of-teak-3.png" },
-    { src: "assets/images/showcase/prestige-of-teak-4.png" },
-    { src: "assets/images/showcase/prestige-of-teak-5.png" },
-    { src: "assets/images/showcase/prestige-of-teak-6.png" },
+    { src: "/assets/images/showcase/prestige-of-teak-2.png" },
+    { src: "/assets/images/showcase/prestige-of-teak-3.png" },
+    { src: "/assets/images/showcase/prestige-of-teak-4.png" },
+    { src: "/assets/images/showcase/prestige-of-teak-5.png" },
+    { src: "/assets/images/showcase/prestige-of-teak-6.png" },
   ];
 
   const handleImagePopup = (i) => {
@@ -33,7 +33,8 @@ export default function PrestigeOfTeak() {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage:
+                " url(/assets/images/shapes/section-shape-1.png)",
             }}
           ></div>
           <div className="container">
@@ -43,7 +44,10 @@ export default function PrestigeOfTeak() {
               </h2>
             </div>
             <div className="project-details__img">
-              <img src="assets/images/showcase/prestige-of-teak-1.png" alt="" />
+              <img
+                src="/assets/images/showcase/prestige-of-teak-1.png"
+                alt=""
+              />
             </div>
             <div className="project-details__content">
               <h3 className="project-details__title-1">
@@ -73,7 +77,7 @@ export default function PrestigeOfTeak() {
                   <div className="col-xl-6 col-lg-6">
                     {/* <div className="project-details__img-box-img">
                       <img
-                        src="assets/images/showcase/prestige-of-teak-2.png"
+                        src="/assets/images/showcase/prestige-of-teak-2.png"
                         alt=""
                       />
                     </div> */}
@@ -168,7 +172,7 @@ export default function PrestigeOfTeak() {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
             }}
           ></div>
           <div className="container">
@@ -180,7 +184,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-1.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-1.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -189,7 +193,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-2.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-2.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -198,7 +202,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-3.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-3.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -207,7 +211,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-4.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-4.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -216,7 +220,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-5.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-5.png" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -225,7 +229,7 @@ export default function PrestigeOfTeak() {
                 <div className="item">
                   <div className="brand-one__img">
                     <Link href="#">
-                      <img src="assets/images/brand/brand-1-6.png" alt="" />
+                      <img src="/assets/images/brand/brand-1-6.png" alt="" />
                     </Link>
                   </div>
                 </div>

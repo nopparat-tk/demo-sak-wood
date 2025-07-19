@@ -7,7 +7,7 @@ export default function Breadcrumb1() {
         <div
           className="page-header__bg"
           style={{
-            backgroundImage: " url(assets/images/backgrounds/teak-cover.png)",
+            backgroundImage: " url(/assets/images/backgrounds/teak-cover.png)",
           }}
         ></div>
         <div className="container">

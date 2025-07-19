@@ -93,7 +93,7 @@ export default function Whychoose() {
           className="whychoose__bg jarallax"
           style={{
             backgroundImage:
-              " url(assets/images/backgrounds/whychoose-cover.png)",
+              " url(/assets/images/backgrounds/whychoose-cover.png)",
           }}
         ></div>
         <div className="container">

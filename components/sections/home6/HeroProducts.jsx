@@ -21,7 +21,10 @@ export default function HeroProduct() {
       {/*About Three Start */}
       <section
         className="welcome-style1"
-        style={{ backgroundColor: "#072b31" }}
+        style={{
+          backgroundColor: "#072b31",
+          backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
+        }}
       >
         <div className="container">
           <div
@@ -95,9 +98,9 @@ export default function HeroProduct() {
                   style={{ top: "15px" }}
                 >
                   <div className="about-three__img">
-                    <img src="assets/images/resources/hilight-1.png" alt="" />
+                    <img src="/assets/images/resources/hilight-1.png" alt="" />
                     <div className="about-three__experience-box-left">
-                      <img src="assets/images/backgrounds/teak-1.png" alt="" />
+                      <img src="/assets/images/backgrounds/teak-1.png" alt="" />
                     </div>
                   </div>
                 </div>

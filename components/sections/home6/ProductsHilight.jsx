@@ -34,12 +34,12 @@ export default function ProductsHilight() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/flooring-solutions.png"
+                        src="/assets/images/products/highlight/flooring-solutions.png"
                         alt=""
                       />
                     </div>
@@ -119,12 +119,12 @@ export default function ProductsHilight() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/wall-panels.png"
+                        src="/assets/images/products/highlight/wall-panels.png"
                         alt=""
                       />
                     </div>
@@ -191,11 +191,11 @@ export default function ProductsHilight() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
-                      <img src="assets/images/products/Timber.png" alt="" />
+                      <img src="/assets/images/products/Timber.png" alt="" />
                     </div>
                     <h3
                       className="testimonial-two__name"
@@ -253,12 +253,12 @@ export default function ProductsHilight() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/Finger-Joint.png"
+                        src="/assets/images/products/Finger-Joint.png"
                         alt=""
                       />
                     </div>
@@ -325,12 +325,12 @@ export default function ProductsHilight() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/highlight/hardwoods.png"
+                        src="/assets/images/products/highlight/hardwoods.png"
                         alt=""
                       />
                     </div>

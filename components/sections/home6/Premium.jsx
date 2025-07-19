@@ -11,13 +11,13 @@ export default function Premium() {
           className="services-three__bg"
           style={{
             backgroundImage:
-              " url(assets/images/shapes/site-footer-shape-1.jpg)",
+              " url(/assets/images/shapes/site-footer-shape-1.jpg)",
           }}
         ></div>
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="container">
@@ -34,7 +34,7 @@ export default function Premium() {
             >
               <div className="feature-two__single">
                 <div className="services-three__img">
-                  <img src="assets/images/resources/feature-3.png" alt="" />
+                  <img src="/assets/images/resources/feature-3.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">{t("feature1.title")}</h3>
                 <p className="feature-two__text">{t("feature1.desc")}</p>
@@ -53,7 +53,7 @@ export default function Premium() {
             >
               <div className="feature-two__single">
                 <div className="services-three__img">
-                  <img src="assets/images/resources/feature-5.png" alt="" />
+                  <img src="/assets/images/resources/feature-5.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">{t("feature2.title")}</h3>
                 <p className="feature-two__text">{t("feature2.desc")}</p>
@@ -72,7 +72,7 @@ export default function Premium() {
             >
               <div className="feature-two__single last-child">
                 <div className="services-three__img">
-                  <img src="assets/images/resources/feature-4.png" alt="" />
+                  <img src="/assets/images/resources/feature-4.png" alt="" />
                 </div>
                 <h3 className="feature-two__title">{t("feature3.title")}</h3>
                 <p className="feature-two__text">{t("feature3.desc")}</p>

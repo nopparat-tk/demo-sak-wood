@@ -21,7 +21,7 @@ export default function Header4({ scroll, handleMobileMenu }) {
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
             opacity: "0.4",
           }}
         ></div>
@@ -31,7 +31,7 @@ export default function Header4({ scroll, handleMobileMenu }) {
               <div className="main-menu-two__left">
                 <div className="main-menu-two__logo">
                   <Link href="/">
-                    <img src="assets/images/resources/logo-1.svg" alt="" />
+                    <img src="/assets/images/resources/logo-1.svg" alt="" />
                   </Link>
                 </div>
               </div>
@@ -72,7 +72,8 @@ export default function Header4({ scroll, handleMobileMenu }) {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage:
+                " url(/assets/images/shapes/section-shape-1.png)",
               opacity: "0.5",
             }}
           ></div>
@@ -86,7 +87,7 @@ export default function Header4({ scroll, handleMobileMenu }) {
                   >
                     <Link href="/">
                       <img
-                        src="assets/images/resources/logo-1.svg"
+                        src="/assets/images/resources/logo-1.svg"
                         style={{ width: "168px" }}
                         alt=""
                       />

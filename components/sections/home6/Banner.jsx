@@ -53,7 +53,7 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    " url(assets/images/backgrounds/slider-1-1.png)",
+                    " url(/assets/images/backgrounds/slider-1-1.png)",
                 }}
               ></div>
               {/* /.slider-one__bg */}
@@ -87,7 +87,7 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    " url(assets/images/backgrounds/slider-1-2.png)",
+                    " url(/assets/images/backgrounds/slider-1-2.png)",
                 }}
               ></div>
 
@@ -116,7 +116,7 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    " url(assets/images/backgrounds/slider-1-3.png)",
+                    " url(/assets/images/backgrounds/slider-1-3.png)",
                 }}
               ></div>
 
@@ -145,7 +145,7 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    " url(assets/images/backgrounds/slider-1-4.png)",
+                    " url(/assets/images/backgrounds/slider-1-4.png)",
                 }}
               ></div>
 
@@ -175,7 +175,7 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    " url(assets/images/backgrounds/slider-1-5.png)",
+                    " url(/assets/images/backgrounds/slider-1-5.png)",
                 }}
               ></div>
 
@@ -210,7 +210,7 @@ export default function Banner() {
       {/*Main Sllider Start */}
       <ModalVideo
         channel="custom"
-        url="assets/images/video/sakw-introduction.mp4"
+        url="/assets/images/video/sakw-introduction.mp4"
         autoplay
         isOpen={isOpen}
         onClose={() => setOpen(false)}

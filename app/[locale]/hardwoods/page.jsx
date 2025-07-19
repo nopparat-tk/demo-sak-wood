@@ -77,11 +77,12 @@ export default function hardwoods() {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage:
+                " url(/assets/images/shapes/section-shape-1.png)",
             }}
           ></div>
           <div className="about-two__shape-1 float-bob-x">
-            <img src="assets/images/shapes/about-two-shape-1.png" alt="" />
+            <img src="/assets/images/shapes/about-two-shape-1.png" alt="" />
           </div>
           <div className="container">
             <div className="row">
@@ -216,7 +217,7 @@ export default function hardwoods() {
                 <div className="about-two__right">
                   <div className="about-two__img">
                     <img
-                      src="assets/images/resources/hardwoods-hl.png"
+                      src="/assets/images/resources/hardwoods-hl.png"
                       alt=""
                     />
                   </div>

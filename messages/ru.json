@@ -557,5 +557,13 @@
       "link2": "Политика использования файлов cookie",
       "link3": "ВЕРНУТЬСЯ К НАЧАЛУ"
     }
+  },
+
+  "--------------------------- Error": "Page ---------------------------",
+
+  "Error404": {
+    "title": "Page Not Found",
+    "imageAlt": "A graphic indicating a 404 error has occurred",
+    "buttonText": "Back To Home"
   }
 }

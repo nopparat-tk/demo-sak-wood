@@ -8,7 +8,7 @@ export default function SellingPoint() {
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="container">

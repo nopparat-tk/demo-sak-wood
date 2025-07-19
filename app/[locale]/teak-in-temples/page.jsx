@@ -12,11 +12,11 @@ export default function TeakInTemples() {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const images = [
-    { src: "assets/images/showcase/teak-in-temples-2.png" },
-    { src: "assets/images/showcase/teak-in-temples-3.png" },
-    { src: "assets/images/showcase/teak-in-temples-4.png" },
-    { src: "assets/images/showcase/teak-in-temples-5.png" },
-    { src: "assets/images/showcase/teak-in-temples-6.png" },
+    { src: "/assets/images/showcase/teak-in-temples-2.png" },
+    { src: "/assets/images/showcase/teak-in-temples-3.png" },
+    { src: "/assets/images/showcase/teak-in-temples-4.png" },
+    { src: "/assets/images/showcase/teak-in-temples-5.png" },
+    { src: "/assets/images/showcase/teak-in-temples-6.png" },
   ];
 
   const handleImagePopup = (i) => {
@@ -32,12 +32,13 @@ export default function TeakInTemples() {
           <div
             className="section-shape-1"
             style={{
-              backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+              backgroundImage:
+                " url(/assets/images/shapes/section-shape-1.png)",
             }}
           ></div>
           <div className="container">
             <div className="project-details__img">
-              <img src="assets/images/showcase/teak-in-temples-1.png" alt="" />
+              <img src="/assets/images/showcase/teak-in-temples-1.png" alt="" />
             </div>
             <div className="project-details__content">
               <h3 className="project-details__title-1">

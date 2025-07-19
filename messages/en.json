@@ -556,5 +556,13 @@
       "link2": "Cookies Policy",
       "link3": "Back to Top"
     }
+  },
+
+  "--------------------------- Error": "Page ---------------------------",
+
+  "Error404": {
+    "title": "Page Not Found",
+    "imageAlt": "A graphic indicating a 404 error has occurred",
+    "buttonText": "Back To Home"
   }
 }

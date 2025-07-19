@@ -51,7 +51,8 @@ export default function BalauProducts() {
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage:
+              " url(/assets/images/shapes/counter-one-shape1.png)",
           }}
         ></div>
         <div className="container">
@@ -80,12 +81,12 @@ export default function BalauProducts() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/balau-decking.png"
+                        src="/assets/images/products/balau-decking.png"
                         alt=""
                       />
                     </div>
@@ -141,12 +142,12 @@ export default function BalauProducts() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/balau-cladding.png"
+                        src="/assets/images/products/balau-cladding.png"
                         alt=""
                       />
                     </div>
@@ -202,12 +203,12 @@ export default function BalauProducts() {
                       className="testimonial-two__single-shape-1"
                       style={{
                         backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
+                          " url(/assets/images/shapes/testimonial-two-single-shape-1.png)",
                       }}
                     ></div>
                     <div className="testimonial-two__image">
                       <img
-                        src="assets/images/products/balau-boards.png"
+                        src="/assets/images/products/balau-boards.png"
                         alt=""
                       />
                     </div>

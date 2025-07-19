@@ -16,28 +16,28 @@ export default function About() {
         <div className="about-three__shape1">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/site-footer-two-shape-1.png"
+            src="/assets/images/shapes/site-footer-two-shape-1.png"
             alt="Shape"
           />
         </div>
         <div className="about-three__shape2">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/site-footer-two-shape-2.png"
+            src="/assets/images/shapes/site-footer-two-shape-2.png"
             alt="Shape"
           />
         </div>
         <div className="about-three__shape3">
           <img
             className="float-bob-x"
-            src="assets/images/shapes/about-v1-shape1.png"
+            src="/assets/images/shapes/about-v1-shape1.png"
             alt="Shape"
           />
         </div>
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="container">
@@ -100,7 +100,7 @@ export default function About() {
                 data-wow-duration="2500ms"
               >
                 <div className="about-three__img">
-                  <img src="assets/images/resources/welcome-4.png" alt="" />
+                  <img src="/assets/images/resources/welcome-4.png" alt="" />
                 </div>
               </div>
             </div>
