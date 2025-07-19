@@ -1,7 +1,10 @@
 "use client";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 export default function Whychoose() {
+  const t = useTranslations("whyChoose");
+
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [massege, setMassege] = useState("");
@@ -99,20 +102,14 @@ export default function Whychoose() {
               <div className="slogan-one__content text-center">
                 <div className="title">
                   <h3 style={{ fontWeight: "bold", letterSpacing: "0.025em" }}>
-                    Get a Call Back from Our Experts
+                    {t("title")}
                   </h3>
-                  <h4>
-                    Seeking the ideal hardwood timber for your projects? <br />
-                    We’re here to help!
-                  </h4>
+                  <h4>{t("subtitle1")}</h4>
                   <p>
-                    Whether for{" "}
-                    <span style={{ fontWeight: "bold" }}>
-                      expert guidance, custom sizing, or a personalized
-                      consultation.
-                    </span>{" "}
+                    {t("desc1")}{" "}
+                    <span style={{ fontWeight: "bolder" }}>{t("desc2")}</span>{" "}
                     <span style={{ fontWeight: "bold" }}></span> <br />
-                    Let our team guide your journey every step of the way.
+                    {t("desc3")}
                   </p>
                 </div>
               </div>
@@ -134,7 +131,7 @@ export default function Whychoose() {
                           // name="name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          placeholder="Your Name"
+                          placeholder={t("placeholder.name")}
                           required=""
                         />
                         {nameError && (
@@ -153,15 +150,8 @@ export default function Whychoose() {
                               .replace(/[^0-9,+]/g, "")
                               .slice(0, 20);
                             setPhone(value);
-                            // if (value.length > 0 && value.length < 10) {
-                            //   setPhoneError(
-                            //     "Phone number must be at least 10 digits."
-                            //   );
-                            // } else {
-                            //   setPhoneError(null);
-                            // }
                           }}
-                          placeholder="Your Phone No."
+                          placeholder={t("placeholder.phone")}
                         />
                         {phoneError && (
                           <p className="error-message">{phoneError}</p>
@@ -181,7 +171,7 @@ export default function Whychoose() {
                           value={massege}
                           onChange={(e) => setMassege(e.target.value)}
                           maxLength={84}
-                          placeholder="Your Short Messege"
+                          placeholder={t("placeholder.message")}
                           required=""
                         ></input>
                         {massegeError && (
@@ -198,7 +188,7 @@ export default function Whychoose() {
                             fontWeight: "800",
                           }}
                         >
-                          {submitting ? "Sending..." : "Request a Callback"}
+                          {submitting ? "Sending..." : [t("button")]}
                           <span className="icon-up-right-arrow"></span>
                         </button>
                         {success && (

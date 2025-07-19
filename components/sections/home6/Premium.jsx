@@ -1,6 +1,8 @@
 "use client";
-import Link from "next/link";
-export default function Services() {
+
+import { useTranslations } from "next-intl";
+export default function Premium() {
+  const t = useTranslations("premium");
   return (
     <>
       {/*Services Three Start */}
@@ -21,7 +23,7 @@ export default function Services() {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
-              Our Premium <br /> Tropical Hardwoods
+              {t("title1")} <br /> {t("title2")}
             </h2>
           </div>
           <div className="row">
@@ -34,16 +36,8 @@ export default function Services() {
                 <div className="services-three__img">
                   <img src="assets/images/resources/feature-3.png" alt="" />
                 </div>
-                <h3 className="feature-two__title">
-                  {/* <Link href="/" style={{ textTransform: "uppercase" }}>
-                    Built for strength
-                  </Link> */}
-                  Built for strength
-                </h3>
-                <p className="feature-two__text">
-                  Exceptional strength and <br /> durability - designed for
-                  tough jobs <br /> and built to last generations.
-                </p>
+                <h3 className="feature-two__title">{t("feature1.title")}</h3>
+                <p className="feature-two__text">{t("feature1.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>
@@ -61,16 +55,8 @@ export default function Services() {
                 <div className="services-three__img">
                   <img src="assets/images/resources/feature-5.png" alt="" />
                 </div>
-                <h3 className="feature-two__title">
-                  {/* <Link href="#" style={{ textTransform: "uppercase" }}>
-                    Naturally Appealing
-                  </Link> */}
-                  Naturally Appealing
-                </h3>
-                <p className="feature-two__text">
-                  Luxurious interiors, exterior and architectural ideas benefit
-                  from rich colors and distinctive grain patterns.
-                </p>
+                <h3 className="feature-two__title">{t("feature2.title")}</h3>
+                <p className="feature-two__text">{t("feature2.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>
@@ -88,16 +74,8 @@ export default function Services() {
                 <div className="services-three__img">
                   <img src="assets/images/resources/feature-4.png" alt="" />
                 </div>
-                <h3 className="feature-two__title">
-                  {/* <Link href="#" style={{ textTransform: "uppercase" }}>
-                    Rooted in Integrity
-                  </Link> */}
-                  Rooted in Integrity
-                </h3>
-                <p className="feature-two__text">
-                  Responsibly sourced, each piece reflects a legacy of regional
-                  workmanship and long-term value.
-                </p>
+                <h3 className="feature-two__title">{t("feature3.title")}</h3>
+                <p className="feature-two__text">{t("feature3.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>

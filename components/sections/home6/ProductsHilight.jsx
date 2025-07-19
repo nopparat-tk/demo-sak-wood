@@ -1,49 +1,10 @@
 "use client";
-import Link from "next/link";
-import ModalVideo from "react-modal-video";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 
-const swiperOptions = {
-  modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 3,
-  spaceBetween: 30,
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
-  loop: true,
-
-  // Navigation
-  navigation: {
-    nextEl: ".srn",
-    prevEl: ".srp",
-  },
-
-  // Pagination
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    575: {
-      slidesPerView: 1,
-    },
-    767: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 2,
-    },
-    1199: {
-      slidesPerView: 2,
-    },
-    1350: {
-      slidesPerView: 2,
-    },
-  },
-};
 export default function ProductsHilight() {
+  const t = useTranslations("hilight");
   return (
     <>
       {/*Testimonial Two Start*/}
@@ -51,7 +12,7 @@ export default function ProductsHilight() {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
-              Our Products
+              {t("title")}
             </h2>
           </div>
           <div
@@ -90,7 +51,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Flooring Solutions</Link>
+                      <Link href="#whychoose">{t("flooring.title")}</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -106,12 +67,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak Parquet
+                        {t("flooring.desc.1")}
                       </span>{" "}
-                      {/* is an excellent choice for creating stunning indoor
-                      designs. It looks nice and is really resilient. <br />{" "} */}
-                      showcases the class and timeless elegance of this prized
-                      wood through stunning design patterns. <br />
+                      {t("flooring.desc.2")}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -119,14 +77,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak flooring
+                        {t("flooring.desc.3")}
                       </span>{" "}
-                      {/* features sturdy, robust boards that are ideal for creating
-                      beautiful, long-lasting home interiors. Teak Decking is
-                      effective resistant water, rot, and insects when used
-                      outdoors. It's ideal for decks, patios, and poolsides */}
-                      features sturdy, robust boards for generations-long beauty
-                      and durability. <br />
+                      {t("flooring.desc.4")}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -134,14 +87,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak Decking
+                        {t("flooring.desc.5")}
                       </span>{" "}
-                      {/* features sturdy, robust boards that are ideal for creating
-                      beautiful, long-lasting home interiors. Teak Decking is
-                      effective resistant water, rot, and insects when used
-                      outdoors. It's ideal for decks, patios, and poolsides */}
-                      naturally resists water, rot, and insects. The supreme
-                      choice for decks, patios, and poolside.
+                      {t("flooring.desc.6")}
                     </p>
                     <div
                       className="btn-box"
@@ -150,7 +98,7 @@ export default function ProductsHilight() {
                       }}
                     >
                       <Link href="#whychoose" className="thm-btn">
-                        Get a consultation{" "}
+                        {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -188,7 +136,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Wall Panels</Link>
+                      <Link href="#whychoose">{t("wall.title")}</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -204,16 +152,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak cladding
+                        {t("wall.desc.1")}
                       </span>{" "}
-                      {/* adds natural beauty and warmth to any wall. It's a stylish
-                      and durable solution for home design, perfect for feature
-                      walls, ceilings, headboards, indoor paneling, and feature
-                      walls in living rooms, bedrooms, and lobbies. */}
-                      combines sophistication and warmth to create show-stopping
-                      feature walls, an unrivaled building facade, or ceilings
-                      touched by refinement. With renowned durability, your teak
-                      walls will be low-maintenance and long-lasting.
+                      {t("wall.desc.2")}
                     </p>
                     <div
                       className="btn-box"
@@ -222,7 +163,7 @@ export default function ProductsHilight() {
                       }}
                     >
                       <Link href="#whychoose" className="thm-btn">
-                        Get a consultation{" "}
+                        {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -264,7 +205,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Teak Sawn Timbers</Link>
+                      <Link href="#whychoose">{t("timbers.title")}</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -273,13 +214,7 @@ export default function ProductsHilight() {
                         lineHeight: "26px",
                       }}
                     >
-                      {/* Our Premium Teak Wood Boards are strong and stylish. They
-                      are ideal for{" "} */}
-                      Premium Teak Wood Boards are radiant with the fully
-                      displayed patterns and colors exclusively found in real
-                      Thai teak. This beauty combined with impressive natural
-                      strength and famous durability makes teak sawn timber the
-                      wood of choice for{" "}
+                      {t("timbers.desc.1")}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -287,11 +222,8 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        furniture, structural applications, and built-in
-                        projects,
+                        {t("timbers.desc.2")}
                       </span>{" "}
-                      {/* providing durability, stability, and a sophisticated
-                      appearance for any project. */}
                     </p>
                     <div
                       className="btn-box"
@@ -300,7 +232,7 @@ export default function ProductsHilight() {
                       }}
                     >
                       <Link href="#whychoose" className="thm-btn">
-                        Get a consultation{" "}
+                        {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -338,7 +270,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Finger-Joint Products</Link>
+                      <Link href="#whychoose">{t("finger.title")}</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -354,20 +286,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        Teak Finger Jointed Boards
+                        {t("finger.desc.1")}
                       </span>{" "}
-                      {/* offer excellent strength and stability due to their
-                      finger-jointed design. With their longer lengths, they are
-                      ideal for demanding applications like extended
-                      countertops, large tabletops, stair treads, or continuous
-                      wall panels, providing seamless beauty and reliable
-                      performance. */}
-                      are engineered with a finger-jointed design to increase
-                      strength, stability, and size. With longer lengths and
-                      enhanced strength, they are a favorite for demanding
-                      applications like countertops, large tabletops, stair
-                      treads, or continuous wall panels, providing a rich beauty
-                      combined with unmatched reliability.
+                      {t("finger.desc.2")}
                     </p>
                     <div
                       className="btn-box"
@@ -376,7 +297,7 @@ export default function ProductsHilight() {
                       }}
                     >
                       <Link href="#whychoose" className="thm-btn">
-                        Get a consultation{" "}
+                        {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -421,7 +342,7 @@ export default function ProductsHilight() {
                         fontSize: "24px",
                       }}
                     >
-                      <Link href="testimonials">Tropical Hardwoods</Link>
+                      <Link href="#whychoose">{t("hardwoods.title")}</Link>
                     </h3>
                     <p
                       className="testimonial-two__text"
@@ -430,11 +351,7 @@ export default function ProductsHilight() {
                         lineHeight: "26px",
                       }}
                     >
-                      {/* {" "}
-                      We are supplying various species of tropical hardwoods for
-                      projects of any complexity.{" "} */}
-                      We supply tropical hardwoods for projects of any
-                      complexity.
+                      {t("hardwoods.desc.1")}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -442,9 +359,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        MERBAU
+                        {t("hardwoods.desc.2")}
                       </span>{" "}
-                      and{" "}
+                      {t("hardwoods.desc.3")}{" "}
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -452,20 +369,9 @@ export default function ProductsHilight() {
                           color: "var(--tecture-white)",
                         }}
                       >
-                        YELLOW BALAU{" "}
+                        {t("hardwoods.desc.4")}{" "}
                       </span>
-                      {/* from Malaysia are the long-lasting, weather-resistant
-                      hardwoods suitable for both indoor and outdoor use.
-                      Reddish Merbau decking is suitable for patios, walkways,
-                      and high-traffic areas. Durable Yellow Balau cladding
-                      provides warm golden tones to the walls while keeping them
-                      protected from the weather. */}
-                      from Malaysia are the long-lasting, weather-resistant
-                      hardwoods for excellence both indoors and outdoors.
-                      Reddish Merbau decking makes stunning patios, walkways,
-                      and high-traffic areas. Durable Yellow Balau cladding
-                      brings soft golden tones to walls while keeping them
-                      protected from the weather.
+                      {t("hardwoods.desc.5")}
                     </p>
                     <div
                       className="btn-box"
@@ -474,7 +380,7 @@ export default function ProductsHilight() {
                       }}
                     >
                       <Link href="#whychoose" className="thm-btn">
-                        Get a consultation{" "}
+                        {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -483,160 +389,6 @@ export default function ProductsHilight() {
               </div>
             </div>
           </div>
-          {/* <div className="testimonial-one__top">
-            <div className="row">
-              <div className="col-xl-6">
-                <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
-                    <div
-                      className="testimonial-two__single-shape-1"
-                      style={{
-                        backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
-                      }}
-                    ></div>
-                    <div className="testimonial-two__shape-1">
-                      <img
-                        src="assets/images/shapes/testimonial-two-shape-1.png"
-                        alt=""
-                      />
-                    </div>
-                    <div className="feature-two__icon">
-                      <img
-                        src="assets/images/products/parquet.svg"
-                        alt=""
-                      ></img>
-                    </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{ marginTop: "18px", fontSize: "24px" }}
-                    >
-                      <Link href="testimonials">Teak Parquet</Link>
-                    </h3>
-
-                    <p className="testimonial-two__sub-title">
-                      A Legacy of Tangible Beauty
-                    </p>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
-                      Our parquet is the foundation of a luxurious interior. Its
-                      value lies in its substantial thickness—a mark of heirloom
-                      quality proven by time, as seen in historic landmarks like
-                      the magnificent Mrigadayavan Palace, built from the same
-                      teak over a century ago.
-                    </p>
-                    <h3 className="testimonial-two__name">
-                      16 200 - 22 800 руб / м2
-                    </h3>
-                    <div
-                      className="btn-box"
-                      style={{
-                        marginTop: "20px",
-                      }}
-                    >
-                      <Link href="about" className="thm-btn">
-                        Get a consultation{" "}
-                        <span className="icon-up-right-arrow"></span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6">
-                <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
-                    <div
-                      className="testimonial-two__single-shape-1"
-                      style={{
-                        backgroundImage:
-                          " url(assets/images/shapes/testimonial-two-single-shape-1.png)",
-                      }}
-                    ></div>
-                    <div className="testimonial-two__shape-1">
-                      <img
-                        src="assets/images/shapes/testimonial-two-shape-1.png"
-                        alt=""
-                      />
-                    </div>
-                    <div className="feature-two__icon">
-                      <img
-                        src="assets/images/products/parquet.svg"
-                        alt=""
-                      ></img>
-                    </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{ marginTop: "18px", fontSize: "24px" }}
-                    >
-                      <Link href="testimonials">Teak Parquet</Link>
-                    </h3>
-
-                    <p className="testimonial-two__sub-title">
-                      A Legacy of Tangible Beauty
-                    </p>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
-                      Our parquet is the foundation of a luxurious interior. Its
-                      value lies in its substantial thickness—a mark of heirloom
-                      quality proven by time, as seen in historic landmarks like
-                      the magnificent Mrigadayavan Palace, built from the same
-                      teak over a century ago.
-                    </p>
-                    <h3 className="testimonial-two__name">
-                      16 200 - 22 800 руб / м2
-                    </h3>
-                    <div
-                      className="btn-box"
-                      style={{
-                        marginTop: "20px",
-                      }}
-                    >
-                      <Link href="about" className="thm-btn">
-                        Get a consultation{" "}
-                        <span className="icon-up-right-arrow"></span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="btn-box mt-1 d-flex justify-content-center">
-            <a
-              className="dwn-btn"
-              href="assets/images/pricelist/sakw-teak-pricelist.pdf"
-              download
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download Full Price-List{" "}
-              <span className="fas fa-file-download"></span>
-            </a>
-          </div> */}
         </div>
       </section>
       {/*Testimonial Two End*/}

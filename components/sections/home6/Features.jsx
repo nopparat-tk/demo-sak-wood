@@ -1,5 +1,6 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 export default function Features() {
+  const t = useTranslations("features");
   return (
     <>
       {/*Feature One Start */}
@@ -26,12 +27,9 @@ export default function Features() {
                 </div>
                 <h3 className="feature-two__title">
                   {/* <Link href="">Reliable & Transparent</Link> */}
-                  Reliable & Transparent
+                  {t("feature1.title")}
                 </h3>
-                <p className="feature-two__text">
-                  Honest pricing, no hidden expenses, and dependable customer
-                  service.
-                </p>
+                <p className="feature-two__text">{t("feature1.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>
@@ -51,12 +49,9 @@ export default function Features() {
                 </div>
                 <h3 className="feature-two__title">
                   {/* <Link href="">Factory Direct Advantage</Link> */}
-                  Factory Direct Advantage
+                  {t("feature2.title")}
                 </h3>
-                <p className="feature-two__text">
-                  Factory-direct sourcing offers superior quality at competitive
-                  pricing.
-                </p>
+                <p className="feature-two__text">{t("feature2.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>
@@ -76,12 +71,9 @@ export default function Features() {
                 </div>
                 <h3 className="feature-two__title">
                   {/* <Link href="">Expert Support</Link> */}
-                  Expert Support
+                  {t("feature3.title")}
                 </h3>
-                <p className="feature-two__text">
-                  Dedicated professionals will guide your project from idea to
-                  end.
-                </p>
+                <p className="feature-two__text">{t("feature3.desc")}</p>
                 <div className="feature-two__shape-box">
                   <div className="feature-two__shape-1"></div>
                   <div className="feature-two__shape-2"></div>

@@ -1,7 +1,9 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 export default function Contact() {
+  const t = useTranslations("contact");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -146,7 +148,7 @@ export default function Contact() {
                             // name="name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
-                            placeholder="Your Name"
+                            placeholder={t("place.name")}
                             required=""
                           />
                           {nameError && (
@@ -161,7 +163,7 @@ export default function Contact() {
                             // name="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            placeholder="Email Address"
+                            placeholder={t("place.email")}
                             required=""
                           />
                           {emailError && (
@@ -188,7 +190,7 @@ export default function Contact() {
                               //   setPhoneError(null);
                               // }
                             }}
-                            placeholder="Phone Number"
+                            placeholder={t("place.phone")}
                             required=""
                           />
                           {phoneError && (
@@ -203,7 +205,7 @@ export default function Contact() {
                             // name="Subject"
                             value={subject}
                             onChange={(e) => setSubject(e.target.value)}
-                            placeholder="Subject"
+                            placeholder={t("place.subject")}
                             required=""
                           />
                           {subjectError && (
@@ -218,7 +220,7 @@ export default function Contact() {
                             value={massege}
                             onChange={(e) => setMassege(e.target.value)}
                             required=""
-                            placeholder="How can we help you? Feel free to get in touch!"
+                            placeholder={t("place.message")}
                           ></textarea>
                           {massegeError && (
                             <p className="error-message">{massegeError}</p>
@@ -231,7 +233,7 @@ export default function Contact() {
                             className="thm-btn contact-one__btn"
                             disabled={submitting}
                           >
-                            {submitting ? "Sending..." : "Submit"}
+                            {submitting ? "Sending..." : [t("button")]}
                             <span className="icon-up-right-arrow"></span>
                           </button>
                           {success && (
@@ -252,8 +254,8 @@ export default function Contact() {
               <div className="contact-one__right">
                 <div className="contact-one__right-content sec-title-animation animation-style2">
                   <h3 className="contact-one__title title-animation">
-                    Do You need Any Help? <br />
-                    Send Us a Message.
+                    {t("title")} <br />
+                    {t("subtitle")}
                   </h3>
                   <div className="contact-one__contact-info">
                     <div className="contact-one__contact-icon">
@@ -263,7 +265,7 @@ export default function Contact() {
                       <span className="icon-customer-service"></span>
                     </div>
                     <div className="contact-one__contact-number-box">
-                      <p>Call us for any inquiry</p>
+                      <p>{t("text")}</p>
                       <h5>
                         <Link href="tel:+79118880388">(+7) 911 888 03 88</Link>
                       </h5>

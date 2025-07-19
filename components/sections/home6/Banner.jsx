@@ -1,9 +1,10 @@
 "use client";
-import Link from "next/link";
+
 import ModalVideo from "react-modal-video";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -36,6 +37,8 @@ const swiperOptions = {
 export default function Banner() {
   const [isOpen, setOpen] = useState(false);
 
+  const t = useTranslations("banner");
+
   return (
     <>
       {/* Main Sllider Four Start */}
@@ -65,23 +68,14 @@ export default function Banner() {
                     </a>
                   </div>
                   <h2 className="main-slider__title">
-                    Your Source for True <br /> Tropical Wood
+                    {t("slide1.title1")} <br /> {t("slide1.title2")}
                   </h2>
                   <div
                     className="text main-slider__text"
                     style={{ paddingBottom: "10px" }}
                   >
-                    <p>Selected Premium Thai Teak & Fine Asian Hardwoods</p>
+                    {t("slide1.text")}
                   </div>
-                  {/* <div className="main-slider__btn-box">
-                              <Link
-                                 href="about"
-                                 className="thm-btn main-slider__btn"
-                              >
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                 </div>
               </div>
             </div>
@@ -102,25 +96,14 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Where Rarity
+                      {t("slide2.title1")}
                       <br />
-                      Meets <span>Artistry</span>
+                      {t("slide2.title2")} <span>{t("slide2.title3")}</span>
                     </h2>
                   </div>
                   <div className="text">
-                    <p>
-                      Each plank carries the DNA of ancient forests. Our curated
-                      collection of exotic hardwoods offers materials of
-                      unrivaled quality to transform your space into a living
-                      masterpiece.
-                    </p>
+                    <p>{t("slide2.text")}</p>
                   </div>
-                  {/* <div className="btn-box">
-                              <Link href="about" className="thm-btn">
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                 </div>
               </div>
             </div>
@@ -142,25 +125,14 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Crafting <span>Legacies,</span>
+                      {t("slide3.title1")} <span>{t("slide3.title2")}</span>
                       <br />
-                      Not Just Interiors
+                      {t("slide3.title3")}
                     </h2>
                   </div>
                   <div className="text">
-                    <p>
-                      For architects who design tomorrow’s heritage spaces. Our
-                      premium hardwoods don’t just fill a room - they define it,
-                      creating environments that resonate with sophistication
-                      and permanence.
-                    </p>
+                    <p>{t("slide3.text")}</p>
                   </div>
-                  {/* <div className="btn-box">
-                              <Link href="about" className="thm-btn">
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                 </div>
               </div>
             </div>
@@ -182,26 +154,15 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Elevated Beyound
+                      {t("slide4.title1")}
                       <br />
-                      Ordinary <span>Design</span>
+                      {t("slide4.title2")} <span>{t("slide4.title3")}</span>
                     </h2>
                   </div>
                   <div className="text">
-                    <p>
-                      When you desire far greater than average, we deliver
-                      materials that match your ambition. Our exclusive Asian
-                      hardwood collection empowers you to create spaces that
-                      become destinations.
-                    </p>
+                    <p>{t("slide4.text")}</p>
                     <br />
                   </div>
-                  {/* <div className="btn-box">
-                              <Link href="about" className="thm-btn">
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                 </div>
               </div>
             </div>
@@ -223,25 +184,14 @@ export default function Banner() {
                 <div className="main-slider-four__content">
                   <div className="title">
                     <h2>
-                      Renowned Woods
+                      {t("slide5.title1")}
                       <br />
-                      <span>Visionary</span> Design
+                      <span>{t("slide5.title2")}</span> {t("slide5.title3")}
                     </h2>
                   </div>
                   <div className="text">
-                    <p>
-                      Where the world's treasured hardwoods meet visionary
-                      design, we supply the materials. Wood of this distinction
-                      turns your blueprints into breathtaking realities,
-                      crafting architectural triumphs that speak to the soul.
-                    </p>
+                    <p>{t("slide5.text")}</p>
                   </div>
-                  {/* <div className="btn-box">
-                              <Link href="about" className="thm-btn">
-                                 More Details{" "}
-                                 <span className="icon-up-right-arrow"></span>{" "}
-                              </Link>
-                           </div> */}
                 </div>
               </div>
             </div>

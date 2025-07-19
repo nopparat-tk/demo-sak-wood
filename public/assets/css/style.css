@@ -1353,6 +1353,7 @@ a.video-popup {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   visibility: visible;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .mobile-nav__buttons {
@@ -1908,7 +1909,7 @@ a.video-popup {
   align-items: center;
   flex-wrap: wrap;
   background-color: rgba(255, 255, 255, 0.05);
-  padding: 17.5px 45px;
+  padding: 12.5px 22.5px;
   gap: 20px;
   border-radius: 10px;
 }
@@ -1972,8 +1973,8 @@ a.video-popup {
 
 .main-menu-two .main-menu__list > li,
 .stricky-header.main-menu-two .main-menu__list > li {
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main-menu-two .main-menu__list > li.dropdown > a:after {
@@ -4081,6 +4082,15 @@ a.video-popup {
 
   .site-footer__bottom-menu {
     flex-direction: column;
+  }
+
+  .top-menu li + li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .top-menu li:before {
+    display: none;
   }
 
   .site-footer__bottom-menu li + li {

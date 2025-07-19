@@ -1,21 +1,20 @@
-import Link from "next/link";
-// import { useRouter } from "next/router"
-// import { Link } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 export default function Menu() {
-  // const router = useRouter()
+  const t = useTranslations("menu");
 
   return (
     <>
       <ul className="main-menu__list">
         <li>
-          <Link href="/">Home </Link>
+          <Link href="/">{t("home")} </Link>
         </li>
         <li>
-          <Link href="thai-teak">Thai Teak Products</Link>
+          <Link href="thai-teak">{t("teak")}</Link>
         </li>
         <li>
-          <Link href="hardwoods">Hardwoods Products</Link>
+          <Link href="hardwoods">{t("hardwood")}</Link>
         </li>
         {/* <li>
                <Link href="merbau">Merbau</Link>
@@ -27,7 +26,7 @@ export default function Menu() {
                <Link href="Keruing">Keruing</Link>
             </li> */}
         <li>
-          <Link href="contact">Contact Us</Link>
+          <Link href="contact">{t("contact")}</Link>
         </li>
       </ul>
     </>

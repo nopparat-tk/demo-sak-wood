@@ -1,0 +1,561 @@
+{
+  "--------------------------- Header ---------------------------": " --------------------------- ",
+
+  "logo": {
+    "img": "assets/images/resources/logo-1.svg"
+  },
+
+  "menu": {
+    "home": "Главная",
+    "teak": "Изделия из тайского тика",
+    "hardwood": "Изделия из твердых пород древесины",
+    "contact": "Контакты"
+  },
+
+  "--------------------------- Home ---------------------------": " --------------------------- ",
+
+  "banner": {
+    "slide1": {
+      "title1": "ВАШ ИСТОЧНИК НАСТОЯЩЕЙ",
+      "title2": "ТРОПИЧЕСКОЙ ДРЕВЕСИНЫ",
+      "text": "Отборный премиальный тайский тик и ценные азиатские твёрдые породы древесины."
+    },
+    "slide2": {
+      "title1": "ГДЕ ИСКЛЮЧИТЕЛЬНОСТЬ",
+      "title2": "ОЧЕТАЕТСЯ С",
+      "title3": "МАСТЕРСТВОМ",
+      "text": "Каждая доска несет в себе ДНК древних лесов. Наша тщательно подобранная коллекция экзотических пород твердой древесины предлагает материалы непревзойденного качества, которые превратят ваше пространство в живой шедевр."
+    },
+    "slide3": {
+      "title1": "СОЗДАНИЕ",
+      "title2": "НАСЛЕДИЯ,",
+      "title3": "А НЕ ТОЛЬКО ИНТЕРЬЕРОВ",
+      "text": "Для архитекторов, которые проектируют пространства будущего, способные стать наследием. Наши высококачественные материалы из твердых пород дерева не просто заполняют помещение - они определяют его, создавая атмосферу, которая отличается изысканностью и долговечностью."
+    },
+    "slide4": {
+      "title1": "ДИЗАЙН, ВЫХОДЯЩИЙ",
+      "title2": "ЗА РАМКИ",
+      "title3": "ОБЫЧНОГО",
+      "text": "Если вы стремитесь к чему-то гораздо большему, чем обыденность - мы предлагаем материалы, соответствующие вашим амбициям. Наша эксклюзивная коллекция азиатских твёрдо-лиственных пород позволяет создавать пространства, которые станут местами притяжения."
+    },
+    "slide5": {
+      "title1": "ЦЕННЫЕ ПОРОДЫ ДРЕВЕСИНЫ",
+      "title2": "ВИЗИОНЕРСКИЙ",
+      "title3": "ДИЗАЙН",
+      "text": "Мы поставляем материалы, где ценнейшие породы древесины мира встречаются с визионерским дизайном. Древесина такого уровня превращает ваши чертежи в захватывающую дух реальность, создавая архитектурные триумфы, которые проникают в душу."
+    }
+  },
+
+  "about": {
+    "title": "САК Вуд",
+    "subtitle1": "Ваш надёжный партнёр в области производства первоклассных",
+    "subtitle2": "изделий из азиатских твёрдых пород древесины. Мы специализируемся на премиальном тайском тике и тропических твёрдых породах премиум-класса, отличающихся необычайной красотой и прочностью.",
+    "subtitle3": "Ваш надёжный партнёр в области производства первоклассных изделий из азиатских твёрдых пород древесины. Мы специализируемся на премиальном тайском тике и тропических твёрдых породах премиум-класса, отличающихся необычайной красотой и прочностью.",
+    "whyChoose": "ПОЧЕМУ ВЫБИРАЮТ НАС?",
+    "bullets": {
+      "point1": "Выдающееся качество",
+      "point2": "Надёжные и этичные источники поставок ",
+      "point3": "Конкурентные цены",
+      "point4": "Мастерство вне времени и непреходящая ценность"
+    }
+  },
+
+  "hero": {
+    "title": "ТИКА С СЕВЕРА ТАИЛАНДА",
+    "charact": {
+      "title": "ХАРАКТЕРИСТИКИ",
+      "list": [
+        "Качество из лучшего региона произрастания",
+        "Насыщенный золотистый цвет",
+        "Гладкая текстура",
+        "Исключительная прочность и долговечность",
+        "Не поддается короблению и изгибу",
+        "Устойчив к вредителям и грибкам",
+        "Естественным образом отталкивает влагу и гниль",
+        "Выдерживает экстремальные климатические условия",
+        "Сохраняется веками"
+      ]
+    },
+    "specs": {
+      "title": "ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ ПРОДУКЦИИ",
+      "list": {
+        "1": "Диаметр брёвен: 60 - 80 см.",
+        "2": "Влажность: 12 - 14%",
+        "3": "Происхождение: северный регион тиковых лесов, Таиланд (лучшее место произрастания древесины)"
+      }
+    },
+    "buttonText": "ПОДРОБНЕЕ"
+  },
+
+  "hilight": {
+    "title": "НАША ПРОДУКЦИЯ",
+    "flooring": {
+      "title": "РЕШЕНИЯ ДЛЯ НАПОЛЬНЫХ ПОКРЫТИЙ",
+      "desc": {
+        "1": "ПАРКЕТ из ТИКОВОГО",
+        "2": "дерева демонстрирует класс и неподвластную времени элегантность этого ценного дерева благодаря потрясающим дизайнерским решениям.",
+        "3": "ПОЛЫ из ТИКОВОГО",
+        "4": "дерева изготовлены из прочных досок, сохраняющих красоту и долговечность на протяжении многих поколений.",
+        "5": "ПОЛЫ из ТИКОВОГО",
+        "6": "дерева из-за своих  свойств устойчив к воздействию воды, гниению и повреждению насекомыми. Превосходный выбор для веранд, патио и настилов бассейнов."
+      }
+    },
+    "wall": {
+      "title": "СТЕНОВЫЕ ПАНЕЛИ",
+      "desc": {
+        "1": "ОБЛИЦОВКА из ТИКОВОГО ДЕРЕВА",
+        "2": "сочетает в себе изысканность и теплоту, создавая эффектную отделку стен, непревзойденный фасад здания или изысканные потолки. Благодаря известной прочности, ваши стены из тикового дерева будут неприхотливы в уходе и долговечны."
+      }
+    },
+    "timbers": {
+      "title": "ТИКОВЫЙ ПИЛОМАТЕРИАЛ",
+      "desc": {
+        "1": "Доски из тика премиум-класса сияют, демонстрируя всю полноту узоров и богатство цвета, присущих исключительно настоящему тайскому тику. Эта красота в сочетании с впечатляющей природной прочностью и легендарной долговечностью делает тиковый пиломатериал идеальным выбором для ",
+        "2": "МЕБЕЛИ, СТРОИТЕЛЬНЫХ КОНСТРУКЦИЙ и КАБИНЕТОВ."
+      }
+    },
+    "finger": {
+      "title": "СРАЩЕННЫЕ ИЗДЕЛИЯ ИЗ ТИКА",
+      "desc": {
+        "1": "Тиковые сращенные доски",
+        "2": "разработаны с использованием зубчатого соединения для повышения прочности, стабильности и увеличения размеров. Благодаря большей длине и повышенной прочности они являются излюбленным выбором для требовательных проектов, таких как столешницы, массивные столы, ступени лестниц или сплошные стеновые панели, обеспечивая богатую красоту в сочетании с непревзойденной надежностью."
+      }
+    },
+    "hardwoods": {
+      "title": "ТРОПИЧЕСКАЯ ДРЕВЕСИНА ТВЁРДЫХ ПОРОД",
+      "desc": {
+        "1": "Мы поставляем древесину тропических твердо-лиственных пород для проектов любой сложности.",
+        "2": "МЕРБАУ",
+        "3": "и",
+        "4": "ЖЕЛТЫЙ БАЛАУ",
+        "5": "из Малайзии - это долговечные, устойчивые к атмосферным воздействиям твердо-лиственные породы, которые обеспечивают превосходное качество как внутри помещений, так и на открытом воздухе. Красноватая облицовка из МЕРБАУ прекрасно смотрится во внутренних двориках, на дорожках и в часто используемых местах. Прочная облицовка из ЖЕЛТОГО БАЛАУ придает стенам мягкие золотистые тона, защищая их от непогоды."
+      }
+    },
+    "buttonText": "Получить консультацию"
+  },
+
+  "features": {
+    "feature1": {
+      "title": "НАДЕЖНОСТЬ И ПРОЗРАЧНОСТЬ",
+      "desc": "Честные цены, отсутствие скрытых расходов и надежное обслуживание клиентов."
+    },
+    "feature2": {
+      "title": "ПРЕИМУЩЕСТВО ПРЯМЫХ ПОСТАВОК С ЗАВОДА-ИЗГОТОВИТЕЛЯ",
+      "desc": "Прямые поставки с завода-изготовителя обеспечивают превосходное качество по конкурентоспособным ценам."
+    },
+    "feature3": {
+      "title": "ЭКСПЕРТНАЯ ПОДДЕРЖКА",
+      "desc": "Преданные своему делу профессионалы будут сопровождать ваш проект от идеи до конца."
+    }
+  },
+
+  "whyChoose": {
+    "title": "Запросите обратный  звонок от наших специалистов и мы ответим на все Ваши вопросы.",
+    "subtitle1": "Вы ищете идеальную древесину твердых пород для своих проектов? Мы всегда готовы помочь!",
+    "desc1": "Проконсультируем вас по",
+    "desc2": "любым вопросам, будь то рекомендации по эксплуатации, индивидуальные размеры или индивидуальная консультация.",
+    "desc3": "Позвольте нашей команде сопровождать вас на каждом этапе вашего путешествия.",
+    "placeholder": {
+      "name": "Ваше имя",
+      "phone": "Вашего телефона нет.",
+      "message": "Ваше Короткое Сообщение"
+    },
+    "button": "Запросите Обратный Звонок"
+  },
+
+  "premium": {
+    "title1": "НАША ПРЕМИАЛЬНАЯ ТРОПИЧЕСКАЯ",
+    "title2": "ДРЕВЕСИНА ТВЕРДЫХ ПОРОД",
+    "feature1": {
+      "title": "СОЗДАН ДЛЯ ПРОЧНОСТИ",
+      "desc": "Исключительная прочность и долговечность - предназначен для выполнения сложных работ и рассчитан на несколько поколений."
+    },
+    "feature2": {
+      "title": "ЕСТЕСТВЕННАЯ ПРИВЛЕКАТЕЛЬНОСТЬ",
+      "desc": "Роскошные интерьеры, экстерьер и архитектурные решения выигрывают благодаря насыщенным цветам и характерным зернистым узорам."
+    },
+    "feature3": {
+      "title": "УКОРЕНЕННЫЙ В ЦЕЛОСТНОСТИ",
+      "desc": "Каждое изделие, изготовленное из ответственных материалов, отражает наследие регионального мастерства и долгосрочную ценность."
+    }
+  },
+
+  "woods": {
+    "merbau": {
+      "title": "МЕРБАУ",
+      "des1": "Богатый. Устойчивый. Вневременный. Насыщенные красно-коричневые тона Merbau и солидный внешний вид создают ощущение великолепия и стабильности. Долговечный дизайн Merbau привносит тепло и силу в любую обстановку, как в помещении, так и на открытом воздухе.",
+      "des2": "Идеально подходит для величественных лестниц, роскошных напольных покрытий, устойчивых к атмосферным воздействиям настилов, встроенных элементов в традиционном стиле, прочной мебели и декоративных элементов из дерева с ярко выраженным присутствием.",
+      "charact": {
+        "title": "ХАРАКТЕРИСТИКИ",
+        "list": {
+          "1": "Насыщенный красно-коричневый цвет",
+          "2": "Гладкие, сцепленные зерна",
+          "3": "Чрезвычайно твердые и плотные",
+          "4": "Высокая стабильность и долговечность",
+          "5": "Экологически чистые материалы",
+          "6": "Многолетний срок службы"
+        }
+      },
+      "specs": {
+        "title": "ОПИСАНИЕ",
+        "bullets": {
+          "point1": "Научное название:",
+          "subpoint1": "Intsia spp.",
+          "point2": "Диаметр: 120 - 150 см.",
+          "point3": "Плотность: 815 кг/м³.",
+          "point4": "Происхождение: Малайзия",
+          "point5": "Прочность: Класс 1"
+        }
+      }
+    },
+    "balau": {
+      "title": "ЖЕЛТЫЙ БАЛАУ",
+      "des1": "Прочный и золотистый желтый балау превосходно выдерживает самые суровые погодные условия. Это излюбленное дерево для жизни на свежем воздухе, где прочность сочетается со стилем.",
+      "des2": "Идеально подходит для использования на открытых пространствах, таких как террасы у моря, садовые дворики, дорожки на крыше, наружная облицовка стен, перголы и долговечная мебель.",
+      "charact": {
+        "title": "ХАРАКТЕРИСТИКИ",
+        "list": {
+          "1": "Теплый золотисто-коричневый цвет",
+          "2": "Мелкая, однородная текстура",
+          "3": "Чрезвычайно твердая и плотная текстура",
+          "4": "Высокая прочность",
+          "5": "Экологически чистые продукты",
+          "6": "Многолетний срок службы"
+        }
+      },
+      "specs": {
+        "title": "ОПИСАНИЕ",
+        "bullets": {
+          "point1": "Научное название:",
+          "subpoint1": "Shorea spp.",
+          "point2": "Диаметр: 100 - 200 см.",
+          "point3": "Плотность: 850 кг/м³.",
+          "point4": "Происхождение: Малайзия",
+          "point5": "Прочность: Класс 1"
+        }
+      }
+    },
+    "buttonText": "ПОДРОБНЕЕ"
+  },
+
+  "showcase": {
+    "title1": "ОТКРОЙТЕ ДЛЯ СЕБЯ НАШУ",
+    "title2": "ВЫСТАВКУ НЕПРЕХОДЯЩИХ ШЕДЕВРОВ",
+    "case1": {
+      "title": "Посольство Великобритании в Бангкоке",
+      "desc": "Компания South Asia Kraft Wood имеет честь предложить вам такой же высококачественный тайский тик…"
+    },
+    "case2": {
+      "title": "Дворец Мригадаяван",
+      "desc": "известный как “Дворец любви и надежды”, является непреходящим символом тикового дерева.…"
+    },
+    "case3": {
+      "title": "Символ силы и Процветания",
+      "desc": "На протяжении веков тайский тик был излюбленным деревом королей, аристократов и…"
+    },
+    "case4": {
+      "title": "Легенда о живом материале",
+      "desc": "В тайском фольклоре о тике говорят как о “живом дереве”, которое, как считается, обладает…"
+    },
+    "case5": {
+      "title": "Архитектура, которая вдохновляет",
+      "desc": "На протяжении всей истории храмы и духовные центры Таиланда демонстрировали…"
+    }
+  },
+
+  "contact": {
+    "title": "ВАМ НУЖНА КАКАЯ-ЛИБО ПОМОЩЬ?",
+    "subtitle": "ОТПРАВЬТЕ НАМ СООБЩЕНИЕ.",
+    "text": "Звоните нам по любым вопросам",
+    "phone": "(+7) 911 888 03 88",
+    "place": {
+      "name": "Ваше имя",
+      "email": "Адрес электронной почты",
+      "phone": "Номер телефона",
+      "subject": "Тема",
+      "message": "Чем мы можем вам помочь? Не стесняйтесь обращаться к нам!"
+    },
+    "button": "Отправить"
+  },
+
+  "--------------------------- Thai Teak Page --------------------------- ": " --------------------------- ",
+
+  "thaiTeak": {
+    "breadcrumb": {
+      "title": "Northern Thai Teak",
+      "subtitle": "Elevate Every Space",
+      "link": {
+        "main": "Home",
+        "sub": "Thai Teak"
+      }
+    },
+    "sellPoint": {
+      "feature1": {
+        "title": "Lasting Beauty",
+        "des1": "Golden grain, durable strength,",
+        "des2": "and timeless appeal."
+      },
+      "feature2": {
+        "title": "Premium Thai origin",
+        "des1": "Sourced from the one of the world's",
+        "des2": "finest teak growing locations."
+      },
+      "feature3": {
+        "title": "Smart investment",
+        "des1": "A valuable legacy that persists",
+        "des2": "through time."
+      }
+    },
+    "title": "Northern Thai Teak",
+    "desc": "Our Northern Thai Teak is more than simply wood, it represents nature's perfection and centuries of skill. Discover the distinct characteristics that make it the world's most desirable timber.",
+    "accordion": {
+      "list1": {
+        "title": "Strength from Slow Growth",
+        "desc": "In Northern Thailand, the cooler, drier seasons and higher elevations cause teak trees to develop slowly. This natural process tightens the wood grain, making it extremely solid and sturdy. Slower development also means fewer natural faults, such as knots, which results in lumber that is more durable and strong over time."
+      },
+      "list2": {
+        "title": "Perfect Growing Environment",
+        "desc": "Our Northern Thai Teak grows in rich mountain soils. These soils are rich in natural minerals, which encourage healthy, even tree development. Teak trees benefit from excellent natural drainage, which eliminates defects. This ideal atmosphere allows the teak to grow strong, durable wood with beautiful colors and a desirable straight grain."
+      },
+      "list3": {
+        "title": "Teak Wisdom Through Generations",
+        "desc": "or generations, Thai experts have mastered the technique of teak cultivation. From ancient palaces to temples, Northern teak has always been the preferred material of royalty and expert builders. Our partners, particularly the Forest Industry Organization (FIO), rely on information that has been passed down for centuries. They closely manage forests, cut trees, and harvest at the right moment to ensure maximum quality, fewer knots, and a beautiful, consistent grain in each piece."
+      },
+      "list4": {
+        "title": "Ready for Every Project",
+        "desc": "Northern Thai Teak, grown in a unique mountain environment, boasts a tighter grain, fewer knots, and exceptional strength. This makes it highly resistant to decay, insects, and harsh weather, ideal for luxury interiors and projects demanding lasting beauty and durability."
+      }
+    },
+    "Products": {
+      "title": "Our Northern Thai Teak Products",
+      "list1": {
+        "title": "Parquet",
+        "img": "assets/images/products/Parquet.png",
+        "desc": "Create beautiful indoor floors with attractive designs and outstanding strength. Teak Parquet is a highly durable option that provides timeless luxury to any room.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-parquet.png"
+        }
+      },
+      "list2": {
+        "title": "Flooring",
+        "img": "assets/images/products/Floorboard.png",
+        "desc": "Our durable and attractive teak floorboards offer reliable and beautiful flooring for your home or business. Perfectly suited for high-traffic areas, they provide both performance and timeless charm.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-flooring.png"
+        }
+      },
+      "list3": {
+        "title": "Decking",
+        "img": "assets/images/products/Decking.png",
+        "desc": "Our teak decking is designed for outdoor use and resists water, rot, and insects. It remains gorgeous for years, resulting in magnificent decks, patios, balconies, and poolside areas.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-decking.png"
+        }
+      },
+      "list4": {
+        "title": "Cladding",
+        "img": "assets/images/products/Cladding.png",
+        "desc": "Real teak cladding adds beauty, allure, and opulence to any wall or ceiling. Create a warm and inviting atmosphere for rooms you won't want to leave.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-cladding.png"
+        }
+      },
+      "list5": {
+        "title": "Boards",
+        "img": "assets/images/products/Timber.png",
+        "desc": "Our solid teak wood boards are as attractive as they are functional. They give a foundation that is beyond compare for all forms of fine woodworking, from custom furniture to elaborate interior elements.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png"
+        }
+      },
+      "list6": {
+        "title": "Finger Jointed",
+        "img": "assets/images/products/Finger-Joint.png",
+        "desc": "Finger jointed teak boards provide excellent strength and extremely long lengths. They are great for lengthy countertops, massive tabletops, stair treads, and other large-scale projects that demand solidity.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png"
+        }
+      },
+      "list7": {
+        "title": "Skirting",
+        "img": "assets/images/products/Skirtin.png",
+        "desc": "Fulfill a room's potential with detailed perfection from the finest teak skirting boards. Not just a sturdy protective border, teak skirting also offers the finishing touch of refinement and beauty.",
+        "lightbox": {
+          "src": "assets/images/pricelist/sakw-teak-timber-skirting-finger-jointed.png"
+        }
+      }
+    },
+    "buttonText": "More Details",
+    "download": {
+      "buttonText": "Download Full Price-List",
+      "downloadUrl": "assets/images/pricelist/sakw-teak-pricelist.pdf"
+    }
+  },
+
+  "--------------------------- Hardwoods Page ---------------------------": " --------------------------- ",
+
+  "hardwood": {
+    "breadcrumb": {
+      "title": "Tropical Hardwood",
+      "subtitle": "Timeless Woods for Timeless Spaces",
+      "link": {
+        "main": "Home",
+        "sub": "Hardwoods"
+      }
+    },
+    "sellPoints": {
+      "feature1": {
+        "title": "Lasting Strength",
+        "des1": "Built for resistance to use, decay, and",
+        "des2": "insects, hardwood lasts for generations."
+      },
+      "feature2": {
+        "title": "Timeless elegance",
+        "des1": "Rich tones and beautiful grain patterns",
+        "des2": "add depth and character to any space."
+      },
+      "feature3": {
+        "title": "Trusted Sourced",
+        "des1": "Responsible sourcing from renowned",
+        "des2": "facilities ensures business integrity,",
+        "des3": "quality, and competitive pricing."
+      }
+    },
+    "title": "Tropical Hardwoods",
+    "desc": "When strength meets style, Yellow Balau and Merbau take the lead. These tropical hardwoods are designed for use under harsh conditions while adding rich, natural beauty to any project, indoors or outdoors.",
+    "accordion": {
+      "list1": {
+        "title": "Remarkable Strength & Stability",
+        "desc": "Yellow Balau offers impressive density and resilience, made to perform under the most demanding conditions. Merbau, with its superior dimensional stability, resists warping and wear. Both species are ideal for structural applications as well as daily use."
+      },
+      "list2": {
+        "title": "Naturally Durable for Generations",
+        "desc": "With outstanding resistance to decay, rot, and insects, these hardwoods are designed to endure the elements. Whether used outdoors or in humid environments, Yellow Balau and Merbau deliver decades of dependable service with minimal maintenance."
+      },
+      "list3": {
+        "title": "Elegant Beauty That Matures Over Time",
+        "desc": "Yellow Balau showcases a fine, consistent grain that contributes an aesthetic allure and soft yellow-brown tones. Merbau offers deep red-brown hues and a smooth, interlocking grain that brings depth and stunning colors. Both woods elevate interiors and exteriors with their unique charms."
+      },
+      "list4": {
+        "title": "Responsibly Sourced, Exceptionally Crafted",
+        "desc": "Our Yellow Balau and Merbau are carefully selected from trusted Southeast Asian regions, in partnership with ethical producers known for consistent quality. Every piece is thoughtfully processed to meet the highest standards of form and function."
+      }
+    },
+    "balau": {
+      "title": "Yellow balau Products",
+      "list1": {
+        "title": "Decking",
+        "desc": "Built for strength and style in high-traffic areas like patios, pool decks, walkways, and boardwalks. Naturally resists rot, insects, and decay, offering long-term performance with minimal upkeep."
+      },
+      "list2": {
+        "title": "Cladding",
+        "desc": "Enhances exterior walls, soffits, and facades with warm golden tones and lasting protection. Durable against harsh weather ideal for both residential and commercial exteriors."
+      },
+      "list3": {
+        "title": "Boards",
+        "desc": "Great for furniture, framing, benches, gates, and heavy-duty joinery. Known for strength, stability, and a clean grain that brings natural beauty to every project."
+      }
+    },
+    "merbau": {
+      "title": "Merbau Products",
+      "list1": {
+        "title": "Decking",
+        "desc1": "Ideal for high-traffic outdoor spaces like",
+        "desc2": "patios, pool areas, balconies, and garden walkways. Its dense, oil-laden wood resists moisture, decay, and insects, keeping its rich color and strength for years. Chosen for both residential and commercial use."
+      },
+      "list2": {
+        "title": "Cladding",
+        "desc1": "Merbau cladding in its rich reddish-brown",
+        "desc2": "tones develop with time, providing long-lasting beauty and powerful protection. Moisture and termite resistance make it ideal for exterior walls, ceilings, facades, and soffits in residences, resorts, and coastal buildings."
+      },
+      "list3": {
+        "title": "Boards",
+        "desc1": "A top choice for furniture, cabinetry,",
+        "desc2": "stairs, door frames, and structural builds. Its rich tone, natural strength, and durability in humid conditions make it perfect for both indoor and semi-outdoor use."
+      }
+    },
+    "buttonText": "Get a Consultation"
+  },
+
+  "--------------------------- Contact Us ---------------------------": " --------------------------- ",
+
+  "contactUs": {
+    "breadcrumb": {
+      "title": "КОНТАКТЫ",
+      "subtitle": "Превосходная тропическая древесина твердых пород",
+      "link": {
+        "main": "Главная страница",
+        "sub": "Контакты"
+      }
+    },
+
+    "info": {
+      "call": {
+        "title": "Поговорите напрямую",
+        "text": "Со специалистом по древесине твердых пород.",
+        "link": "ПОЗВОНИТЕ НАМ"
+      },
+      "email": {
+        "title": "Начинайте создавать Свой Шедевр",
+        "text": "Отправьте Нам подробный запрос.",
+        "link": "напишите нам письмо"
+      },
+      "chat": {
+        "title": "Индивидуальная консультация",
+        "text": "Доступ к высококачественной древесине твердых пород.",
+        "link": "ОТПРАВЬТЕ НАМ СООБЩЕНИЕ"
+      }
+    },
+
+    "inner": {
+      "title": "СВЯЖИТЕСЬ С НАМИ",
+      "call": {
+        "text": "Позвоните нам",
+        "phone": "(+7) 911 888 03 88"
+      },
+      "email": {
+        "text": "Напишите нам",
+        "email": "info@sakw.ru"
+      },
+      "chat": {
+        "text": "Телеграмма",
+        "contact": "@sakwru"
+      },
+      "address": {
+        "text": "ВК",
+        "link": "vk.com/sakwru"
+      }
+    },
+    "form": {
+      "title": "ОТПРАВЬТЕ СВОЙ ЗАПРОС СЕГОДНЯ",
+      "place": {
+        "name": "Ваше имя",
+        "email": "Ваш адрес электронной почты",
+        "phone": "Номер вашего телефона.",
+        "subject": "Предмет",
+        "message": "Чем мы можем вам помочь? Не стесняйтесь обращаться к нам!"
+      },
+      "buttonText": "Отправить"
+    }
+  },
+
+  "--------------------------- Footer Section ---------------------------": " --------------------------- ",
+
+  "footer": {
+    "marquee": {
+      "list1": "ТРОПИЧЕСКАЯ ДРЕВЕСИНА ТВЕРДЫХ",
+      "list2": "ПОРОД ПРЕВОСХОДНАЯ ПРОЧНОСТЬ",
+      "list3": "ИЗЫСКАННАЯ ЭСТЕТИЧЕСКАЯ "
+    },
+    "bottomText": {
+      "text1": "© 2025 Авторские права",
+      "link": "Компания САК Вуд",
+      "text2": "Все права защищены"
+    },
+    "bottomMenu": {
+      "link1": "Политика конфиденциальности",
+      "link2": "Политика использования файлов cookie",
+      "link3": "ВЕРНУТЬСЯ К НАЧАЛУ"
+    }
+  }
+}

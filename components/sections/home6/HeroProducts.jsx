@@ -1,7 +1,21 @@
 "use client";
-import Link from "next/link";
+
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import ProductsHilight from "./ProductsHilight";
 export default function HeroProduct() {
+  const t = useTranslations("hero");
+  const items = [
+    t("charact.list.1"),
+    t("charact.list.2"),
+    t("charact.list.3"),
+    t("charact.list.4"),
+    t("charact.list.5"),
+    t("charact.list.6"),
+    t("charact.list.7"),
+    t("charact.list.8"),
+  ];
+  const specs = [t("specs.list.1"), t("specs.list.2"), t("specs.list.3")];
   return (
     <>
       {/*About Three Start */}
@@ -22,13 +36,13 @@ export default function HeroProduct() {
                   </div> */}
                   <div className="service-details__points-box">
                     <h2 className="section-title__title title-animation">
-                      NORTHERN THAI TEAK
+                      {t("title")}
                     </h2>
                     <h3
                       className="service-details__points-title"
                       style={{ top: "12px", borderBottom: "none" }}
                     >
-                      Characteristics
+                      {t("charact.title")}
                     </h3>
                     <ul
                       className="service-details__points-list list-unstyled"
@@ -38,46 +52,12 @@ export default function HeroProduct() {
                         paddingBottom: "25px",
                       }}
                     >
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Rich Golden Color</p> */}
-                        <p>Quality From the Best Growing Region</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Smooth Grain</p> */}
-                        <p>Rich Golden Color</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>High Natural Oil Content</p> */}
-                        <p>Smooth Texture</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Exceptional Strength & Durability</p> */}
-                        <p>Resists Warping and Bending</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Sourced from the Best region</p> */}
-                        <p>Resistant Against Pests and Fungi</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Warping Resistant</p> */}
-                        <p>Naturally Repels Moisture and Rot</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Naturally Pest & Rot Resistant</p> */}
-                        <p>Withstands Extreme Climate Conditions</p>
-                      </li>
-                      <li>
-                        <div className="service-details__points-shape"></div>
-                        {/* <p>Lasts for Centuries</p> */}
-                        <p>Endures for Centuries</p>
-                      </li>
+                      {items.map((item, index) => (
+                        <li key={index}>
+                          <div className="service-details__points-shape"></div>
+                          <p>{item}</p>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   <div className="service-details__points-box">
@@ -85,30 +65,24 @@ export default function HeroProduct() {
                       className="service-details__points-title"
                       style={{ top: "15px", borderBottom: "none" }}
                     >
-                      Product Specifications
+                      {t("specs.title")}
                     </h3>
                     <ul className="service-details__points-list list-unstyled">
-                      <li>
-                        <p>Logs Diameter: 60 - 80 cm.</p>
-                      </li>
-                      <li>
-                        <p>Humidity: 12-14%</p>
-                      </li>
-                      <li>
-                        <p>
-                          Origin: Northern Region Teak Forests, Thailand (Best
-                          Source)
-                        </p>
-                      </li>
+                      {specs.map((item, index) => (
+                        <li key={index}>
+                          <p>{item}</p>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
                     <Link
-                      href="teak"
+                      href="thai-teak"
                       className="thm-btn"
                       style={{ textTransform: "uppercase" }}
                     >
-                      More Details <span className="icon-up-right-arrow"></span>{" "}
+                      {t("buttonText")}{" "}
+                      <span className="icon-up-right-arrow"></span>{" "}
                     </Link>
                   </div>
                 </div>

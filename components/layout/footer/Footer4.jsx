@@ -1,25 +1,27 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 export default function Footer4() {
-   return (
-      <>
-         <footer className="site-footer">
-            <div className="site-footer__shape-1 float-bob-x">
-               <img src="assets/images/shapes/site-footer-shape-3.png" alt="" />
-            </div>
-            <div className="site-footer__shape-2 float-bob-y">
-               <img src="assets/images/shapes/site-footer-shape-4.png" alt="" />
-            </div>
+  const t = useTranslations("footer");
+  return (
+    <>
+      <footer className="site-footer">
+        <div className="site-footer__shape-1 float-bob-x">
+          <img src="assets/images/shapes/site-footer-shape-3.png" alt="" />
+        </div>
+        <div className="site-footer__shape-2 float-bob-y">
+          <img src="assets/images/shapes/site-footer-shape-4.png" alt="" />
+        </div>
 
-            <div className="site-footer__marquee">
-               <ul className="marquee_mode">
-                  <li>Tropical Hardwoods</li>
-                  <li>Superior Durability</li>
-                  <li>Exquisite Aesthetic Appeal</li>
-               </ul>
-            </div>
+        <div className="site-footer__marquee">
+          <ul className="marquee_mode">
+            <li>{t("marquee.list1")}</li>
+            <li>{t("marquee.list2")}</li>
+            <li>{t("marquee.list3")}</li>
+          </ul>
+        </div>
 
-            {/* <div className="container">
+        {/* <div className="container">
                <div className="site-footer__top">
                   <div className="row">
                      <div
@@ -236,29 +238,30 @@ export default function Footer4() {
                   </div>
                </div>
             </div> */}
-            <div className="site-footer__bottom">
-               <div className="container">
-                  <div className="site-footer__bottom-inner">
-                     <p className="site-footer__bottom-text">
-                        © 2025 Copyright{" "}
-                        <Link href="/">South Asia Kraft Wood</Link> | All rights
-                        reserved
-                     </p>
-                     <ul className="list-unstyled site-footer__bottom-menu">
-                        <li>
-                           <Link href="#">Privacy & Policy</Link>
-                        </li>
-                        {/* <li>
+
+        <div className="site-footer__bottom">
+          <div className="container">
+            <div className="site-footer__bottom-inner">
+              <p className="site-footer__bottom-text">
+                {t("bottomText.text1")}{" "}
+                <Link href="/">{t("bottomText.link")}</Link> |{" "}
+                {t("bottomText.text2")}
+              </p>
+              <ul className="list-unstyled site-footer__bottom-menu">
+                <li>
+                  <Link href="#">{t("bottomMenu.link1")}</Link>
+                </li>
+                {/* <li>
                            <Link href="about">Terms of use</Link>
                         </li> */}
-                        <li>
-                           <Link href="#">Cookie Policy</Link>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
+                <li>
+                  <Link href="#">{t("bottomMenu.link2")}</Link>
+                </li>
+              </ul>
             </div>
-         </footer>
-      </>
-   );
+          </div>
+        </div>
+      </footer>
+    </>
+  );
 }

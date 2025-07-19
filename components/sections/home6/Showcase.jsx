@@ -1,7 +1,8 @@
 "use client";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslations } from "next-intl";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -43,6 +44,7 @@ const swiperOptions = {
   },
 };
 export default function Showcase() {
+  const t = useTranslations("showcase");
   return (
     <>
       {/*Start Service Style4*/}
@@ -66,8 +68,8 @@ export default function Showcase() {
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">
             <h2 className="section-title__title title-animation">
-              Discover Our Showcase of <br />
-              Enduring Masterpieces
+              {t("title1")} <br />
+              {t("title2")}
             </h2>
           </div>
 
@@ -92,15 +94,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="prestige-of-teak">
-                        British Embassy Bangkok{" "}
-                      </Link>
+                      <Link href="prestige-of-teak">{t("case1.title")} </Link>
                       {/* British Embassy Bangkok */}
                     </h3>
-                    <p>
-                      South Asia Kraft Wood is honored to bring you the same
-                      premium Thai teak...
-                    </p>
+                    <p>{t("case1.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -123,12 +120,9 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="golden-teak">Mrigadayavan Palace</Link>
+                      <Link href="golden-teak">{t("case2.title")}</Link>
                     </h3>
-                    <p>
-                      known as the "Palace of Love and Hope," stands as an
-                      enduring symbol of teak’s...
-                    </p>
+                    <p>{t("case2.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -151,15 +145,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="symbol-of-teak">
-                        Symbol of Strength and Prosperity
-                      </Link>
+                      <Link href="symbol-of-teak">{t("case3.title")}</Link>
                       {/* Symbol of Strength and Prosperity */}
                     </h3>
-                    <p>
-                      For centuries, Thai teak has been the wood of choice for
-                      kings, aristocrats, and...
-                    </p>
+                    <p>{t("case3.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -182,15 +171,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="legend-of-teak">
-                        Legend of a Live Material
-                      </Link>
+                      <Link href="legend-of-teak">{t("case4.title")}</Link>
                       {/* Legend of a Live Material */}
                     </h3>
-                    <p>
-                      In Thai folklore, teak is spoken of as a, “living wood,”
-                      believed to possess a...
-                    </p>
+                    <p>{t("case4.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -213,15 +197,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="teak-in-temples">
-                        Architecture that Inspires
-                      </Link>
+                      <Link href="teak-in-temples">{t("case5.title")}</Link>
                       {/* Architecture that Inspires */}
                     </h3>
-                    <p>
-                      Throughout history, Thailand’s temples and spiritual
-                      centers have showcased...
-                    </p>
+                    <p>{t("case5.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -244,15 +223,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="prestige-of-teak">
-                        British Embassy Bangkok{" "}
-                      </Link>
+                      <Link href="prestige-of-teak">{t("case1.title")} </Link>
                       {/* British Embassy Bangkok */}
                     </h3>
-                    <p>
-                      South Asia Kraft Wood is honored to bring you the same
-                      premium Thai teak...
-                    </p>
+                    <p>{t("case1.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -275,12 +249,9 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="golden-teak">Mrigadayavan Palace</Link>
+                      <Link href="golden-teak">{t("case2.title")}</Link>
                     </h3>
-                    <p>
-                      known as the "Palace of Love and Hope," stands as an
-                      enduring symbol of teak’s...
-                    </p>
+                    <p>{t("case2.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -303,15 +274,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="symbol-of-teak">
-                        Symbol of Strength and Prosperity
-                      </Link>
+                      <Link href="symbol-of-teak">{t("case3.title")}</Link>
                       {/* Symbol of Strength and Prosperity */}
                     </h3>
-                    <p>
-                      For centuries, Thai teak has been the wood of choice for
-                      kings, aristocrats, and...
-                    </p>
+                    <p>{t("case3.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -334,15 +300,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="legend-of-teak">
-                        Legend of a Live Material
-                      </Link>
+                      <Link href="legend-of-teak">{t("case4.title")}</Link>
                       {/* Legend of a Live Material */}
                     </h3>
-                    <p>
-                      In Thai folklore, teak is spoken of as a, “living wood,”
-                      believed to possess a...
-                    </p>
+                    <p>{t("case4.desc")}</p>
                   </div>
                 </div>
               </div>
@@ -365,15 +326,10 @@ export default function Showcase() {
                   </div>
                   <div className="content-box">
                     <h3>
-                      <Link href="teak-in-temples">
-                        Architecture that Inspires
-                      </Link>
+                      <Link href="teak-in-temples">{t("case5.title")}</Link>
                       {/* Architecture that Inspires */}
                     </h3>
-                    <p>
-                      Throughout history, Thailand’s temples and spiritual
-                      centers have showcased...
-                    </p>
+                    <p>{t("case5.desc")}</p>
                   </div>
                 </div>
               </div>

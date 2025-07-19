@@ -1,6 +1,25 @@
 "use client";
-import Link from "next/link";
-export default function teak() {
+
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
+export default function hardwoods() {
+  const t = useTranslations("woods");
+  const merbauItems = [
+    t("merbau.charact.list.1"),
+    t("merbau.charact.list.2"),
+    t("merbau.charact.list.3"),
+    t("merbau.charact.list.4"),
+    t("merbau.charact.list.5"),
+    t("merbau.charact.list.6"),
+  ];
+  const balauItems = [
+    t("balau.charact.list.1"),
+    t("balau.charact.list.2"),
+    t("balau.charact.list.3"),
+    t("balau.charact.list.4"),
+    t("balau.charact.list.5"),
+    t("balau.charact.list.6"),
+  ];
   return (
     <>
       {/*About Three Start */}
@@ -39,21 +58,14 @@ export default function teak() {
                     <div className="service-details__img">
                       <img src="assets/images/services/merbau-hp.png" alt="" />
                     </div>
-                    <h3 className="service-details__title-1">Merbau</h3>
+                    <h3 className="service-details__title-1">
+                      {t("merbau.title")}
+                    </h3>
                     <p className="service-details__text-1">
-                      {/* Bold Resilient Timeless Merbau's rich red-brown tones and
-                      solid, hefty feel convey a sense of luxury and stability.
-                      Built to last, it brings warmth and strength to any
-                      environment, indoors or outdoors. */}
-                      Bold. Resilient. Timeless. Merbau's rich red-brown tones
-                      and solid, hefty feel convey a sense of splendor and
-                      stability. Built to last, Merbau brings warmth and
-                      strength to any environment, indoors or outdoors.
+                      {t("merbau.des1")}
                     </p>
                     <p className="service-details__text-2">
-                      Ideal for grand stairs, luxurious flooring, weatherproof
-                      decks, heritage-style build-ins, heavy-duty furniture, and
-                      feature woodwork with a strong presence.
+                      {t("merbau.des2")}
                     </p>
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
@@ -64,33 +76,15 @@ export default function teak() {
                       </div>
                       <div className="service-details__points-box">
                         <h3 className="service-details__points-title">
-                          Characteristics
+                          {t("merbau.charact.title")}
                         </h3>
                         <ul className="service-details__points-list list-unstyled">
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Deep Red-Brown Color</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Smooth, Interlocked Grain</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Extremely Hard & Dense</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Highly Stable & Durable</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Ethically Sourced</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Decades-Long Lifespan</p>
-                          </li>
+                          {merbauItems.map((item, index) => (
+                            <li key={index}>
+                              <div className="service-details__points-shape"></div>
+                              <p>{item}</p>
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     </div>
@@ -98,19 +92,19 @@ export default function teak() {
                       className="service-details__title-2"
                       style={{ marginTop: "30px" }}
                     >
-                      Specifications
+                      {t("merbau.specs.title")}
                     </h3>
                     <p className="service-details__text-3">
-                      Scientific Name:{" "}
+                      {t("merbau.specs.bullets.point1")}{" "}
                       <span style={{ fontStyle: "italic", fontWeight: "700" }}>
-                        Intsia spp.
+                        {t("merbau.specs.bullets.subpoint1")}
                       </span>{" "}
                       <br />
-                      Diameter: 120 - 150 cm.
+                      {t("merbau.specs.bullets.point2")}
                       <br />
-                      Average Dried Weight: 815 kg/m<sup>3</sup> <br />
-                      Origin: Malaysia <br />
-                      Durability: Class 1{" "}
+                      {t("merbau.specs.bullets.point3")} <br />
+                      {t("merbau.specs.bullets.point4")} <br />
+                      {t("merbau.specs.bullets.point5")}{" "}
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
@@ -119,7 +113,8 @@ export default function teak() {
                       className="thm-btn"
                       style={{ textTransform: "uppercase" }}
                     >
-                      More Details <span className="icon-up-right-arrow"></span>{" "}
+                      {t("buttonText")}{" "}
+                      <span className="icon-up-right-arrow"></span>{" "}
                     </Link>
                   </div>
                 </div>
@@ -137,21 +132,11 @@ export default function teak() {
                         alt=""
                       />
                     </div>
-                    <h3 className="service-details__title-1">Yellow Balau</h3>
-                    <p className="service-details__text-1">
-                      {/* Tough and golden, Yellow Balau endures the roughest
-                      outdoor conditions with elegance. It's the ideal wood for
-                      amazing outdoor living, where strength meets sophisticated
-                      style. */}
-                      Tough and golden, Yellow Balau admirably withstands the
-                      roughest outdoor conditions. It's a favored wood for
-                      amazing outdoor living, where strength meets style.
-                    </p>
-                    <p className="service-details__text-2">
-                      Ideal for outdoor spaces such as seaside decks, garden
-                      patios, rooftop pathways, outside wall cladding, pergolas,
-                      and furniture with long-lasting durability.
-                    </p>
+                    <h3 className="service-details__title-1">
+                      {t("balau.charact.title")}
+                    </h3>
+                    <p className="service-details__text-1">{t("balau.des1")}</p>
+                    <p className="service-details__text-2">{t("balau.des2")}</p>
                     <div className="service-details__img-and-point-box">
                       <div className="service-details__points-img col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <img
@@ -161,33 +146,15 @@ export default function teak() {
                       </div>
                       <div className="service-details__points-box">
                         <h3 className="service-details__points-title">
-                          Characteristics
+                          {t("balau.title")}
                         </h3>
                         <ul className="service-details__points-list list-unstyled">
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Warm Golden-Brown Color</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Fine, Consistent Grain</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Extremely Hard & Dense</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Highly Durable</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Ethically Sourced</p>
-                          </li>
-                          <li>
-                            <div className="service-details__points-shape"></div>
-                            <p>Decades-Long Lifespan</p>
-                          </li>
+                          {balauItems.map((item, index) => (
+                            <li key={index}>
+                              <div className="service-details__points-shape"></div>
+                              <p>{item}</p>
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     </div>
@@ -195,19 +162,19 @@ export default function teak() {
                       className="service-details__title-2"
                       style={{ marginTop: "30px" }}
                     >
-                      Specifications
+                      {t("balau.specs.title")}
                     </h3>
                     <p className="service-details__text-3">
-                      Scientific Name:{" "}
+                      {t("balau.specs.bullets.point1")}{" "}
                       <span style={{ fontStyle: "italic", fontWeight: "700" }}>
-                        Shorea spp.{" "}
+                        {t("balau.specs.bullets.subpoint1")}{" "}
                       </span>
                       <br />
-                      Diameter: 100 - 200 cm.
+                      {t("balau.specs.bullets.point2")}
                       <br />
-                      Average Dried Weight: 850 kg/m<sup>3</sup> <br />
-                      Origin: Malaysia <br />
-                      Durability: Class 1{" "}
+                      {t("balau.specs.bullets.point3")} <br />
+                      {t("balau.specs.bullets.point4")} <br />
+                      {t("balau.specs.bullets.point5")}{" "}
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
@@ -216,7 +183,8 @@ export default function teak() {
                       className="thm-btn"
                       style={{ textTransform: "uppercase" }}
                     >
-                      More Details <span className="icon-up-right-arrow"></span>{" "}
+                      {t("buttonText")}{" "}
+                      <span className="icon-up-right-arrow"></span>{" "}
                     </Link>
                   </div>
                 </div>

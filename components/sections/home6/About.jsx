@@ -1,10 +1,14 @@
 "use client";
-import Link from "next/link";
-import { useState } from "react";
-// import ModalVideo from "react-modal-video";
+import { useTranslations } from "next-intl";
 
 export default function About() {
-  const [isOpen, setOpen] = useState(false);
+  const t = useTranslations("about");
+  const items = [
+    t("bullets.point1"),
+    t("bullets.point2"),
+    t("bullets.point3"),
+    t("bullets.point4"),
+  ];
   return (
     <>
       {/*About Three Start */}
@@ -42,14 +46,10 @@ export default function About() {
               <div className="about-three__left">
                 <div className="section-title text-left sec-title-animation animation-style2">
                   <h2 className="section-title__title title-animation">
-                    SOUTH ASIA KRAFT WOOD
+                    {t("title")}
                   </h2>
                 </div>
-                <p className="about-three__text">
-                  Your trusted partner for first class Asian hardwoods.
-                  Specializing in premium Thai Teak <br /> & Tropical Hardwoods
-                  for extraordinary beauty and champion strength.
-                </p>
+                <p className="about-three__text">{t("subtitle3")}</p>
                 <ul className="about-three__points-list list-unstyled">
                   <li>
                     <div className="icon">
@@ -61,12 +61,11 @@ export default function About() {
                           className="service-details__points-title"
                           style={{ top: "0" }}
                         >
-                          Why Choose Us?
+                          {t("whyChoose")}
                         </h3>
                         <ul className="service-details__points-list list-unstyled">
-                          <li>
+                          {/* <li>
                             <div className="service-details__points-shape"></div>
-                            {/* <p>Exceptional Quality & Durability</p> */}
                             <p>Outstanding Quality</p>
                           </li>
                           <li>
@@ -80,35 +79,18 @@ export default function About() {
                           <li>
                             <div className="service-details__points-shape"></div>
                             <p>Timeless Craftsmanship & Lasting Value</p>
-                          </li>
+                          </li> */}
+                          {items.map((item, index) => (
+                            <li key={index}>
+                              <div className="service-details__points-shape"></div>
+                              <p>{item}</p>
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     </div>
                   </li>
-                  {/* <li>
-                              <div className="icon">
-                                 <span className="icon-social-media-marketing"></span>
-                              </div>
-                              <div className="content">
-                                 <h3>Personalized Service and Guidance</h3>
-                                 <p>
-                                    SOUTH ASIA KRAFT WOOD is your trusted
-                                    partner in realizing designs that transcend
-                                    expectations and leave an indelible
-                                    impression.
-                                 </p>
-                              </div>
-                           </li> */}
                 </ul>
-                {/* <div className="about-three__btn-box">
-                           <Link
-                              href="about"
-                              className="thm-btn about-three__btn"
-                           >
-                              More Details{" "}
-                              <span className="icon-up-right-arrow"></span>{" "}
-                           </Link>
-                        </div> */}
               </div>
             </div>
             <div className="col-xl-5">
@@ -126,13 +108,6 @@ export default function About() {
         </div>
       </section>
       {/*About Three End */}
-      {/* <ModalVideo
-            channel="custom"
-            url="assets/images/video/sawmill-cutting-processing-and-sawing-timber.mp4"
-            autoplay
-            isOpen={isOpen}
-            onClose={() => setOpen(false)}
-         /> */}
     </>
   );
 }

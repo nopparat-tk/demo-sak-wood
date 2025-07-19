@@ -1,25 +1,20 @@
-import { useTransition } from "react";
+// import { useTransition } from "react";
 
 import Menu2 from "../Menu2";
-import Link from "next/link";
-// import { Link, useRouter } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 import MobileMenu from "../MobileMenu";
-export default function Header4({
-  scroll,
-  handlePopup,
-  handleMobileMenu,
-  handleSidebar,
-}) {
-  const [isPending, startTransition] = useTransition();
-  const handleLocaleChange = (locale) => {
-    startTransition(() => {
-      setLocale(locale);
-    });
-  };
-  const items = [
-    { value: "en", label: "ENG" },
-    // { value: "ru", label: "RUS" },
-  ];
+export default function Header4({ scroll, handleMobileMenu }) {
+  // const [isPending, startTransition] = useTransition();
+  // const handleLocaleChange = (locale) => {
+  //   startTransition(() => {
+  //     setLocale(locale);
+  //   });
+  // };
+  const items = routing.locales.map((locale) => ({
+    value: locale,
+    label: locale.toUpperCase(),
+  }));
   return (
     <>
       <header className="main-header-two">
@@ -52,36 +47,15 @@ export default function Header4({
               </div>
               <div className="main-menu-two__right">
                 <div className="main-menu-two__search-and-nav-sidebar-icon">
-                  {/* <Link
-                              href="#"
-                              className="main-menu-two__search search-toggler"
-                           >
-                              <span
-                                 className="icon-search-interface-symbol"
-                                 onClick={handlePopup}
-                              ></span>
-                           </Link> */}
-                  {/* <div className="main-menu-two__nav-sidebar-icon">
-                              <Link
-                                 className="navSidebar-button"
-                                 href="#"
-                                 onClick={handlePopup}
-                              >
-                                 <span className="icon-text"></span>
-                              </Link>
-                           </div> */}
-                  <div
-                    className="locale-selector"
-                    // value={router.locale}
-                    onChange={(e) => handleLocaleChange(e.target.value)}
-                    disabled={isPending}
-                  >
+                  <ul className="list-unstyled top-menu">
                     {items.map((item) => (
-                      <option key={item.value} value={item.value}>
-                        {item.label}
-                      </option>
+                      <li key={item.value}>
+                        <Link href="/" locale={item.value}>
+                          {item.label}
+                        </Link>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -131,55 +105,16 @@ export default function Header4({
                 </div>
                 <div className="main-menu-two__right">
                   <div className="main-menu-two__search-and-nav-sidebar-icon">
-                    {/* <Link
-                              href="#"
-                              className="main-menu-two__search search-toggler"
-                           >
-                              <span
-                                 className="icon-search-interface-symbol"
-                                 onClick={handlePopup}
-                              ></span>
-                           </Link> */}
-                    {/* <div className="main-menu-two__nav-sidebar-icon">
-                              <Link
-                                 className="navSidebar-button"
-                                 href="#"
-                                 onClick={handlePopup}
-                              >
-                                 <span className="icon-text"></span>
-                              </Link>
-                           </div> */}
-                    <div
-                      className="locale-selector"
-                      // value={locale}
-                      //  onChange={(e) => handleLocaleChange(e.target.value)}
-                      disabled={isPending}
-                    >
+                    <ul className="list-unstyled top-menu">
                       {items.map((item) => (
-                        <option key={item.value} value={item.value}>
-                          {item.label}
-                        </option>
+                        <li key={item.value}>
+                          <Link href="/" locale={item.value}>
+                            {item.label}
+                          </Link>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
-                  {/* <div className="main-menu-two__search-and-nav-sidebar-icon">
-                              <Link
-                                 href="#"
-                                 className="main-menu-two__search search-toggler"
-                                 onClick={handlePopup}
-                              >
-                                 <span className="icon-search-interface-symbol"></span>
-                              </Link>
-                              <div className="main-menu-two__nav-sidebar-icon">
-                                 <Link
-                                    className="navSidebar-button"
-                                    href="#"
-                                    onClick={handleSidebar}
-                                 >
-                                    <span className="icon-text"></span>
-                                 </Link>
-                              </div>
-                           </div> */}
                 </div>
               </div>
             </div>

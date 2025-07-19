@@ -1,8 +1,10 @@
 "use client";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
 import { useState } from "react";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 export default function Home() {
+  const t = useTranslations("contactUs");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -106,7 +108,36 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Contact">
+      <Layout headerStyle={4} footerStyle={4}>
+        {/*Page Header Start*/}
+        <section className="page-header">
+          <div
+            className="page-header__bg"
+            style={{
+              backgroundImage: " url(assets/images/backgrounds/contact.png)",
+            }}
+          ></div>
+          <div className="container">
+            <div className="page-header__inner">
+              <div className="page-header__title-box">
+                <p>{t("breadcrumb.subtitle")}</p>
+                <h3>{t("breadcrumb.title")}</h3>
+              </div>
+              <div className="thm-breadcrumb__box">
+                <ul className="thm-breadcrumb list-unstyled">
+                  <li>
+                    <Link href="/">{t("breadcrumb.link.main")}</Link>
+                  </li>
+                  <li>
+                    <span> / </span>
+                  </li>
+                  <li>{t("breadcrumb.link.sub")}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*Page Header End*/}
         {/*Contact Info Start*/}
         <section className="contact-page">
           <div className="container">
@@ -118,12 +149,12 @@ export default function Home() {
                   </div>
                   <div className="single-contact-info-section__content">
                     <div className="text">
-                      <h3>Speak directly</h3>
-                      <p>With the Hardwoods Specialist.</p>
+                      <h3>{t("info.call.title")}</h3>
+                      <p>{t("info.call.text")}</p>
                     </div>
                     <div className="btn-box">
                       <Link href="tel:+79118880388">
-                        Call to Us
+                        {t("info.call.link")}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -137,12 +168,12 @@ export default function Home() {
                   </div>
                   <div className="single-contact-info-section__content">
                     <div className="text">
-                      <h3>Begin Your Masterpiece</h3>
-                      <p> Send Us Your Detailed Inquiry.</p>
+                      <h3>{t("info.email.title")}</h3>
+                      <p>{t("info.email.text")}</p>
                     </div>
                     <div className="btn-box">
                       <Link href="mailto:info@sakw.ru">
-                        Mail to us
+                        {t("info.email.link")}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -156,13 +187,12 @@ export default function Home() {
                   </div>
                   <div className="single-contact-info-section__content">
                     <div className="text">
-                      <h3>Private Consultation</h3>
-                      <p>Access to Premium Hardwoods.</p>
-                      {/* <p>@sakwru</p> */}
+                      <h3>{t("info.chat.title")}</h3>
+                      <p>{t("info.chat.text")}</p>
                     </div>
                     <div className="btn-box">
                       <Link href="https://t.me/sakwru" target="_blank">
-                        Send Us a Message
+                        {t("info.chat.link")}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
                     </div>
@@ -189,7 +219,7 @@ export default function Home() {
                   <div className="contact-page__left">
                     <div className="contact-page__information">
                       <h3 className="contact-page__information-title">
-                        Contact with us
+                        {t("inner.title")}
                       </h3>
                       <ul className="contact-page__information-list list-unstyled">
                         <li>
@@ -199,7 +229,7 @@ export default function Home() {
                             </Link>
                           </div>
                           <div className="content">
-                            <h3>Call to Us</h3>
+                            <h3>{t("inner.call.text")}</h3>
                             <p>
                               <Link href="tel:+79118880388">
                                 (+7) 911 888 03 88
@@ -212,7 +242,7 @@ export default function Home() {
                             <span className="fas fa-envelope"></span>
                           </div>
                           <div className="content">
-                            <h3>Mail to Us</h3>
+                            <h3>{t("inner.email.text")}</h3>
                             <p>
                               <Link href="mailto:info@sakw.ru">
                                 info@sakw.ru
@@ -225,7 +255,7 @@ export default function Home() {
                             <span className="fab fa-telegram-plane"></span>
                           </div>
                           <div className="content">
-                            <h3>Telegram</h3>
+                            <h3>{t("inner.chat.text")}</h3>
                             <p>
                               <Link href="https://t.me/sakwru" target="_blank">
                                 @sakwru
@@ -235,16 +265,10 @@ export default function Home() {
                         </li>
                         <li>
                           <div className="icon">
-                            <Link href="https://vk.com/sakwru" target="_blank">
-                              <img
-                                src="assets/images/brand/vk-logo.svg"
-                                alt=""
-                                style={{ width: "26px" }}
-                              />
-                            </Link>
+                            <span className="fab fa-vk"></span>
                           </div>
                           <div className="content">
-                            <h3>VK</h3>
+                            <h3>{t("inner.address.text")}</h3>
                             <p>
                               <Link
                                 href="https://vk.com/sakwru"
@@ -263,7 +287,7 @@ export default function Home() {
                 <div className="col-xl-7 col-lg-7">
                   <div className="contact-page__right">
                     <h3 className="contact-page__contact-title">
-                      Submit Your Inquiry Today
+                      {t("form.title")}
                     </h3>
                     <form
                       id="contact-form"
@@ -279,7 +303,7 @@ export default function Home() {
                               // name="name"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
-                              placeholder="Your Name"
+                              placeholder={t("form.place.name")}
                               required=""
                             />
                             {nameError && (
@@ -294,7 +318,7 @@ export default function Home() {
                               // name="email"
                               value={email}
                               onChange={(e) => setEmail(e.target.value)}
-                              placeholder="Your Email"
+                              placeholder={t("form.place.email")}
                               required=""
                             />
                             {emailError && (
@@ -321,7 +345,7 @@ export default function Home() {
                                 //   setPhoneError(null);
                                 // }
                               }}
-                              placeholder="Your Phone No."
+                              placeholder={t("form.place.phone")}
                             />
                             {phoneError && (
                               <p className="error-message">{phoneError}</p>
@@ -335,7 +359,7 @@ export default function Home() {
                               // name="Subject"
                               value={subject}
                               onChange={(e) => setSubject(e.target.value)}
-                              placeholder="Subject"
+                              placeholder={t("form.place.subject")}
                             />
                             {subjectError && (
                               <p className="error-message">{subjectError}</p>
@@ -348,7 +372,7 @@ export default function Home() {
                               name="message"
                               value={massege}
                               onChange={(e) => setMassege(e.target.value)}
-                              placeholder="Messege"
+                              placeholder={t("form.place.message")}
                               required=""
                             ></textarea>
                             {massegeError && (
@@ -362,7 +386,9 @@ export default function Home() {
                               // data-loading-text="Please wait..."
                               disabled={submitting}
                             >
-                              {submitting ? "Sending..." : "Submit"}
+                              {submitting
+                                ? "Sending..."
+                                : [t("form.buttonText")]}
                               <span className="icon-up-right-arrow"></span>
                             </button>
                             {success && (
