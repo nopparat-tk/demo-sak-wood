@@ -6,7 +6,6 @@ import "swiper/css/free-mode";
 import { figtree, barlowSemiCondensed } from "@/lib/font";
 
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-// import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -22,14 +21,13 @@ export default async function LocaleLayout({ children, params }) {
     notFound();
   }
 
-  const messages = await getMessages();
   return (
     <html
       lang={locale}
       className={`${figtree.variable} ${barlowSemiCondensed.variable}`}
     >
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale}>
           {children}
         </NextIntlClientProvider>
       </body>
