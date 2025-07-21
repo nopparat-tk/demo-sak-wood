@@ -4840,9 +4840,9 @@ a.video-popup {
     gap: 30px;
   }
 
-  .main-menu-two__search-and-nav-sidebar-icon {
+  /* .main-menu-two__search-and-nav-sidebar-icon {
     display: none;
-  }
+  } */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
