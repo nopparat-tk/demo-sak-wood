@@ -1,8 +1,9 @@
+import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
+const MobileMenu = ({ handleMobileMenu }) => {
   const t = useTranslations("menu");
 
   const [isActive, setIsActive] = useState({
@@ -26,6 +27,11 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
       });
     }
   };
+
+  const items = routing.locales.map((locale) => ({
+    value: locale,
+    label: locale.toUpperCase(),
+  }));
   return (
     <>
       <div className="mobile-nav__wrapper">
@@ -52,6 +58,24 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           </div>
 
           <div className="mobile-nav__container">
+            <div className="mobile-nav__container">
+              <ul
+                className="mobile-nav__social"
+                style={{
+                  padding: "10px 0 10px 20px",
+                  gap: "25px",
+                  backgroundColor: "rgba(255, 255, 255, 0.05)",
+                }}
+              >
+                {items.map((item) => (
+                  <li key={item.value}>
+                    <Link href="/" locale={item.value}>
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div
               className="collapse navbar-collapse show clearfix"
               id="navbarSupportedContent"
@@ -66,9 +90,13 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <li>
                   <Link href="/hardwoods">{t("hardwood")}</Link>
                 </li>
+                <li>
+                  <Link href="/contact">{t("contact")}</Link>
+                </li>
               </ul>
             </div>
           </div>
+
           <ul className="mobile-nav__contact list-unstyled">
             <li>
               <i className="fa fa-envelope"></i>
