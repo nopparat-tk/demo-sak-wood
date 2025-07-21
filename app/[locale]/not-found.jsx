@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
-export default function Error404() {
+import { Link } from "@/i18n/navigation";
+
+export default function LocaleNotFound() {
   return (
     <>
       <Layout

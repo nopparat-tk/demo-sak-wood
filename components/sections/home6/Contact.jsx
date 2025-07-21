@@ -113,11 +113,11 @@ export default function Contact() {
         <div
           className="section-shape-1"
           style={{
-            backgroundImage: " url(assets/images/shapes/section-shape-1.png)",
+            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
           }}
         ></div>
         <div className="contact-one__shape-2 float-bob-y">
-          <img src="assets/images/shapes/contact-one-shape-2.png" alt="" />
+          <img src="/assets/images/shapes/contact-one-shape-2.png" alt="" />
         </div>
         <div className="container">
           <div className="row">
@@ -130,7 +130,7 @@ export default function Contact() {
                 <div className="contact-one__inner">
                   <div className="contact-one__shape-1 float-bob-x">
                     <img
-                      src="assets/images/shapes/contact-one-shape-1.png"
+                      src="/assets/images/shapes/contact-one-shape-1.png"
                       alt=""
                     />
                   </div>
