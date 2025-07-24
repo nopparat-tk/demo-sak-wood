@@ -1,6 +1,6 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import Layout from "@/components/layout/Layout";
 import Lightbox from "yet-another-react-lightbox";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
@@ -8,6 +8,7 @@ import "yet-another-react-lightbox/styles.css";
 import Showcase from "@/components/sections/home6/Showcase";
 
 export default function TeakInTemples() {
+  const t = useTranslations("showcases");
   const [slideOpen, setSlideOpen] = useState(false);
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -37,19 +38,17 @@ export default function TeakInTemples() {
             }}
           ></div>
           <div className="container">
+            <div className="section-title text-center sec-title-animation animation-style1">
+              <h2 className="section-title__title title-animation">
+                {t("case5.title")}
+              </h2>
+            </div>
             <div className="project-details__img">
               <img src="/assets/images/showcase/teak-in-temples-1.png" alt="" />
             </div>
             <div className="project-details__content">
-              <h3 className="project-details__title-1">
-                Architecture that Inspires{" "}
-              </h3>
-              <p className="project-details__text-1">
-                Throughout history, Thailand’s temples and spiritual centers
-                have showcased the profound beauty of Thai teak, the same
-                premium wood now available for your home or project through
-                South Asia Kraft Wood.{" "}
-              </p>
+              <h3 className="project-details__title-1">{t("case5.heading")}</h3>
+              <p className="project-details__text-1">{t("case5.desc1")}</p>
               <div className="project-details__img-and-faq">
                 <div className="row">
                   <div className="col-xl-6 col-lg-6">
@@ -89,40 +88,9 @@ export default function TeakInTemples() {
                       >
                         <div className="accrodion-content">
                           <div className="inner">
-                            <p>
-                              Many believe that teak carries the essence of the
-                              forest, offering protection, good fortune, and
-                              harmony to those who build with it. This is why
-                              teak was traditionally used for temples, palaces,
-                              and sacred spaces. Teak is not simply wood, but a
-                              material that "lives," within your home,
-                              preserving both beauty and balance for
-                              generations.{" "}
-                            </p>
+                            <p>{t("case1.desc2")}</p>
                             <br />
-                            <p>
-                              Temples like Wat Benchamabophit (The Marble
-                              Temple) in Bangkok are admired worldwide for their
-                              rich, golden teak wood doors, windows, and
-                              intricate carvings.
-                            </p>
-                            <br />
-                            <p>
-                              Now, you can bring this level of beauty and
-                              craftsmanship into your own space. Thai teak is
-                              visually stunning with glowing grain patterns and
-                              lovely tones. Perfect for premium Russian
-                              interiors, whether in luxury homes, hotels, or
-                              developments, our Thai teak inspires awe and
-                              reverence with the lustre and sophistication of
-                              this golden wood.
-                            </p>
-                            <br />
-                            <p>
-                              With South Asia Kraft Wood, the elegance of sacred
-                              architecture will grace your home or business for
-                              lifetimes.
-                            </p>
+                            <p>{t("case1.desc3")}</p>
                             <br />
                           </div>
                           {/* /.inner */}
@@ -132,11 +100,6 @@ export default function TeakInTemples() {
                   </div>
                 </div>
               </div>
-              {/* <p className="project-details__text-3">
-                When you choose premium Thai teak from South Asia Kraft Wood,
-                you’re investing in a symbol of excellence, refinement, and
-                status.
-              </p> */}
             </div>
           </div>
         </section>

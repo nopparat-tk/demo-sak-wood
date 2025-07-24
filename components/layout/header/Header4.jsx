@@ -81,16 +81,9 @@ export default function Header4({ scroll, handleMobileMenu }) {
             <div className="main-menu-two__wrapper">
               <div className="main-menu-two__wrapper-inner">
                 <div className="main-menu-two__left">
-                  <div
-                    className="main-menu-two__logo"
-                    style={{ padding: "16px 0" }}
-                  >
+                  <div className="main-menu-two__logo">
                     <Link href="/">
-                      <img
-                        src="/assets/images/resources/logo-1.svg"
-                        style={{ width: "168px" }}
-                        alt=""
-                      />
+                      <img src="/assets/images/resources/logo-1.svg" alt="" />
                     </Link>
                   </div>
                 </div>

@@ -108,7 +108,7 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Contact Us">
+      <Layout headerStyle={4} footerStyle={4}>
         {/*Page Header Start*/}
         <section className="page-header">
           <div

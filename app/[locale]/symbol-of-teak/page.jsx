@@ -1,6 +1,6 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import Layout from "@/components/layout/Layout";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Lightbox from "yet-another-react-lightbox";
@@ -9,6 +9,7 @@ import "yet-another-react-lightbox/styles.css";
 import Showcase from "@/components/sections/home6/Showcase";
 
 export default function SymbolOfTeak() {
+  const t = useTranslations("showcases");
   const [slideOpen, setSlideOpen] = useState(false);
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -41,21 +42,15 @@ export default function SymbolOfTeak() {
           <div className="container">
             <div className="section-title text-center sec-title-animation animation-style1">
               <h2 className="section-title__title title-animation">
-                The Symbol of Teak
+                {t("case3.title")}
               </h2>
             </div>
             <div className="project-details__img">
               <img src="/assets/images/showcase/symbol-of-teak-1.png" alt="" />
             </div>
             <div className="project-details__content">
-              <h3 className="project-details__title-1">
-                Symbol of Strength and Prosperity{" "}
-              </h3>
-              <p className="project-details__text-1">
-                For centuries, Thai teak has been the wood of choice for kings,
-                aristocrats, and master craftsmen, who believed teak symbolized
-                strength, prosperity, and protection.{" "}
-              </p>
+              <h3 className="project-details__title-1">{t("case3.heading")}</h3>{" "}
+              <p className="project-details__text-1">{t("case3.desc1")}</p>
               <div className="project-details__img-and-faq">
                 <div className="row">
                   <div className="col-xl-6 col-lg-6">
@@ -95,31 +90,13 @@ export default function SymbolOfTeak() {
                       >
                         <div className="accrodion-content">
                           <div className="inner">
-                            <p>
-                              To this day, Thai teak wood remains symbolic for
-                              success.{" "}
-                            </p>
+                            <p>{t("case3.desc2")}</p>
                             <br />
-                            <p>
-                              Teak was so prized by European powers that the
-                              most prestigious and powerful ships in the British
-                              Royal Navy had to be built with teak.
-                            </p>
+                            <p>{t("case3.desc3")}</p>
                             <br />
-                            <p>
-                              Possessing teak was seen not only as a mark of
-                              wealth but as an assurance of longevity, security,
-                              and prosperity, beliefs that persist today in its
-                              use for luxury homes, yachts, and architectural
-                              masterpieces around the world.
-                            </p>
-                            <br />
+                            <p>{t("case3.desc4")}</p>
                           </div>
-                          <p>
-                            When you choose premium Thai teak from South Asia
-                            Kraft Wood, you’re investing in a symbol of
-                            excellence, refinement, and status.
-                          </p>
+
                           {/* /.inner */}
                         </div>
                       </div>

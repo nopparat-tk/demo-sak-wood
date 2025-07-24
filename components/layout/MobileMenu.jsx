@@ -82,16 +82,16 @@ const MobileMenu = ({ handleMobileMenu }) => {
             >
               <ul className="main-menu__list">
                 <li>
-                  <Link href="/#">{t("home")}</Link>
+                  <Link href="/">{t("home")}</Link>
                 </li>
                 <li>
-                  <Link href="/teak">{t("teak")}</Link>
+                  <Link href="thai-teak">{t("teak")}</Link>
                 </li>
                 <li>
-                  <Link href="/hardwoods">{t("hardwood")}</Link>
+                  <Link href="hardwoods">{t("hardwood")}</Link>
                 </li>
                 <li>
-                  <Link href="/contact">{t("contact")}</Link>
+                  <Link href="contact">{t("contact")}</Link>
                 </li>
               </ul>
             </div>
@@ -104,7 +104,7 @@ const MobileMenu = ({ handleMobileMenu }) => {
             </li>
             <li>
               <i className="fa fa-phone-alt"></i>
-              <Link href="tel:+79118880388">+7 911 888 03 88</Link>
+              <Link href="tel:+79118880388">+7 (911) 888 03 88</Link>
             </li>
           </ul>
           <div className="mobile-nav__top">

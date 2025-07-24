@@ -70,11 +70,8 @@ export default function Banner() {
                   <h2 className="main-slider__title">
                     {t("slide1.title1")} <br /> {t("slide1.title2")}
                   </h2>
-                  <div
-                    className="text main-slider__text"
-                    style={{ paddingBottom: "10px" }}
-                  >
-                    {t("slide1.text")}
+                  <div className="text main-slider__text">
+                    <p>{t("slide1.text")}</p>
                   </div>
                 </div>
               </div>

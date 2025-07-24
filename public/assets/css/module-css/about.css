@@ -393,7 +393,8 @@
 }
 
 .about-three__left .section-title {
-  margin-bottom: 26px;
+  /* margin-bottom: 26px; */
+  margin-bottom: 0px;
 }
 
 .about-three__points-list {

@@ -98,25 +98,27 @@ export default function Whychoose() {
         ></div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-6">
+            <div className="col-xl-6 col-lg-12">
               <div className="slogan-one__content text-center">
                 <div className="title">
-                  <h3 style={{ fontWeight: "bold", letterSpacing: "0.025em" }}>
-                    {t("title")}
-                  </h3>
-                  <h4>{t("subtitle1")}</h4>
+                  <h3>{t("title")}</h3>
+                  <h4>
+                    {t("subtitle1")}
+                    <br />
+                    {t("subtitle2")}
+                  </h4>
                   <p>
                     {t("desc1")}{" "}
-                    <span style={{ fontWeight: "bolder" }}>{t("desc2")}</span>{" "}
-                    <span style={{ fontWeight: "bold" }}></span> <br />
+                    <span style={{ fontWeight: "bolder" }}>{t("desc2")}</span>
+                    <br />
                     {t("desc3")}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-xl-6 col-lg-6">
-              <div className="contact-page__right" style={{ marginTop: "0px" }}>
+            <div className="col-xl-6 col-lg-12">
+              <div className="contact-page__right">
                 <form
                   id="contact-form"
                   className="contact-page__form"
@@ -159,12 +161,7 @@ export default function Whychoose() {
                       </div>
                     </div>
                     <div className="col-xl-12">
-                      <div
-                        className="contact-page__input-box"
-                        style={{
-                          marginBottom: "30px",
-                        }}
-                      >
+                      <div className="contact-page__input-box">
                         <input
                           type="text"
                           name="message"

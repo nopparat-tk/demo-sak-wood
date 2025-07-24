@@ -267,7 +267,7 @@ export default function Contact() {
                     <div className="contact-one__contact-number-box">
                       <p>{t("text")}</p>
                       <h5>
-                        <Link href="tel:+79118880388">(+7) 911 888 03 88</Link>
+                        <Link href="tel:+79118880388">+7 (911) 888 03 88</Link>
                       </h5>
                     </div>
                   </div>

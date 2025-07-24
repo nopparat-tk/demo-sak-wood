@@ -22,14 +22,7 @@ export default function ProductsHilight() {
             <div className="row">
               <div className="col-xl-6">
                 <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
+                  <div className="testimonial-two__single">
                     <div
                       className="testimonial-two__single-shape-1"
                       style={{
@@ -43,23 +36,10 @@ export default function ProductsHilight() {
                         alt=""
                       />
                     </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
+                    <h3 className="testimonial-two__name">
                       <Link href="#whychoose">{t("flooring.title")}</Link>
                     </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
+                    <p className="testimonial-two__text">
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -107,14 +87,7 @@ export default function ProductsHilight() {
               </div>
               <div className="col-xl-6">
                 <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
+                  <div className="testimonial-two__single">
                     <div
                       className="testimonial-two__single-shape-1"
                       style={{
@@ -128,23 +101,10 @@ export default function ProductsHilight() {
                         alt=""
                       />
                     </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
+                    <h3 className="testimonial-two__name">
                       <Link href="#whychoose">{t("wall.title")}</Link>
                     </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
+                    <p className="testimonial-two__text">
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -179,14 +139,7 @@ export default function ProductsHilight() {
             <div className="row">
               <div className="col-xl-6">
                 <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
+                  <div className="testimonial-two__single">
                     <div
                       className="testimonial-two__single-shape-1"
                       style={{
@@ -197,23 +150,10 @@ export default function ProductsHilight() {
                     <div className="testimonial-two__image">
                       <img src="/assets/images/products/Timber.png" alt="" />
                     </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
+                    <h3 className="testimonial-two__name">
                       <Link href="#whychoose">{t("timbers.title")}</Link>
                     </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
+                    <p className="testimonial-two__text">
                       {t("timbers.desc.1")}
                       <span
                         style={{
@@ -241,14 +181,7 @@ export default function ProductsHilight() {
               </div>
               <div className="col-xl-6">
                 <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
+                  <div className="testimonial-two__single">
                     <div
                       className="testimonial-two__single-shape-1"
                       style={{
@@ -262,23 +195,10 @@ export default function ProductsHilight() {
                         alt=""
                       />
                     </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
+                    <h3 className="testimonial-two__name">
                       <Link href="#whychoose">{t("finger.title")}</Link>
                     </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
+                    <p className="testimonial-two__text">
                       <span
                         style={{
                           textTransform: "uppercase",
@@ -311,16 +231,9 @@ export default function ProductsHilight() {
             data-wow-delay="100ms"
           >
             <div className="row justify-content-center">
-              <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+              <div className="col-xl-7">
                 <div className="item">
-                  <div
-                    className="testimonial-two__single"
-                    style={{
-                      marginTop: "0px",
-                      padding: "47px",
-                      textAlign: "left",
-                    }}
-                  >
+                  <div className="testimonial-two__single">
                     <div
                       className="testimonial-two__single-shape-1"
                       style={{
@@ -334,23 +247,10 @@ export default function ProductsHilight() {
                         alt=""
                       />
                     </div>
-                    <h3
-                      className="testimonial-two__name"
-                      style={{
-                        marginTop: "18px",
-                        marginBottom: "44px",
-                        fontSize: "24px",
-                      }}
-                    >
+                    <h3 className="testimonial-two__name">
                       <Link href="#whychoose">{t("hardwoods.title")}</Link>
                     </h3>
-                    <p
-                      className="testimonial-two__text"
-                      style={{
-                        fontSize: "17px",
-                        lineHeight: "26px",
-                      }}
-                    >
+                    <p className="testimonial-two__text">
                       {t("hardwoods.desc.1")}
                       <span
                         style={{

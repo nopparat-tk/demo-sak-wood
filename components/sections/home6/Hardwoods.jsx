@@ -89,7 +89,7 @@ export default function hardwoods() {
                       </div>
                     </div>
                     <h3
-                      className="service-details__title-2"
+                      className="service-details__points-title"
                       style={{ marginTop: "30px" }}
                     >
                       {t("merbau.specs.title")}
@@ -133,7 +133,7 @@ export default function hardwoods() {
                       />
                     </div>
                     <h3 className="service-details__title-1">
-                      {t("balau.charact.title")}
+                      {t("balau.title")}
                     </h3>
                     <p className="service-details__text-1">{t("balau.des1")}</p>
                     <p className="service-details__text-2">{t("balau.des2")}</p>
@@ -146,7 +146,7 @@ export default function hardwoods() {
                       </div>
                       <div className="service-details__points-box">
                         <h3 className="service-details__points-title">
-                          {t("balau.title")}
+                          {t("balau.charact.title")}
                         </h3>
                         <ul className="service-details__points-list list-unstyled">
                           {balauItems.map((item, index) => (
@@ -159,7 +159,7 @@ export default function hardwoods() {
                       </div>
                     </div>
                     <h3
-                      className="service-details__title-2"
+                      className="service-details__points-title"
                       style={{ marginTop: "30px" }}
                     >
                       {t("balau.specs.title")}

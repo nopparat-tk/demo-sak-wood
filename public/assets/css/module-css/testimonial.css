@@ -168,8 +168,10 @@
   padding: 79px 47px 43px;
   border-radius: 20px;
   z-index: 1;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 30px;
+  text-align: left;
+  padding: 45px;
 }
 
 .testimonial-two__single-shape-1 {
@@ -247,7 +249,7 @@
 }
 
 .testimonial-two__name {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 30px;
   font-style: normal;
@@ -255,6 +257,8 @@
   letter-spacing: 0.1em;
   margin-top: 7px;
   margin-bottom: 4px;
+  max-width: 58%;
+  min-height: 64px;
 }
 
 .testimonial-two__name a {
@@ -269,10 +273,10 @@
 
 .testimonial-two__text {
   margin-top: 18px;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--tecture-gray);
   font-weight: 400;
-  line-height: 32px;
+  line-height: 1.5em;
   min-height: 156px;
 }
 

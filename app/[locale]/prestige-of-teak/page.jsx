@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import Layout from "@/components/layout/Layout";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Lightbox from "yet-another-react-lightbox";
@@ -9,6 +9,7 @@ import "yet-another-react-lightbox/styles.css";
 import Showcase from "@/components/sections/home6/Showcase";
 
 export default function PrestigeOfTeak() {
+  const t = useTranslations("showcases");
   const [slideOpen, setSlideOpen] = useState(false);
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -40,7 +41,7 @@ export default function PrestigeOfTeak() {
           <div className="container">
             <div className="section-title text-center sec-title-animation animation-style1">
               <h2 className="section-title__title title-animation">
-                Global Prestige
+                {t("case2.title")}
               </h2>
             </div>
             <div className="project-details__img">
@@ -50,37 +51,11 @@ export default function PrestigeOfTeak() {
               />
             </div>
             <div className="project-details__content">
-              <h3 className="project-details__title-1">
-                British Embassy Bangkok
-              </h3>{" "}
-              <p className="project-details__text-1">
-                South Asia Kraft Wood is honored to bring you the same premium
-                Thai teak that graces one of the most distinguished diplomatic
-                residences in Southeast Asia, the prestigious British Embassy in
-                Bangkok.{" "}
-              </p>
-              {/* <p className="project-details__text-2">
-                The choice of Thai teak ensures the embassy benefits from a
-                material renowned for its strength, resistance to wear, and
-                natural beauty, ideal for spaces that demand both performance
-                and aesthetics. Thai teak is naturally imbued with protective
-                oils that strengthen the wood to resist moisture, pests, and
-                everyday wear, making it ideal for modern homes, embassies, and
-                luxury developments worldwide. It is perfect for Russia’s cold
-                winters and dry indoor environments, which would damage lesser
-                materials. It is teak wood’s durability and refined character
-                that have made this wood synonymous with sophistication in elite
-                projects across the globe.{" "}
-              </p> */}
+              <h3 className="project-details__title-1">{t("case2.heading")}</h3>{" "}
+              <p className="project-details__text-1">{t("case2.desc1")}</p>
               <div className="project-details__img-and-faq">
                 <div className="row">
                   <div className="col-xl-6 col-lg-6">
-                    {/* <div className="project-details__img-box-img">
-                      <img
-                        src="/assets/images/showcase/prestige-of-teak-2.png"
-                        alt=""
-                      />
-                    </div> */}
                     <div className="projects-one__single">
                       <div className="projects-one__img-box">
                         <div className="projects-one__img">
@@ -117,34 +92,9 @@ export default function PrestigeOfTeak() {
                       >
                         <div className="accrodion-content">
                           <div className="inner">
-                            <p>
-                              For this project, only the finest materials were
-                              chosen to reflect the embassy's commitment to
-                              elegance, sustainability, and refined design. The
-                              embassy features our Thai teak flooring, crafted
-                              from premium, sustainably grown Thai teak, a wood
-                              celebrated worldwide. Thai plantation teak offers
-                              a rare blend of beauty and resilience,
-                              transforming any space into a statement of
-                              enduring luxury.
-                            </p>
+                            <p>{t("case2.desc2")}</p>
                             <br />
-                            <p>
-                              The choice of Thai teak ensures the embassy
-                              benefits from a material renowned for its
-                              strength, resistance to wear, and natural beauty,
-                              ideal for spaces that demand both performance and
-                              aesthetics. Thai teak is naturally imbued with
-                              protective oils that strengthen the wood to resist
-                              moisture, pests, and everyday wear, making it
-                              ideal for modern homes, embassies, and luxury
-                              developments worldwide. It is perfect for Russia’s
-                              cold winters and dry indoor environments, which
-                              would damage lesser materials. It is teak wood’s
-                              durability and refined character that have made
-                              this wood synonymous with sophistication in elite
-                              projects across the globe.
-                            </p>
+                            <p>{t("case2.desc3")}</p>
                           </div>
                           {/* /.inner */}
                         </div>
@@ -153,91 +103,11 @@ export default function PrestigeOfTeak() {
                   </div>
                 </div>
               </div>
-              <p className="project-details__text-3">
-                We offer you access to the same world-class teak, known for its
-                rich golden color, natural warmth, and unparalleled durability.
-                With South Asia Kraft Wood’s meticulously kiln-dried,
-                sustainably sourced teak, you can bring the same resilience,
-                prestige, and timeless luxury trusted by global institutions to
-                your own home or business!
-              </p>
+              <p className="project-details__text-3">{t("case2.desc4")}</p>
             </div>
           </div>
         </section>
         <Showcase />
-        {/*Project Details End*/}
-
-        {/*Brand One Start*/}
-        {/* <section className="brand-one">
-          <div
-            className="section-shape-1"
-            style={{
-              backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
-            }}
-          ></div>
-          <div className="container">
-            <Swiper
-              {...swiperOptions}
-              className="brand-one__carousel owl-theme owl-carousel"
-            >
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-1.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-2.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-3.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-4.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-5.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="item">
-                  <div className="brand-one__img">
-                    <Link href="#">
-                      <img src="/assets/images/brand/brand-1-6.png" alt="" />
-                    </Link>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </section> */}
-        {/*Brand One End*/}
       </Layout>
     </>
   );
