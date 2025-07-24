@@ -935,6 +935,8 @@
 
 .service-details__points-list li p {
   color: var(--tecture-white);
+  font-size: 14px;
+  list-style: 1.2em;
 }
 
 .service-details__title-2 {
@@ -944,6 +946,25 @@
   text-transform: uppercase;
   margin-top: 54px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .service-details__title-1 {
+    font-size: 24px;
+  }
+
+  .service-details__text-1 {
+    font-size: 14px;
+  }
+
+  .service-details__text-2 {
+    font-size: 14px;
+  }
+
+  .service-details__points-title {
+    margin-top: 30px;
+    padding-bottom: 5px;
+  }
 }
 
 /*--------------------------------------------------------------

@@ -88,10 +88,7 @@ export default function hardwoods() {
                         </ul>
                       </div>
                     </div>
-                    <h3
-                      className="service-details__points-title"
-                      style={{ marginTop: "30px" }}
-                    >
+                    <h3 className="service-details__points-title">
                       {t("merbau.specs.title")}
                     </h3>
                     <p className="service-details__text-3">
@@ -158,10 +155,7 @@ export default function hardwoods() {
                         </ul>
                       </div>
                     </div>
-                    <h3
-                      className="service-details__points-title"
-                      style={{ marginTop: "30px" }}
-                    >
+                    <h3 className="service-details__points-title">
                       {t("balau.specs.title")}
                     </h3>
                     <p className="service-details__text-3">

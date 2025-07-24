@@ -309,7 +309,8 @@ a.video-popup {
   outline: none !important;
   font-weight: 700;
   /* font-size: 17px; */
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--tecture-white);
   background-color: var(--tecture-base);
   padding: 17px 40px 17px;
@@ -3647,7 +3648,7 @@ a.video-popup {
   .service-details__img-and-point-box {
     gap: 30px;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
   }
 
   .team-details__left {
@@ -3688,6 +3689,10 @@ a.video-popup {
 
   .blog-two-single .content-box .meta-box .meta-info {
     margin-left: 20px;
+  }
+
+  .stricky-header.stricky-fixed .main-menu-two__logo {
+    padding: 5px 0;
   }
 }
 
@@ -4036,6 +4041,16 @@ a.video-popup {
   .coming-soon-page__subscribe-box form {
     flex-direction: column;
   }
+
+  .service-details__img-and-point-box {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stricky-header.stricky-fixed .main-menu-two__logo {
+    padding: 5px 0;
+  }
 }
 
 /* Mobile Layout: 320px. */
@@ -4045,12 +4060,12 @@ a.video-popup {
   }
 
   .main-menu-two__logo img {
-    max-width: 85%;
+    max-width: 70%;
   }
 
   .section-title__title {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 1.2em;
   }
 
   .section-title__title br {
@@ -4365,7 +4380,7 @@ a.video-popup {
   }
 
   .contact-one__title {
-    font-size: 25px;
+    font-size: 21px;
     line-height: 35px;
   }
 
@@ -4391,8 +4406,7 @@ a.video-popup {
   .about-three__left {
     margin-right: 0;
     margin-left: 0;
-    /* margin-top: 30px; */
-    margin-top: 0px;
+    margin-bottom: 30px;
   }
 
   .about-three__img {
@@ -4412,9 +4426,9 @@ a.video-popup {
   .about-three__experience-box-left {
     position: relative;
     left: 0;
-    top: 0;
-    margin-top: 30px;
+    top: -50px;
     max-width: fit-content;
+    width: 70%;
   }
 
   .how-it-work__single {
@@ -4605,17 +4619,6 @@ a.video-popup {
       padding: 68px 20px 71px;
     }
 
-    .service-details__title-1 {
-      font-size: 30px;
-      line-height: 40px;
-    }
-
-    .service-details__img-and-point-box {
-      gap: 30px;
-      flex-direction: column;
-      align-items: baseline;
-    }
-
     .service-details__title-2 {
       font-size: 30px;
       line-height: 40px;
@@ -4710,6 +4713,43 @@ a.video-popup {
       margin-left: 0px;
       margin-top: 10px;
     }
+  }
+
+  .stricky-header.stricky-fixed .main-menu-two__logo {
+    padding: 5px 0;
+  }
+
+  .slogan-one__content .title p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  .slogan-one__content .title h4 {
+    font-size: 18px;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+  }
+
+  .slogan-one__content .title h3 {
+    font-size: 21px;
+    line-height: 1.4em;
+    letter-spacing: 0.025em;
+  }
+
+  .service-details__img-and-point-box {
+    gap: 30px;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .contact-one__contact-number-box h5 {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+  }
+
+  .contact-one__contact-number-box p {
+    font-size: 16px;
+    letter-spacing: 0.03em;
   }
 }
 

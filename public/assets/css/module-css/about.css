@@ -387,6 +387,11 @@
   opacity: 0.3;
 }
 
+.about-three__text {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
 .about-three__left {
   position: relative;
   display: block;
