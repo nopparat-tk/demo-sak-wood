@@ -661,6 +661,10 @@
   display: block;
 }
 
+.service-details__text-1 {
+  min-height: 105px;
+}
+
 .service-details__services-list {
   position: relative;
   display: block;
@@ -861,7 +865,7 @@
 }
 
 .service-details__title-1 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
@@ -877,7 +881,7 @@
 .service-details__img-and-point-box {
   position: relative;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 55px;
 }
 
@@ -897,7 +901,7 @@
 
 .service-details__points-title {
   position: relative;
-  top: -15px;
+  top: -10px;
   font-size: 21px;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -935,8 +939,8 @@
 
 .service-details__points-list li p {
   color: var(--tecture-white);
-  font-size: 14px;
-  list-style: 1.2em;
+  /* font-size: 18px; */
+  list-style: none;
 }
 
 .service-details__title-2 {

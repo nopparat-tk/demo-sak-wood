@@ -27,11 +27,11 @@ const swiperOptions = {
   // },
 
   // Autoplay
-  // autoplay: {
-  //    delay: 7000,
-  //    disableOnInteraction: false,
-  //    speed: 800,
-  // },
+  autoplay: {
+    delay: 6000,
+    disableOnInteraction: false,
+    speed: 800,
+  },
 };
 
 export default function Banner() {
@@ -58,7 +58,7 @@ export default function Banner() {
               ></div>
               {/* /.slider-one__bg */}
               <div className="container">
-                <div className="main-slider__content">
+                <div className="main-slider-four__content_slide1">
                   <div className="main-slider__video-link">
                     <a onClick={() => setOpen(true)} className="video-popup">
                       <div className="main-slider__video-icon">
@@ -98,7 +98,7 @@ export default function Banner() {
                       {t("slide2.title2")} <span>{t("slide2.title3")}</span>
                     </h2>
                   </div>
-                  <div className="text">
+                  <div className="text main-slider__text">
                     <p>{t("slide2.text")}</p>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ export default function Banner() {
                       {t("slide3.title3")}
                     </h2>
                   </div>
-                  <div className="text">
+                  <div className="text main-slider__text">
                     <p>{t("slide3.text")}</p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ export default function Banner() {
                       {t("slide4.title2")} <span>{t("slide4.title3")}</span>
                     </h2>
                   </div>
-                  <div className="text">
+                  <div className="text main-slider__text">
                     <p>{t("slide4.text")}</p>
                     <br />
                   </div>
@@ -186,7 +186,7 @@ export default function Banner() {
                       <span>{t("slide5.title2")}</span> {t("slide5.title3")}
                     </h2>
                   </div>
-                  <div className="text">
+                  <div className="text main-slider__text">
                     <p>{t("slide5.text")}</p>
                   </div>
                 </div>

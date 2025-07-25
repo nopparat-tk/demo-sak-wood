@@ -130,7 +130,7 @@
 }
 
 .contact-one__title {
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 52px;
   font-style: normal;
@@ -376,7 +376,7 @@
   padding-left: 25px;
   padding-right: 25px;
   outline: none;
-  font-size: 14px;
+  /* font-size: 14px; */
   color: rgba(var(--tecture-white-rgb), 0.3);
   display: block;
   font-weight: 400;
@@ -450,6 +450,21 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  .contact-page__information-title {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  .contact-page__information-list li .content h3 {
+    font-size: 21px;
+    line-height: 1.5em;
+  }
+
+  .contact-page__contact-title {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
   .contact-page__inner {
     padding: 15px 0 75px;
     border-radius: 10px;
@@ -465,6 +480,10 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
+  }
+
+  .contact-page__input-box textarea {
+    font-size: 14px;
   }
 }
 /*--------------------------------------------------------------

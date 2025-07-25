@@ -105,11 +105,7 @@ export default function hardwoods() {
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
-                    <Link
-                      href="hardwoods"
-                      className="thm-btn"
-                      style={{ textTransform: "uppercase" }}
-                    >
+                    <Link href="hardwoods" className="thm-btn">
                       {t("buttonText")}{" "}
                       <span className="icon-up-right-arrow"></span>{" "}
                     </Link>
@@ -172,11 +168,7 @@ export default function hardwoods() {
                     </p>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
-                    <Link
-                      href="hardwoods"
-                      className="thm-btn"
-                      style={{ textTransform: "uppercase" }}
-                    >
+                    <Link href="hardwoods" className="thm-btn">
                       {t("buttonText")}{" "}
                       <span className="icon-up-right-arrow"></span>{" "}
                     </Link>

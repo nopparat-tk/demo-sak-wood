@@ -79,11 +79,7 @@ export default function HeroProduct() {
                     </ul>
                   </div>
                   <div className="btn-box" style={{ marginTop: "30px" }}>
-                    <Link
-                      href="thai-teak"
-                      className="thm-btn"
-                      style={{ textTransform: "uppercase" }}
-                    >
+                    <Link href="thai-teak" className="thm-btn">
                       {t("buttonText")}{" "}
                       <span className="icon-up-right-arrow"></span>{" "}
                     </Link>

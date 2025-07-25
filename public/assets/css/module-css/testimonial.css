@@ -249,12 +249,11 @@
 }
 
 .testimonial-two__name {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 30px;
   font-style: normal;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   margin-top: 7px;
   margin-bottom: 4px;
   max-width: 58%;
@@ -273,11 +272,15 @@
 
 .testimonial-two__text {
   margin-top: 18px;
-  font-size: 16px;
   color: var(--tecture-gray);
   font-weight: 400;
   line-height: 1.5em;
   min-height: 156px;
+}
+
+.testimonial-two__text span {
+  color: var(--tecture-white);
+  text-transform: uppercase;
 }
 
 .testimonial-two__carousel.owl-theme .owl-nav {

@@ -37,8 +37,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  font-size: 16px;
-  font-weight: 700;
+  /* font-size: 16px; */
+  /* font-weight: 700; */
   /* color: #aeb0b4; */
   color: var(--tecture-white);
   -webkit-transition: all 500ms ease;

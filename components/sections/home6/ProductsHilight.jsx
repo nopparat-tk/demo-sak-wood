@@ -40,36 +40,9 @@ export default function ProductsHilight() {
                       <Link href="#whychoose">{t("flooring.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("flooring.desc.1")}
-                      </span>{" "}
-                      {t("flooring.desc.2")}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("flooring.desc.3")}
-                      </span>{" "}
-                      {t("flooring.desc.4")}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("flooring.desc.5")}
-                      </span>{" "}
-                      {t("flooring.desc.6")}
+                      <span>{t("flooring.desc.1")}</span> {t("flooring.desc.2")}
+                      <span>{t("flooring.desc.3")}</span> {t("flooring.desc.4")}
+                      <span>{t("flooring.desc.5")}</span> {t("flooring.desc.6")}
                     </p>
                     <div
                       className="btn-box"
@@ -105,16 +78,7 @@ export default function ProductsHilight() {
                       <Link href="#whychoose">{t("wall.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("wall.desc.1")}
-                      </span>{" "}
-                      {t("wall.desc.2")}
+                      <span>{t("wall.desc.1")}</span> {t("wall.desc.2")}
                     </p>
                     <div
                       className="btn-box"
@@ -155,15 +119,7 @@ export default function ProductsHilight() {
                     </h3>
                     <p className="testimonial-two__text">
                       {t("timbers.desc.1")}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("timbers.desc.2")}
-                      </span>{" "}
+                      <span>{t("timbers.desc.2")}</span>{" "}
                     </p>
                     <div
                       className="btn-box"
@@ -199,16 +155,7 @@ export default function ProductsHilight() {
                       <Link href="#whychoose">{t("finger.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("finger.desc.1")}
-                      </span>{" "}
-                      {t("finger.desc.2")}
+                      <span>{t("finger.desc.1")}</span> {t("finger.desc.2")}
                     </p>
                     <div
                       className="btn-box"
@@ -252,25 +199,9 @@ export default function ProductsHilight() {
                     </h3>
                     <p className="testimonial-two__text">
                       {t("hardwoods.desc.1")}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("hardwoods.desc.2")}
-                      </span>{" "}
+                      <span>{t("hardwoods.desc.2")}</span>{" "}
                       {t("hardwoods.desc.3")}{" "}
-                      <span
-                        style={{
-                          textTransform: "uppercase",
-                          fontWeight: "bold",
-                          color: "var(--tecture-white)",
-                        }}
-                      >
-                        {t("hardwoods.desc.4")}{" "}
-                      </span>
+                      <span>{t("hardwoods.desc.4")} </span>
                       {t("hardwoods.desc.5")}
                     </p>
                     <div

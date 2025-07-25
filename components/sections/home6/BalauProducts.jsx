@@ -50,10 +50,10 @@ export default function BalauProducts() {
       <section className="testimonial-two">
         <div
           className="section-shape-1"
-          style={{
-            backgroundImage:
-              " url(/assets/images/shapes/counter-one-shape1.png)",
-          }}
+          // style={{
+          //   backgroundImage:
+          //     " url(/assets/images/shapes/counter-one-shape1.png)",
+          // }}
         ></div>
         <div className="container">
           <div className="section-title text-center sec-title-animation animation-style1">

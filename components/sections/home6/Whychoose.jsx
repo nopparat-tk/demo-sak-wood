@@ -108,10 +108,8 @@ export default function Whychoose() {
                     {t("subtitle2")}
                   </h4>
                   <p>
-                    {t("desc1")}{" "}
-                    <span style={{ fontWeight: "bolder" }}>{t("desc2")}</span>
-                    <br />
-                    {t("desc3")}
+                    {t("desc1")} <span>{t("desc2")}</span>
+                    {/* <br /> */} {t("desc3")}
                   </p>
                 </div>
               </div>
@@ -181,9 +179,6 @@ export default function Whychoose() {
                           className="thm-btn contact-page__btn"
                           // data-loading-text="Please wait..."
                           disabled={submitting}
-                          style={{
-                            fontWeight: "800",
-                          }}
                         >
                           {submitting ? "Sending..." : [t("button")]}
                           <span className="icon-up-right-arrow"></span>

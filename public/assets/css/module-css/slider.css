@@ -130,6 +130,7 @@
   display: block;
   text-align: center;
   z-index: 10;
+  top: 45px;
 }
 
 .main-slider__video-link {
@@ -216,9 +217,9 @@
 .main-slider__title {
   position: relative;
   display: block;
-  font-size: 45px;
+  font-size: 48px;
   color: var(--tecture-white);
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 1.2em;
   text-transform: uppercase;
   margin-top: 27px;
@@ -916,18 +917,64 @@
 
 .main-slider-four .item {
   position: relative;
-  padding: 180px 0px 200px;
+  padding: 180px 0px 180px;
   background-color: var(--tecture-black);
   z-index: 10;
+  min-height: 690px;
 }
 
 .main-slider-four__content {
   position: relative;
   display: block;
   overflow: hidden;
-  max-width: 690px;
+  /* max-width: 690px; */
   width: 100%;
   z-index: 10;
+  text-align: center;
+  top: 75px;
+}
+
+.main-slider-four__content_slide1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+.main-slider-four__content_slide1 .text {
+  position: relative;
+  display: block;
+  opacity: 0;
+  -webkit-transform: perspective(400px) rotateY(0deg) translateY(80px);
+  -ms-transform: perspective(400px) rotateY(0deg) translateY(80px);
+  transform: perspective(400px) rotateY(0deg) translateY(80px);
+  -webkit-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  transform-origin: bottom;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  z-index: 10;
+}
+
+.swiper-slide-active .main-slider-four__content_slide1 .text {
+  opacity: 1;
+  -webkit-transform: perspective(400px) rotateY(0deg) translateX(0px);
+  -ms-transform: perspective(400px) rotateY(0deg) translateX(0px);
+  transform: perspective(400px) rotateY(0deg) translateX(0px);
+  /* -webkit-transition-delay: 2000ms;
+  -moz-transition-delay: 2000ms;
+  -ms-transition-delay: 2000ms;
+  -o-transition-delay: 2000ms;
+  transition-delay: 2000ms; */
+  -webkit-transition-delay: 1200ms;
+  -moz-transition-delay: 1200ms;
+  -ms-transition-delay: 1200ms;
+  -o-transition-delay: 1200ms;
+  transition-delay: 1200ms;
 }
 
 .main-slider-four__content .title {
@@ -967,9 +1014,10 @@
 }
 
 .main-slider-four__content .title h2 {
-  font-size: 45px;
-  line-height: 1.2em;
-  font-weight: 700;
+  font-size: 48px;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  /* font-weight: 700; */
   text-transform: uppercase;
 }
 

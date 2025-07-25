@@ -177,13 +177,13 @@
 }
 
 .feature-two__title {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 34px;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
   margin-top: 24px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .feature-two__title a {
