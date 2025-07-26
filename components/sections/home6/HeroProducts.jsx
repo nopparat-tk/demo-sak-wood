@@ -27,10 +27,7 @@ export default function HeroProduct() {
         }}
       >
         <div className="container">
-          <div
-            className="project-details__content"
-            style={{ paddingBottom: "60px", marginTop: "0px" }}
-          >
+          <div className="project-details__content">
             <div className="row flex-row-reverse">
               <div className="col-xl-6">
                 <div className="about-three__left">
@@ -66,7 +63,7 @@ export default function HeroProduct() {
                   <div className="service-details__points-box">
                     <h3
                       className="service-details__points-title"
-                      style={{ top: "15px", borderBottom: "none" }}
+                      style={{ top: "10px", borderBottom: "none" }}
                     >
                       {t("specs.title")}
                     </h3>

@@ -712,7 +712,7 @@
 .project-details__content {
   position: relative;
   display: block;
-  margin-top: 48px;
+  /* margin-top: 48px; */
 }
 
 .project-details__title-1 {

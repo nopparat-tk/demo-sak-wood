@@ -27,11 +27,11 @@ const swiperOptions = {
   // },
 
   // Autoplay
-  autoplay: {
-    delay: 6000,
-    disableOnInteraction: false,
-    speed: 800,
-  },
+  // autoplay: {
+  //   delay: 6000,
+  //   disableOnInteraction: false,
+  //   speed: 800,
+  // },
 };
 
 export default function Banner() {

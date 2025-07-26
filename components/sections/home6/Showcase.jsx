@@ -338,10 +338,7 @@ export default function Showcase() {
           </Swiper>
         </div>
 
-        <div
-          className="main-slider-nav"
-          style={{ top: "55%", padding: "0 60px" }}
-        >
+        <div className="main-slider-nav">
           <div className="swiper-arrow-prev">
             <span className="icon-left-arrow"></span>
           </div>

@@ -966,8 +966,14 @@
   }
 
   .service-details__points-title {
-    margin-top: 30px;
-    padding-bottom: 5px;
+    /* margin-top: 30px; */
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding-bottom: 7px;
+  }
+
+  .testimonial-two__name a {
+    font-size: 18px;
   }
 }
 
