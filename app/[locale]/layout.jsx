@@ -28,7 +28,7 @@ export default async function LocaleLayout({ children, params }) {
       className={`${figtree.variable} ${barlowSemiCondensed.variable}`}
     >
       <body>
-        <GoogleTagManager gtmId="	GTM-KHH72PKH" />
+        <GoogleTagManager gtmId="GTM-KHH72PKH" />
         <NextIntlClientProvider locale={locale}>
           {children}
         </NextIntlClientProvider>
