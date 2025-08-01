@@ -48,21 +48,14 @@ export default function Showcase() {
   return (
     <>
       {/*Start Service Style4*/}
-      <section
-        className="service-style4"
-        style={{ padding: "120px 0", backgroundColor: "#3F2021" }}
-      >
+      <section className="service-style4">
         <div
           className="services-three__bg"
           style={{
             backgroundImage:
-              " url(/assets/images/shapes/site-footer-shape-1.jpg)",
-          }}
-        ></div>
-        <div
-          className="section-shape-1"
-          style={{
-            backgroundImage: " url(/assets/images/shapes/section-shape-1.png)",
+              " url(/assets/images/shapes/testimonial-v1-shape1.png)",
+            opacity: "0.3",
+            backgroundColor: "#3F2021",
           }}
         ></div>
         <div className="container">

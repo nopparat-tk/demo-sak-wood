@@ -12,7 +12,12 @@ const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 3,
   spaceBetween: 30,
-
+  // Autoplay
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+    speed: 800,
+  },
   loop: true,
 
   // Navigation
@@ -141,14 +146,7 @@ export default function TeakProducts2() {
               {slidesData.map((slide, idx) => (
                 <SwiperSlide key={slide.title}>
                   <div className="item">
-                    <div
-                      className="testimonial-two__single"
-                      style={{
-                        marginTop: "0px",
-                        padding: "47px",
-                        textAlign: "left",
-                      }}
-                    >
+                    <div className="testimonial-two__single">
                       <div
                         className="testimonial-two__single-shape-1"
                         style={{
@@ -159,23 +157,11 @@ export default function TeakProducts2() {
                       <div className="testimonial-two__image">
                         <img src={slide.img} alt="" />
                       </div>
-                      <h3
-                        className="testimonial-two__name"
-                        style={{
-                          marginTop: "18px",
-                          marginBottom: "44px",
-                          fontSize: "24px",
-                        }}
-                      >
+                      <h3 className="testimonial-two__name">
                         <Link href="testimonials">{slide.title}</Link>
                       </h3>
-                      <p
-                        className="testimonial-two__text"
-                        style={{ fontSize: "17px", lineHeight: "26px" }}
-                      >
-                        {slide.desc}
-                      </p>
-                      <div className="btn-box" style={{ marginTop: "20px" }}>
+                      <p className="testimonial-two__text">{slide.desc}</p>
+                      <div className="btn-box">
                         <button
                           className="thm-btn"
                           onClick={() => setOpenIndex(idx)}
@@ -216,10 +202,7 @@ export default function TeakProducts2() {
             <span className="fas fa-file-download"></span>
           </a>
         </div>
-        <div
-          className="main-slider-nav"
-          style={{ top: "52%", padding: "0 72px" }}
-        >
+        <div className="main-slider-nav2">
           <div className="swiper-arrow-prev">
             <span className="icon-left-arrow"></span>
           </div>

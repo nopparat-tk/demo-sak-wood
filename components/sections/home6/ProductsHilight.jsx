@@ -37,7 +37,7 @@ export default function ProductsHilight() {
                       />
                     </div>
                     <h3 className="testimonial-two__name">
-                      <Link href="#whychoose">{t("flooring.title")}</Link>
+                      <Link href="thai-teak">{t("flooring.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
                       <span>{t("flooring.desc.1")}</span> {t("flooring.desc.2")}
@@ -50,7 +50,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="#whychoose" className="thm-btn">
+                      <Link href="thai-teak" className="thm-btn">
                         {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -75,7 +75,7 @@ export default function ProductsHilight() {
                       />
                     </div>
                     <h3 className="testimonial-two__name">
-                      <Link href="#whychoose">{t("wall.title")}</Link>
+                      <Link href="thai-teak">{t("wall.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
                       <span>{t("wall.desc.1")}</span> {t("wall.desc.2")}
@@ -86,7 +86,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="#whychoose" className="thm-btn">
+                      <Link href="thai-teak" className="thm-btn">
                         {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -115,7 +115,7 @@ export default function ProductsHilight() {
                       <img src="/assets/images/products/Timber.png" alt="" />
                     </div>
                     <h3 className="testimonial-two__name">
-                      <Link href="#whychoose">{t("timbers.title")}</Link>
+                      <Link href="thai-teak">{t("timbers.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
                       {t("timbers.desc.1")}
@@ -127,7 +127,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="#whychoose" className="thm-btn">
+                      <Link href="thai-teak" className="thm-btn">
                         {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -152,7 +152,7 @@ export default function ProductsHilight() {
                       />
                     </div>
                     <h3 className="testimonial-two__name">
-                      <Link href="#whychoose">{t("finger.title")}</Link>
+                      <Link href="thai-teak">{t("finger.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
                       <span>{t("finger.desc.1")}</span> {t("finger.desc.2")}
@@ -163,7 +163,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="#whychoose" className="thm-btn">
+                      <Link href="thai-teak" className="thm-btn">
                         {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>
@@ -195,7 +195,7 @@ export default function ProductsHilight() {
                       />
                     </div>
                     <h3 className="testimonial-two__name">
-                      <Link href="#whychoose">{t("hardwoods.title")}</Link>
+                      <Link href="hardwoods">{t("hardwoods.title")}</Link>
                     </h3>
                     <p className="testimonial-two__text">
                       {t("hardwoods.desc.1")}
@@ -210,7 +210,7 @@ export default function ProductsHilight() {
                         marginTop: "20px",
                       }}
                     >
-                      <Link href="#whychoose" className="thm-btn">
+                      <Link href="hardwoods" className="thm-btn">
                         {t("buttonText")}{" "}
                         <span className="icon-up-right-arrow"></span>
                       </Link>

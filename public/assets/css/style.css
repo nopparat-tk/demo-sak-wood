@@ -154,6 +154,7 @@ p {
   /* color: #aeb0b4; */
   color: #eaeeee;
   font-size: 16px;
+  font-weight: 200;
   line-height: 26px;
   letter-spacing: 0.03em;
   margin: 0;
@@ -389,7 +390,7 @@ a.video-popup {
   overflow: hidden;
   font-family: var(--tecture-font);
   text-transform: capitalize;
-  gap: 5px;
+  gap: 8px;
   z-index: 1;
 }
 
@@ -1579,14 +1580,14 @@ a.video-popup {
 
 .main-slider-nav2 {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 0;
   right: 0;
   transform: translateY(-50%);
   z-index: 10;
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 20px;
   pointer-events: none;
 }
 
@@ -1613,24 +1614,23 @@ a.video-popup {
 
 .main-slider-nav2 .swiper-arrow-prev,
 .main-slider-nav2 .swiper-arrow-next {
-  pointer-events: auto; /* Re-enable pointer events for the buttons */
-  /* Add your button styling here (background, color, size, etc.) */
+  pointer-events: auto;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.5); /* Example background */
-  color: white; /* Example icon color */
-  width: 50px; /* Increased width */
-  height: 50px; /* Increased height */
+  background-color: rgba(var(--tecture-base-rgb), 0.6);
+  color: white;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; /* Make them circular */
-  font-size: 24px; /* Increased icon size */
+  border-radius: 50%;
+  font-size: 24px;
   transition: background-color 0.3s ease;
 }
 
 .main-slider-nav2 .swiper-arrow-prev:hover,
 .main-slider-nav2 .swiper-arrow-next:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+  background-color: rgba(var(--tecture-base-rgb), 0.8); /* Darker on hover */
 }
 
 .service-style4 .main-slider-nav {
@@ -1736,7 +1736,7 @@ a.video-popup {
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2055,6 +2055,29 @@ a.video-popup {
 .main-menu-two__main-menu-box {
   position: relative;
   display: block;
+}
+
+.mobile-nav__language {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 20px;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  max-width: fit-content;
+}
+
+.mobile-nav__language li a {
+  color: var(--tecture-white);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mobile-nav__language li + li {
+  margin-left: 20px;
 }
 
 .main-menu-two__search-and-nav-sidebar-icon {
@@ -3330,6 +3353,10 @@ a.video-popup {
 .main-slider-four .item {
   min-height: 690px;
 }
+
+.site-footer__bottom-text br {
+  display: none;
+}
 /*--------------------------------------------------------------
 # End
 --------------------------------------------------------------*/
@@ -4066,10 +4093,6 @@ a.video-popup {
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-  p {
-    font-size: 14px;
-    line-height: 1.35em;
-  }
   .auto-container {
     padding: 0px 15px;
   }
@@ -4091,9 +4114,13 @@ a.video-popup {
     min-height: 480px;
   }
 
+  .section-title {
+    margin-bottom: 0;
+  }
+
   .section-title__title {
-    font-size: 32px;
-    line-height: 1.5em;
+    font-size: 28px;
+    line-height: 1.2em;
   }
 
   .section-title__title br {
@@ -4288,12 +4315,7 @@ a.video-popup {
   }
 
   .top-menu li + li {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-
-  .top-menu li:before {
-    display: none;
+    margin-left: 25px;
   }
 
   .site-footer__bottom-menu li + li {
@@ -4390,11 +4412,6 @@ a.video-popup {
     padding: 79px 15px 43px;
   }
 
-  /* .testimonial-two__text {
-    font-size: 18px;
-    line-height: 28px;
-  } */
-
   .testimonial-two__carousel.owl-theme .owl-nav {
     display: none;
   }
@@ -4439,6 +4456,7 @@ a.video-popup {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 30px;
+    padding-bottom: 0;
   }
 
   .about-three__img {
@@ -4604,10 +4622,6 @@ a.video-popup {
       padding: 64px 15px 72px;
     }
 
-    .contact-page__information-title {
-      font-size: 35px;
-    }
-
     .contact-page__information-list li {
       gap: 15px;
       padding: 21px 10px 20px;
@@ -4764,16 +4778,18 @@ a.video-popup {
     line-height: 1.5em;
   }
 
-  .slogan-one__content .title h4 {
-    font-size: 18px;
-    line-height: 1.4em;
-    letter-spacing: 0.03em;
-  }
-
   .slogan-one__content .title h3 {
     font-size: 21px;
     line-height: 1.4em;
     letter-spacing: 0.025em;
+    margin-bottom: 10px;
+  }
+
+  .slogan-one__content .title h4 {
+    font-size: 18px;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
   }
 
   .service-details__img-and-point-box {
@@ -4969,7 +4985,7 @@ a.video-popup {
 
 @media only screen and (max-width: 767px) {
   .main-slider__title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2 em;
     margin-top: 10px;
   }
@@ -5049,7 +5065,7 @@ a.video-popup {
   }
 
   .main-slider-four__content .title h2 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2em;
   }
 
@@ -5062,8 +5078,18 @@ a.video-popup {
     scale: 0.6;
   }
 
+  .main-slider-nav-Product {
+    top: 50%;
+    padding: 0 15px;
+  }
+
   .main-slider-nav {
     padding: 0;
+  }
+
+  .main-slider-nav2 {
+    top: 48%;
+    padding: 8px;
   }
 
   .swiper-arrow-prev,
@@ -5072,8 +5098,114 @@ a.video-popup {
   }
 
   .service-style4 .main-slider-nav {
-    top: 58%;
+    top: 48%;
     padding: 0 15px;
+  }
+
+  .single-service-style4 {
+    margin-top: 30px;
+  }
+
+  .site-footer__shape-1 {
+    bottom: 110px;
+    left: -220px;
+  }
+
+  .site-footer__shape-2 {
+    bottom: 100px;
+    left: 200px;
+  }
+
+  .project-details__faq-box .faq-one-accrodion .accrodion-title {
+    padding: 15px 50px 15px 35px;
+  }
+
+  .project-details__faq-box .faq-one-accrodion .accrodion-title h4 {
+    font-size: 14px;
+  }
+
+  .project-details__faq-box .faq-one-accrodion .accrodion-title h4:before {
+    right: -40px;
+  }
+  .project-details__faq-box-count {
+    left: 10px;
+  }
+
+  .project-details__faq-box-count:before {
+    font-size: 14px;
+    top: 0px;
+  }
+
+  .project-details__faq-box-count::after {
+    bottom: 10px;
+    right: -4px;
+    width: 2px;
+    height: 2px;
+  }
+
+  .project-details__faq-box .faq-one-accrodion .accrodion-content {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+
+  .testimonial-two__single {
+    margin-top: 0px;
+    padding: 47px;
+    text-align: left;
+  }
+
+  .testimonial-two__name {
+    margin-top: 10px;
+  }
+
+  .testimonial-two__text {
+    min-height: 0;
+    margin-top: 20px;
+    min-height: 126px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-two__image img {
+    scale: 0.88;
+    position: relative;
+    top: -10px;
+    right: -20px;
+  }
+
+  .testimonial-two .section-title {
+    margin-bottom: 30px;
+  }
+
+  .thm-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .thm-btn span {
+    font-size: 18px;
+    top: 0;
+  }
+
+  .dwn-btn {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .dwn-btn span {
+    font-size: 18px;
+    top: 0;
+  }
+
+  .site-footer__bottom-text br {
+    display: inline;
+  }
+
+  .scroll-to-top {
+    right: -35px;
+  }
+
+  .single-contact-info-section {
+    padding-bottom: 30px;
   }
 }
 

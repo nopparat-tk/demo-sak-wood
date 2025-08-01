@@ -3,6 +3,7 @@
 import Menu2 from "../Menu2";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import MobileMenu from "../MobileMenu";
 export default function Header4({ scroll, handleMobileMenu }) {
   // const [isPending, startTransition] = useTransition();
@@ -11,6 +12,8 @@ export default function Header4({ scroll, handleMobileMenu }) {
   //     setLocale(locale);
   //   });
   // };
+  const currentLocale = useLocale();
+
   const items = routing.locales.map((locale) => ({
     value: locale,
     label: locale.toUpperCase(),
@@ -50,7 +53,13 @@ export default function Header4({ scroll, handleMobileMenu }) {
                   <ul className="list-unstyled top-menu">
                     {items.map((item) => (
                       <li key={item.value}>
-                        <Link href="/" locale={item.value}>
+                        <Link
+                          href="/"
+                          locale={item.value}
+                          className={
+                            currentLocale === item.value ? "active" : ""
+                          }
+                        >
                           {item.label}
                         </Link>
                       </li>
@@ -102,7 +111,13 @@ export default function Header4({ scroll, handleMobileMenu }) {
                     <ul className="list-unstyled top-menu">
                       {items.map((item) => (
                         <li key={item.value}>
-                          <Link href="/" locale={item.value}>
+                          <Link
+                            href="/"
+                            locale={item.value}
+                            className={
+                              currentLocale === item.value ? "active" : ""
+                            }
+                          >
                             {item.label}
                           </Link>
                         </li>

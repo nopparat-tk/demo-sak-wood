@@ -43,6 +43,8 @@ export default async function LocaleLayout({ children, params }) {
             `,
           }}
         />
+      </head>
+      <body>
         <noscript>
           <div>
             <img
@@ -52,8 +54,6 @@ export default async function LocaleLayout({ children, params }) {
             />
           </div>
         </noscript>
-      </head>
-      <body>
         <GoogleTagManager gtmId="GTM-KHH72PKH" />
         <NextIntlClientProvider locale={locale}>
           {children}

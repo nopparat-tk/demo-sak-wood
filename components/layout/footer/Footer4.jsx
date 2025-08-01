@@ -25,7 +25,7 @@ export default function Footer4() {
             <div className="site-footer__bottom-inner">
               <p className="site-footer__bottom-text">
                 {t("bottomText.text1")}{" "}
-                <Link href="/">{t("bottomText.link")}</Link> |{" "}
+                <Link href="/">{t("bottomText.link")}</Link> | <br />
                 {t("bottomText.text2")}
               </p>
               <ul className="list-unstyled site-footer__bottom-menu">

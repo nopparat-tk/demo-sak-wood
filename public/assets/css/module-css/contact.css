@@ -451,8 +451,8 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
   .contact-page__information-title {
-    font-size: 24px;
-    line-height: 1.5em;
+    font-size: 28px;
+    text-align: center;
   }
 
   .contact-page__information-list li .content h3 {
@@ -461,8 +461,9 @@
   }
 
   .contact-page__contact-title {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.5em;
+    text-align: center;
   }
 
   .contact-page__inner {
@@ -480,10 +481,6 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
-  }
-
-  .contact-page__input-box textarea {
-    font-size: 14px;
   }
 }
 /*--------------------------------------------------------------

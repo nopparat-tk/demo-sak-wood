@@ -1,6 +1,6 @@
 const { defineRouting } = require("next-intl/routing");
 
 export const routing = defineRouting({
-  locales: ["en", "ru"],
-  defaultLocale: "en",
+  locales: ["ru", "en"],
+  defaultLocale: "ru",
 });

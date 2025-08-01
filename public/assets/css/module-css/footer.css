@@ -49,6 +49,11 @@
   color: var(--tecture-base);
 }
 
+.top-menu .active {
+  color: var(--tecture-base);
+  -webkit-text-stroke: 1px var(--tecture-base);
+}
+
 .site-footer {
   position: relative;
   display: block;
